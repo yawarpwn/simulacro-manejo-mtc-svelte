@@ -1,134 +1,155 @@
 <script>
-  import { getQuestions } from "../data/get-questions";
-  import { globalState, endApp } from "../store/questions.svelte";
+import { getQuestions } from '../data/get-questions'
+import { globalState, endApp } from '../store/questions.svelte'
+import { MAX_TRIES } from '../constants'
 
-  const { selectedCategory } = globalState;
+let { selectedCategory, progress } = globalState
 
-  const questions = getQuestions({ selectedCategory });
+const questions = getQuestions({ selectedCategory })
 
-  const MAX_TRIES = 5;
-  const TOTAL_QUESTIONS = questions.length;
-  const LIMIT_TIME = 10;
+const TOTAL_QUESTIONS = questions.length
 
-  // Estados
-  let currentIndex = $state(0);
-  let progress = $state(0);
-  let respondedQuestions = $state([]);
-  let answers = $state([]);
-  let timer = $state(LIMIT_TIME);
-  let selectAlternative = $state(null);
+// Estados
+let currentIndex = $state(0)
+let respondedQuestions = $state([])
+let answers = $state([])
+let selectAlternative = $state(null)
 
-  // Estados computados
-  const currentQuestion = $derived(questions[currentIndex]);
-  const alternatives = $derived(Object.entries(currentQuestion.alternatives));
+// Estados computados
+const currentQuestion = $derived(questions[currentIndex])
+const alternatives = $derived(Object.entries(currentQuestion.alternatives))
 
-  //Funciones
+$inspect(progress)
 
-  /**
-   * @param {string} value
-   */
-  const onSelectAlternative = (value) => {
-    selectAlternative = value;
-  };
+//Funciones
 
-  const getRandomQuestion = () => {
-    if (progress > MAX_TRIES) {
-      endApp();
-      return;
-    }
-    //Obtener pregunta alteratoria
-    const randomIndex = 1 + Math.floor(Math.random() * TOTAL_QUESTIONS);
+/**
+ * @param {string} value
+ */
+const onSelectAlternative = (value) => {
+  selectAlternative = value
+}
 
-    if (respondedQuestions.includes(randomIndex)) {
-      getRandomQuestion();
-    }
-    currentIndex = randomIndex;
-  };
+const getRandomQuestion = () => {
+  if (progress > MAX_TRIES) {
+    endApp()
+    return
+  }
+  //Obtener pregunta alteratoria
+  const randomIndex = 1 + Math.floor(Math.random() * TOTAL_QUESTIONS)
 
-  /**
-   * @param {number} id
-   */
-  const getImageUrl = (id) =>
-    `https://sierdgtt.mtc.gob.pe/Content/img-data/img${id}.jpg`;
+  if (respondedQuestions.includes(randomIndex)) {
+    getRandomQuestion()
+  }
+  currentIndex = randomIndex
+}
 
-  /**
-   * @param {Event} event
-   */
-  const handleSubmit = (event) => {
-    event.preventDefault();
+/**
+ * @param {number} id
+ */
+const getImageUrl = (id) =>
+  `https://sierdgtt.mtc.gob.pe/Content/img-data/img${id}.jpg`
 
-    if (!selectAlternative) return;
+/**
+ * @param {Event} event
+ */
+const handleSubmit = (event) => {
+  event.preventDefault()
 
-    // Guardar respuesta
-    answers = [
-      ...answers,
-      {
-        question: currentQuestion.id,
-        answer: selectAlternative,
-      },
-    ];
+  if (!selectAlternative) return
 
-    // Guardar pregunta respondida
-    respondedQuestions.push(currentQuestion.id);
+  // Guardar respuesta
+  answers = [
+    ...answers,
+    {
+      question: currentQuestion.id,
+      answer: selectAlternative,
+    },
+  ]
 
-    // Limpiar
-    selectAlternative = null;
+  // Guardar pregunta respondida
+  respondedQuestions.push(currentQuestion.id)
 
-    //update progress
-    progress++;
+  // Limpiar
+  selectAlternative = null
 
-    getRandomQuestion();
-  };
+  //update progress
+  globalState.progress++
 
-  $effect(() => {
-    const id = setInterval(() => {
-      timer--;
-    }, 1000);
-
-    return () => clearInterval(id);
-  });
-
-  $effect(() => {
-    if (timer === 0 || progress === MAX_TRIES) endApp();
-  });
-
-  const minutes = $derived(Math.floor(timer / 60));
-  const seconds = $derived(timer % 60);
-  const formatedTime = $derived(
-    `${minutes}:${seconds < 10 ? "0" + seconds : seconds}`,
-  ); // minutes
+  getRandomQuestion()
+}
 </script>
 
-<div>
-  {formatedTime}
-</div>
+<div class="mx-auto h-full w-full max-w-3xl px-4 xl:max-w-7xl">
+  <div
+    class="flex h-full flex-col justify-start gap-6 md:grid md:grid-cols-2 xl:flex-row xl:gap-16"
+  >
+    <!-- Sidebar -->
+    <aside class="flex flex-col flex-wrap items-center justify-center">
+      <div class="flex flex-col items-start justify-start">
+        <div class="spacing leading-6 tracking-wide text-white">
+          <span>{currentQuestion.question}</span>
+        </div>
+      </div>
+      <div class="mt-4">
+        {#if currentQuestion.hasImage}
+          <img
+            src={getImageUrl(currentQuestion.id)}
+            alt={currentQuestion.question}
+          />
+        {/if}
+      </div>
+    </aside>
+    <!-- Alternativas -->
+    <ul
+      class="flex h-full w-full flex-col items-center justify-center gap-6 xl:items-center"
+    >
+      <div class="w-full">
+        <div class="flex flex-col gap-4">
+          {#each alternatives as [key, value]}
+            <label
+              aria-checked={key === selectAlternative}
+              class="relative flex cursor-pointer items-center overflow-hidden rounded-lg border border-zinc-500 bg-black pl-8 leading-6 data-[state=false]:opacity-30 data-[state=true]:opacity-100"
+              data-state={key === selectAlternative}
+              onclick={() => onSelectAlternative(key)}
+            >
+              <button
+                class="absolute bottom-0 left-0 top-0 w-8 min-w-8 bg-[#222] text-[#fff]"
+                type="button"
+                data-state={key === selectAlternative}
+                value={key}
+              >
+                {key.toUpperCase()}</button
+              >
 
-<div>
-  {JSON.stringify({
-    progress,
-    currentIndex,
-    selectAlternative,
-    answers,
-    respondedQuestions,
-  })}
-</div>
+              <input
+                type="radio"
+                aria-hidden="true"
+                checked={key === selectAlternative}
+                {value}
+                tabIndex={-1}
+                class="absolute h-14 w-8 -translate-x-full opacity-0"
+              />
+              <span class="p-4">{value}</span>
+            </label>
+          {/each}
+        </div>
+      </div>
+    </ul>
+  </div>
 
-<div>
-  {currentQuestion.question}
+  <form onsubmit={handleSubmit} class="fixed bottom-0 left-0 right-0 h-[76px]">
+    <div
+      class="mx-auto flex h-full max-w-3xl items-center justify-end rounded-tl-lg rounded-tr-lg bg-[#1e2229] p-4"
+    >
+      <button
+        class="h-full w-full cursor-pointer rounded-md bg-primary px-4 py-2 text-black disabled:pointer-events-none disabled:opacity-20"
+        aria-disabled={!selectAlternative}
+        type="submit"
+        disabled={!selectAlternative}
+      >
+        Siguiente
+      </button>
+    </div>
+  </form>
 </div>
-{#if currentQuestion.hasImage}
-  <img src={getImageUrl(currentQuestion.id)} alt={currentQuestion.question} />
-{/if}
-
-<!-- Alternativas -->
-<ul class="flex flex-col gap-4">
-  {#each alternatives as [key, value]}
-    <button onclick={() => onSelectAlternative(key)}>
-      <input checked={key === selectAlternative} value={key} type="checkbox" />
-      <span>{value}</span>
-    </button>
-  {/each}
-</ul>
-<form onsubmit={handleSubmit}>
-  <button disabled={!selectAlternative} type="submit"> siguiente </button>
-</form>

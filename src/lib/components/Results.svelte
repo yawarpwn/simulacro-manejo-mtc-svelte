@@ -1,6 +1,7 @@
 <script>
-  import { globalState, resetApp } from "../store/questions.svelte";
+import { globalState, resetApp } from '../store/questions.svelte'
+import Button from './Button.svelte'
 </script>
 
 <h1>Resultados</h1>
-<button aria-label="Volver al inicio" onclick={resetApp}> Reiniciar</button>
+<Button aria-label="Volver al inicio" onclick={resetApp}>Reintentar</Button>

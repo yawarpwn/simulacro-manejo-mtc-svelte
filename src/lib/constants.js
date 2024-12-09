@@ -1,10 +1,13 @@
 export const STATE = {
-  Start: 0,
+  Idle: 0,
   Progress: 2,
   End: 3,
-};
+}
 
 export const CATEGORIES = {
-  A1: "Categoría A-1",
-  BIIA: "Categoría BII-A",
-};
+  A1: 'Categoría A-1',
+  BIIA: 'Categoría BII-A',
+}
+
+export const LIMIT_TIME = 2400
+export const MAX_TRIES = 5
