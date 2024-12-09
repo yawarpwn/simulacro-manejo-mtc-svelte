@@ -110,7 +110,7 @@ const handleSubmit = (event) => {
           {#each alternatives as [key, value]}
             <label
               aria-checked={key === selectAlternative}
-              class="relative flex cursor-pointer items-center overflow-hidden rounded-lg border border-zinc-500 bg-black pl-8 leading-6 data-[state=false]:opacity-30 data-[state=true]:opacity-100"
+              class="relative flex cursor-pointer items-center overflow-hidden rounded-lg border-2 border-neutral-500 bg-black pl-8 leading-6 data-[state=false]:opacity-50 data-[state=true]:opacity-100"
               data-state={key === selectAlternative}
               onclick={() => onSelectAlternative(key)}
             >

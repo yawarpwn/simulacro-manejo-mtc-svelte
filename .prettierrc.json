@@ -1,7 +1,7 @@
 {
   "semi": false,
   "singleQuote": true,
-  "svelteSortOrder": "options-styles-scripts-markup",
+  "svelteSortOrder": "options-scripts-markup-styles",
   "svelteBracketNewLine": true,
   "svelteAllowShorthand": true,
   "svelteIndentScriptAndStyle": false,

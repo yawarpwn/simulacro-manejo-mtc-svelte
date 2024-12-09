@@ -1,9 +1,3 @@
-<style>
-button[aria-selected='true'] {
-  @apply border-2 border-primary;
-}
-</style>
-
 <script>
 import { CATEGORIES } from '../constants'
 import { globalState, initApp } from '../store/questions.svelte'
@@ -28,7 +22,7 @@ const handleSubmit = (event) => {
     >
       <!-- Left -->
       <div class="flex flex-wrap items-center justify-center">
-        <div class="flex w-full max-w-xl flex-col gap-4">
+        <div class="flex w-full max-w-xl flex-col gap-8">
           <figure>
             <img
               class="h-10"
@@ -43,22 +37,35 @@ const handleSubmit = (event) => {
             Para Postulantes a Licencias de Conducir
           </h1>
           <p>Selecciona la categoría a la que postula:</p>
-          <ul class="flex flex-col gap-1">
-            <div class="flex flex-col gap-2">
-              {#each Object.entries(CATEGORIES) as [key, value]}
-                <button
-                  type="button"
+
+          <!-- Categorias de Licencias -->
+          <div class="flex flex-col border-l border-neutral-500">
+            {#each Object.entries(CATEGORIES) as [key, value]}
+              <label
+                onclick={() => (globalState.selectedCategory = value)}
+                data-state={value === globalState.selectedCategory
+                  ? 'checked'
+                  : 'unchecked'}
+                class="relative cursor-pointer border-l border-neutral-800 py-2 pl-6 data-[state=checked]:border-primary"
+              >
+                <input
                   aria-label={value}
-                  aria-selected={key === globalState.selectedCategory}
-                  onclick={() => {
-                    globalState.selectedCategory = key
-                  }}
+                  aria-hidden="true"
+                  checked={globalState.selectedCategory === value}
+                  class="absolute h-14 w-8 -translate-x-full opacity-0"
+                  type="radio"
+                />
+                <span
+                  data-state={globalState.selectedCategory === value
+                    ? 'checked'
+                    : 'unchecked'}
+                  class="p-4 data-[state=checked]:text-primary"
                 >
                   {value}
-                </button>
-              {/each}
-            </div>
-          </ul>
+                </span>
+              </label>
+            {/each}
+          </div>
           <div>
             <Button type="submit" disabled={!globalState.selectedCategory}
               >Empezar Prueba
@@ -103,3 +110,9 @@ const handleSubmit = (event) => {
     </div>
   </div>
 </form>
+
+<style>
+button[aria-selected='true'] {
+  @apply border-2 border-primary;
+}
+</style>

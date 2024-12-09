@@ -1,10 +1,10 @@
-import { LIMIT_TIME, STATE } from '../constants'
+import { LIMIT_TIME, STATE, CATEGORIES } from '../constants'
 
 export const globalState = $state({
   stateApp: STATE.Idle,
-  selectedCategory: null,
+  selectedCategory: CATEGORIES.A1,
   timer: LIMIT_TIME,
-  progress: 0,
+  progress: 1,
 })
 
 export let progress = $state(0)
