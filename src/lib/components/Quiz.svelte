@@ -1,18 +1,21 @@
 <script>
-  let { selectedCategory, endApp } = $props();
   import { getQuestions } from "../data/get-questions";
-  import { globalState } from "../store/questions.svelte";
+  import { globalState, endApp } from "../store/questions.svelte";
+
+  const { selectedCategory } = globalState;
 
   const questions = getQuestions({ selectedCategory });
 
   const MAX_TRIES = 5;
   const TOTAL_QUESTIONS = questions.length;
+  const LIMIT_TIME = 10;
 
   // Estados
   let currentIndex = $state(0);
   let progress = $state(0);
   let respondedQuestions = $state([]);
   let answers = $state([]);
+  let timer = $state(LIMIT_TIME);
   let selectAlternative = $state(null);
 
   // Estados computados
@@ -54,6 +57,8 @@
   const handleSubmit = (event) => {
     event.preventDefault();
 
+    if (!selectAlternative) return;
+
     // Guardar respuesta
     answers = [
       ...answers,
@@ -74,7 +79,29 @@
 
     getRandomQuestion();
   };
+
+  $effect(() => {
+    const id = setInterval(() => {
+      timer--;
+    }, 1000);
+
+    return () => clearInterval(id);
+  });
+
+  $effect(() => {
+    if (timer === 0 || progress === MAX_TRIES) endApp();
+  });
+
+  const minutes = $derived(Math.floor(timer / 60));
+  const seconds = $derived(timer % 60);
+  const formatedTime = $derived(
+    `${minutes}:${seconds < 10 ? "0" + seconds : seconds}`,
+  ); // minutes
 </script>
+
+<div>
+  {formatedTime}
+</div>
 
 <div>
   {JSON.stringify({

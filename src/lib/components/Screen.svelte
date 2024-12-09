@@ -1,10 +1,6 @@
 <script>
-  let { selectedCategory, updateSelectedCategory, initApp } = $props();
-
-  const CATEGORIES = {
-    A1: "Categoría A-1",
-    BIIA: "Categoría BII-A",
-  };
+  import { CATEGORIES } from "../constants";
+  import { globalState, initApp } from "../store/questions.svelte";
 </script>
 
 <main>
@@ -12,15 +8,19 @@
     {#each Object.entries(CATEGORIES) as [key, value]}
       <button
         aria-label={value}
-        aria-selected={key === selectedCategory}
-        onclick={() => updateSelectedCategory(key)}
+        aria-selected={key === globalState.selectedCategory}
+        onclick={() => {
+          globalState.selectedCategory = key;
+        }}
       >
         {value}</button
       >
     {/each}
   </div>
-  <button class="bg-primary" disabled={!selectedCategory} onclick={initApp}
-    >Iniciar prueba</button
+  <button
+    class="bg-primary"
+    disabled={!globalState.selectedCategory}
+    onclick={initApp}>Iniciar prueba</button
   >
 </main>
 
