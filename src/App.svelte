@@ -1,6 +1,7 @@
 <script>
   import Screen from "./lib/components/Screen.svelte";
   import Quiz from "./lib/components/Quiz.svelte";
+  import Results from "./lib/components/Results.svelte";
   const STATE = {
     Start: 0,
     Progress: 1,
@@ -35,6 +36,6 @@
   {:else if stateApp === STATE.Progress}
     <Quiz {selectedCategory} {endApp} />
   {:else}
-    <p>Resultados</p>
+    <Results />
   {/if}
 </main>
