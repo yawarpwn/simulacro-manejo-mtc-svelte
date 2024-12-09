@@ -1,5 +1,5 @@
 <script>
-  let { selectedCategorie, initApp } = $props();
+  let { selectedCategorie, updateSelectedCategory, initApp } = $props();
 
   const CATEGORIES = {
     A1: "Categoría A-1",
@@ -13,9 +13,7 @@
       <button
         aria-label={value}
         aria-selected={key === selectedCategorie}
-        onclick={() => {
-          selectedCategorie = key;
-        }}
+        onclick={() => updateSelectedCategory(key)}
       >
         {value}</button
       >
