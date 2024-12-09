@@ -10,4 +10,4 @@ export const CATEGORIES = {
 }
 
 export const LIMIT_TIME = 2400
-export const MAX_TRIES = 5
+export const MAX_TRIES = 40

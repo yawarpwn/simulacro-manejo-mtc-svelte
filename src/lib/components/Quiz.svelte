@@ -80,25 +80,26 @@ const handleSubmit = (event) => {
 }
 </script>
 
-<div class="mx-auto h-full w-full max-w-3xl px-4 xl:max-w-7xl">
+<div class="mx-auto h-full w-full max-w-3xl xl:max-w-7xl">
   <div
     class="flex h-full flex-col justify-start gap-6 md:grid md:grid-cols-2 xl:flex-row xl:gap-16"
   >
     <!-- Sidebar -->
-    <aside class="flex flex-col flex-wrap items-center justify-center">
+    <aside class="flex h-full flex-col flex-wrap items-center justify-center">
       <div class="flex flex-col items-start justify-start">
         <div class="spacing leading-6 tracking-wide text-white">
           <span>{currentQuestion.question}</span>
         </div>
       </div>
-      <div class="mt-4">
-        {#if currentQuestion.hasImage}
+      {#if currentQuestion.hasImage}
+        <div class="mt-4">
           <img
             src={getImageUrl(currentQuestion.id)}
+            class="min-w-[320px] rounded-md"
             alt={currentQuestion.question}
           />
-        {/if}
-      </div>
+        </div>
+      {/if}
     </aside>
     <!-- Alternativas -->
     <ul
