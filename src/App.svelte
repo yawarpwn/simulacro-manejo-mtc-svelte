@@ -8,7 +8,7 @@
   };
 
   let stateApp = $state(STATE.Start);
-  let selectedCategorie = $state(null);
+  let selectedCategory = $state(null);
 
   const initApp = () => {
     stateApp = STATE.Progress;
@@ -23,17 +23,17 @@
    * @param {string} category
    */
   const updateSelectedCategory = (category) => {
-    selectedCategorie = category;
+    selectedCategory = category;
   };
 
-  $inspect(selectedCategorie);
+  $inspect(selectedCategory);
 </script>
 
 <main>
   {#if stateApp === STATE.Start}
-    <Screen {selectedCategorie} {initApp} {updateSelectedCategory} />
+    <Screen {selectedCategory} {initApp} {updateSelectedCategory} />
   {:else if stateApp === STATE.Progress}
-    <Quiz {selectedCategorie} {endApp} />
+    <Quiz {selectedCategory} {endApp} />
   {:else}
     <p>Resultados</p>
   {/if}

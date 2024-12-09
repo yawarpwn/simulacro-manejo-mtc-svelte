@@ -1,5 +1,5 @@
 <script>
-  let { selectedCategorie, updateSelectedCategory, initApp } = $props();
+  let { selectedCategory, updateSelectedCategory, initApp } = $props();
 
   const CATEGORIES = {
     A1: "Categoría A-1",
@@ -12,14 +12,14 @@
     {#each Object.entries(CATEGORIES) as [key, value]}
       <button
         aria-label={value}
-        aria-selected={key === selectedCategorie}
+        aria-selected={key === selectedCategory}
         onclick={() => updateSelectedCategory(key)}
       >
         {value}</button
       >
     {/each}
   </div>
-  <button class="bg-primary" disabled={!selectedCategorie} onclick={initApp}
+  <button class="bg-primary" disabled={!selectedCategory} onclick={initApp}
     >Iniciar prueba</button
   >
 </main>
