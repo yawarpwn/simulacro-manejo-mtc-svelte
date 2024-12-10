@@ -6,8 +6,9 @@ export const STATE = {
 
 export const CATEGORIES = {
   A1: 'Categoría A-1',
-  BIIA: 'Categoría BII-A',
 }
 
-export const LIMIT_TIME = 2400
+// BIIA: 'Categoría BII-A',
+
+export const LIMIT_TIME = 1200
 export const MAX_TRIES = 40

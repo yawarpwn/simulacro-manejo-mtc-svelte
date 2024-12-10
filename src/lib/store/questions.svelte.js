@@ -5,6 +5,7 @@ export const globalState = $state({
   selectedCategory: CATEGORIES.A1,
   timer: LIMIT_TIME,
   progress: 1,
+  answers: [],
 })
 
 export let progress = $state(0)
@@ -19,6 +20,10 @@ export const endApp = () => {
 
 export const resetApp = () => {
   globalState.stateApp = STATE.Idle
+  globalState.progress = 1
+  globalState.timer = LIMIT_TIME
+  globalState.selectedCategory = CATEGORIES.A1
+  globalState.answers = []
 }
 
 /**

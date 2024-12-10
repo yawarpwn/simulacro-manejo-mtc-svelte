@@ -26,7 +26,7 @@ import { globalState } from './lib/store/questions.svelte'
           {#if globalState.stateApp === STATE.Progress}
             <Timer />
           {:else}
-            logo
+            v1.0
           {/if}
         </div>
       </div>

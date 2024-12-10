@@ -2,7 +2,7 @@
 const props = $props()
 </script>
 
-<button class="btn" {...props}>
+<button class="btn" {...props} class:w-full={props.full}>
   {@render props.children?.()}
 </button>
 

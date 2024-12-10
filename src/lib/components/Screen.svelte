@@ -99,7 +99,10 @@ const handleSubmit = (event) => {
               Del glosario de 200 preguntas seleccionaremos 40 preguntas
               aleatoriamente para ti.
             </li>
-            <li>El test tiene una duracion de 40 minutos</li>
+            <li>
+              El test tiene una duracion de 20 minutos, el exámen real dura 40
+              minutos
+            </li>
             <li>
               Al finalizar el simulacro con existe, debe contestar 35 preguntas
               correctamente

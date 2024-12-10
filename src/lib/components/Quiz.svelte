@@ -1,6 +1,8 @@
 <script>
 import { getQuestions } from '../data/get-questions'
 import { globalState, endApp } from '../store/questions.svelte'
+import errorSound from '/error.mp3'
+import successSound from '/success.mp3'
 import confetti from 'canvas-confetti'
 import { MAX_TRIES } from '../constants'
 
@@ -13,7 +15,7 @@ const TOTAL_QUESTIONS = questions.length
 // Estados
 let currentIndex = $state(0)
 let respondedQuestions = $state([])
-let answers = $state([])
+globalState.answers
 let selectAlternative = $state(null)
 let showResult = $state(false)
 
@@ -54,14 +56,6 @@ const getImageUrl = (id) =>
 
 const nextQuestion = () => {
   showResult = false
-  // Guardar respuesta
-  answers = [
-    ...answers,
-    {
-      question: currentQuestion.id,
-      answer: selectAlternative,
-    },
-  ]
 
   // Guardar pregunta respondida
   respondedQuestions.push(currentQuestion.id)
@@ -83,9 +77,37 @@ const handleSubmit = (event) => {
 
   if (!selectAlternative) return
   if (selectAlternative === currentQuestion.correctAlternative) {
+    const successAudio = new Audio(successSound)
+    successAudio
+      .play()
+      .then((result) => console.log(result))
+      .catch((error) => console.log(error))
     confetti()
+    nextQuestion()
+    return
   }
+
   showResult = true
+  // Guardar respuesta
+  globalState.answers = [
+    ...globalState.answers,
+    {
+      question: currentQuestion.id,
+      userAnswer: selectAlternative,
+      correctAnswer: currentQuestion.correctAlternative,
+    },
+  ]
+
+  //Vibrar el dispositivo
+  if ('vibrate' in navigator) {
+    navigator.vibrate(200)
+  }
+
+  const errorAudio = new Audio(errorSound)
+  errorAudio
+    .play()
+    .then((result) => console.log(result))
+    .catch((error) => console.log(error))
 }
 
 /**
@@ -128,9 +150,9 @@ const handleNextQuestion = (event) => {
             <label
               aria-checked={selectAlternative === letter}
               class:show-result={showResult}
-              class="relative flex cursor-pointer items-center overflow-hidden rounded-lg border border-neutral-500 bg-black pl-8 leading-6 data-[state=false]:opacity-50 data-[state=true]:opacity-100"
+              class="relative flex cursor-pointer items-center overflow-hidden rounded-lg border border-neutral-500 bg-black pl-8 leading-6 data-[selected=true]:border-white data-[selected=false]:opacity-60 data-[selected=true]:opacity-100"
               data-is-correct={currentQuestion.correctAlternative === letter}
-              data-state={selectAlternative === letter}
+              data-selected={selectAlternative === letter}
               onclick={() => onSelectAlternative(letter)}
               aria-disabled={showResult}
             >
@@ -208,8 +230,6 @@ const handleNextQuestion = (event) => {
 label[aria-disabled='true'] {
   cursor: not-allowed;
   pointer-events: none;
-}
-.show-result {
 }
 .show-result[data-is-correct='true'] {
   border-color: hsl(var(--primary));
