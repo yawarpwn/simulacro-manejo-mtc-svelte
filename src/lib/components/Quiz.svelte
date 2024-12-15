@@ -1,6 +1,7 @@
 <script>
 import { getQuestions } from '../data/get-questions'
 import { globalState, endApp } from '../store/questions.svelte'
+import { getRandomIndex } from '../utils'
 import errorSound from '/error.mp3'
 import successSound from '/success.mp3'
 import confetti from 'canvas-confetti'
@@ -13,17 +14,13 @@ const questions = getQuestions({ selectedCategory })
 const TOTAL_QUESTIONS = questions.length
 
 // Estados
-let currentIndex = $state(0)
-let respondedQuestions = $state([])
-globalState.answers
+let currentIndex = $state(getRandomIndex(TOTAL_QUESTIONS))
 let selectAlternative = $state(null)
 let showResult = $state(false)
 
 // Estados computados
 const currentQuestion = $derived(questions[currentIndex])
 const alternatives = $derived(Object.entries(currentQuestion.alternatives))
-
-$inspect(selectAlternative)
 
 //Funciones
 
@@ -39,55 +36,7 @@ const getRandomQuestion = () => {
     endApp()
     return
   }
-  //Obtener pregunta alteratoria
-  const randomIndex = 1 + Math.floor(Math.random() * TOTAL_QUESTIONS)
 
-  if (respondedQuestions.includes(randomIndex)) {
-    getRandomQuestion()
-  }
-  currentIndex = randomIndex
-}
-
-/**
- * @param {number} id
- */
-const getImageUrl = (id) =>
-  `https://sierdgtt.mtc.gob.pe/Content/img-data/img${id}.jpg`
-
-const nextQuestion = () => {
-  showResult = false
-
-  // Guardar pregunta respondida
-  respondedQuestions.push(currentQuestion.id)
-
-  // Limpiar
-  selectAlternative = null
-
-  //update progress
-  globalState.progress++
-
-  getRandomQuestion()
-}
-
-/**
- * @param {Event} event
- */
-const handleSubmit = (event) => {
-  event.preventDefault()
-
-  if (!selectAlternative) return
-  if (selectAlternative === currentQuestion.correctAlternative) {
-    const successAudio = new Audio(successSound)
-    successAudio
-      .play()
-      .then((result) => console.log(result))
-      .catch((error) => console.log(error))
-    confetti()
-    nextQuestion()
-    return
-  }
-
-  showResult = true
   // Guardar respuesta
   globalState.answers = [
     ...globalState.answers,
@@ -98,16 +47,56 @@ const handleSubmit = (event) => {
     },
   ]
 
-  //Vibrar el dispositivo
-  if ('vibrate' in navigator) {
-    navigator.vibrate(200)
+  //Obtener pregunta alteratoria
+  const randomIndex = getRandomIndex(TOTAL_QUESTIONS)
+
+  const respondedQuestions = globalState.answers.map((a) => a.question)
+  const isAlreadyResponded = respondedQuestions.includes(randomIndex)
+  if (isAlreadyResponded) {
+    getRandomQuestion()
   }
 
-  const errorAudio = new Audio(errorSound)
-  errorAudio
-    .play()
-    .then((result) => console.log(result))
-    .catch((error) => console.log(error))
+  //update progress
+  globalState.progress++
+
+  // Limpiar
+  selectAlternative = null
+
+  // Actualizar pregunta siguiente
+  currentIndex = randomIndex
+}
+
+/**
+ * @param {number} id
+ */
+const getImageUrl = (id) =>
+  `https://sierdgtt.mtc.gob.pe/Content/img-data/img${id}.jpg`
+
+/**
+ * @param {Event} event
+ */
+const handleSubmit = async (event) => {
+  event.preventDefault()
+
+  if (!selectAlternative) return
+
+  if (selectAlternative !== currentQuestion.correctAlternative) {
+    if ('vibrate' in navigator) {
+      navigator.vibrate(200)
+    }
+    const errorAudio = new Audio(errorSound)
+    await errorAudio.play()
+    showResult = true
+    return
+  }
+
+  showResult = false
+
+  const successAudio = new Audio(successSound)
+  await successAudio.play()
+  confetti()
+
+  getRandomQuestion()
 }
 
 /**
@@ -115,7 +104,8 @@ const handleSubmit = (event) => {
  */
 const handleNextQuestion = (event) => {
   event.preventDefault()
-  nextQuestion()
+  showResult = false
+  getRandomQuestion()
 }
 </script>
 
