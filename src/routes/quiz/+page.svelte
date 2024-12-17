@@ -2,8 +2,8 @@
 	import { getQuestions } from '$lib/data/get-questions';
 	import { endApp } from '$lib/store/questions.svelte';
 	import { getRandomIndex } from '$lib/utils';
-	import errorSound from '/error.mp3';
-	import successSound from '/success.mp3';
+	// import errorSound from '/error.mp3';
+	// import successSound from '/success.mp3';
 	import confetti from 'canvas-confetti';
 	import { MAX_TRIES } from '$lib/constants';
 
@@ -15,9 +15,14 @@
 
 	// Estados
 	let currentIndex = $state(getRandomIndex(TOTAL_QUESTIONS));
+
+	/** @type {string | null} */
 	let selectAlternative = $state(null);
 	let showResult = $state(false);
+
 	let progress = $state(1);
+
+	/** @type {Array<{question: number, userAnswer: string, correctAnser: string}>} */
 	let answers = $state([]);
 
 	// Estados computados
@@ -34,6 +39,8 @@
 	};
 
 	const getRandomQuestion = () => {
+		if (!selectAlternative) return;
+
 		if (progress > MAX_TRIES) {
 			endApp();
 			return;
@@ -85,16 +92,16 @@
 			if ('vibrate' in navigator) {
 				navigator.vibrate(200);
 			}
-			const errorAudio = new Audio(errorSound);
-			await errorAudio.play();
+			// const errorAudio = new Audio(errorSound);
+			// await errorAudio.play();
 			showResult = true;
 			return;
 		}
 
 		showResult = false;
 
-		const successAudio = new Audio(successSound);
-		await successAudio.play();
+		// const successAudio = new Audio(successSound);
+		// await successAudio.play();
 		confetti();
 
 		getRandomQuestion();
