@@ -135,18 +135,34 @@
 </script>
 
 {#if stateApp === STATE.Progress}
-	<div class="flex h-16 items-center justify-evenly gap-4 text-red-500">
-		<span>{progress}/{MAX_TRIES} </span>
+	<div class="sticky left-0 top-16 z-50 flex h-10 w-full justify-center px-4">
+		<div class="relative h-3 w-full max-w-7xl rounded-3xl bg-gray-400">
+			<span
+				class="absolute left-1/2 top-0 -translate-x-1/2 rounded-md bg-white px-2 text-xs text-black"
+			>
+				{progress}/{MAX_TRIES}
+			</span>
+			<div
+				class="flex h-3 rounded-3xl bg-gradient-to-r from-primary to-cyan-500"
+				role="progressbar"
+				aria-valuenow={progress}
+				aria-valuemin="0"
+				aria-valuemax={MAX_TRIES}
+				style="width: {((progress - 1) / MAX_TRIES) * 100}%"
+			></div>
+		</div>
+	</div>
+	<div class="mt-4 flex items-center justify-evenly gap-4 py-4">
 		<Timer {endApp} />
 	</div>
-	<div class="flex flex-shrink-0 flex-grow items-center p-6 pb-20">
+	<div class="flex flex-shrink-0 flex-grow items-center px-4 pb-20">
 		<div
-			class="flex h-full flex-col justify-start gap-6 md:grid md:grid-cols-2 xl:flex-row xl:gap-16"
+			class="flex h-full w-full flex-col justify-start gap-6 md:grid md:grid-cols-2 xl:flex-row xl:gap-16"
 		>
 			<!-- Sidebar -->
 			<aside class="flex h-full flex-col flex-wrap items-center justify-center">
 				<div class="flex flex-col items-start justify-start">
-					<div class="spacing leading-6 tracking-wide text-white">
+					<div class="spacing text-xl leading-6 tracking-wide text-white">
 						<span>{currentQuestion.question}</span>
 					</div>
 				</div>
@@ -250,6 +266,17 @@
 {/if}
 
 <style>
+	div[role='progressbar'] {
+		animation: progressbar 1500ms ease-in-out;
+		animation-fill-mode: both;
+	}
+
+	@keyframes progressbar {
+		0% {
+			width: 0;
+		}
+	}
+
 	.show-result[data-is-correct='true'] {
 		border-color: hsl(var(--primary));
 	}
