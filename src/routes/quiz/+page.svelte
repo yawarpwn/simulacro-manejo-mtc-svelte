@@ -1,59 +1,60 @@
 <script>
-	import { getRandomIndex } from '$lib/utils';
-	// import errorSound from '../../../static/error.mp3';
-	import successSound from '$lib/assets/success.mp3';
-	import confetti from 'canvas-confetti';
-	import { MAX_TRIES, STATE } from '$lib/constants';
-	import Results from '$lib/components/Results.svelte';
+	import { getRandomIndex } from '$lib/utils'
+	import errorSound from '$lib/assets/error.mp3'
+	import successSound from '$lib/assets/success.mp3'
+	import Timer from '$lib/components/Timer.svelte'
+	import confetti from 'canvas-confetti'
+	import { MAX_TRIES, STATE } from '$lib/constants'
+	import Results from '$lib/components/Results.svelte'
 
-	const { data } = $props();
+	const { data } = $props()
 
-	const questions = data.questions;
+	const questions = data.questions
 
-	const TOTAL_QUESTIONS = questions.length;
+	const TOTAL_QUESTIONS = questions.length
 
 	// Estados
-	let currentIndex = $state(getRandomIndex(TOTAL_QUESTIONS));
+	let currentIndex = $state(getRandomIndex(TOTAL_QUESTIONS))
 
 	/** @type {string | null} */
-	let selectAlternative = $state(null);
-	let showResult = $state(false);
-	let stateApp = $state(STATE.Progress);
+	let selectAlternative = $state(null)
+	let showResult = $state(false)
+	let stateApp = $state(STATE.Progress)
 
-	let progress = $state(1);
+	let progress = $state(1)
 
 	/** @type {Array<{question: number, userAnswer: string, correctAnser: string}>} */
-	let answers = $state([]);
+	let answers = $state([])
 
 	// Estados computados
-	const currentQuestion = $derived(questions[currentIndex]);
-	const alternatives = $derived(Object.entries(currentQuestion.alternatives));
+	const currentQuestion = $derived(questions[currentIndex])
+	const alternatives = $derived(Object.entries(currentQuestion.alternatives))
 
 	//Funciones
 	const endApp = () => {
-		stateApp = STATE.End;
-	};
+		stateApp = STATE.End
+	}
 
 	const resetApp = () => {
-		stateApp = STATE.Progress;
-		progress = 1;
-		currentIndex = getRandomIndex(TOTAL_QUESTIONS);
-		answers = [];
-	};
+		stateApp = STATE.Progress
+		progress = 1
+		currentIndex = getRandomIndex(TOTAL_QUESTIONS)
+		answers = []
+	}
 
 	/**
 	 * @param {string} value
 	 */
 	const onSelectAlternative = (value) => {
-		selectAlternative = value;
-	};
+		selectAlternative = value
+	}
 
 	const getRandomQuestion = () => {
-		if (!selectAlternative) return;
+		if (!selectAlternative) return
 
 		if (progress > MAX_TRIES) {
-			endApp();
-			return;
+			endApp()
+			return
 		}
 
 		// Guardar respuesta
@@ -64,71 +65,81 @@
 				userAnswer: selectAlternative,
 				correctAnswer: currentQuestion.correctAlternative
 			}
-		];
+		]
 
 		//Obtener pregunta alteratoria
-		const randomIndex = getRandomIndex(TOTAL_QUESTIONS);
+		const randomIndex = getRandomIndex(TOTAL_QUESTIONS)
 
-		const respondedQuestions = answers.map((a) => a.question);
-		const isAlreadyResponded = respondedQuestions.includes(randomIndex);
+		const respondedQuestions = answers.map((a) => a.question)
+		const isAlreadyResponded = respondedQuestions.includes(randomIndex)
 		if (isAlreadyResponded) {
-			getRandomQuestion();
+			getRandomQuestion()
 		}
 
 		//update progress
-		progress++;
+		progress++
 
 		// Limpiar
-		selectAlternative = null;
+		selectAlternative = null
 
 		// Actualizar pregunta siguiente
-		currentIndex = randomIndex;
-	};
+		currentIndex = randomIndex
+	}
 
 	/**
 	 * @param {number} id
 	 */
-	const getImageUrl = (id) => `https://sierdgtt.mtc.gob.pe/Content/img-data/img${id}.jpg`;
+	const getImageUrl = (id) => `https://sierdgtt.mtc.gob.pe/Content/img-data/img${id}.jpg`
 
 	/**
 	 * @param {Event} event
 	 */
 	const handleSubmit = async (event) => {
-		event.preventDefault();
+		event.preventDefault()
 
-		if (!selectAlternative) return;
+		if (!selectAlternative) return
 
 		if (selectAlternative !== currentQuestion.correctAlternative) {
 			if ('vibrate' in navigator) {
-				navigator.vibrate(200);
+				navigator.vibrate(200)
 			}
-			// const errorAudio = new Audio(errorSound);
-			// await errorAudio.play();
-			showResult = true;
-			return;
+			const errorAudio = new Audio(errorSound)
+			await errorAudio.play()
+			showResult = true
+			return
 		}
 
-		showResult = false;
+		showResult = false
 
-		const successAudio = new Audio(successSound);
-		await successAudio.play();
-		confetti();
+		const successAudio = new Audio(successSound)
+		await successAudio.play()
+		confetti()
 
-		getRandomQuestion();
-	};
+		getRandomQuestion()
+	}
 
 	/**
 	 * @param {Event} event
 	 */
 	const handleNextQuestion = (event) => {
-		event.preventDefault();
-		showResult = false;
-		getRandomQuestion();
-	};
+		event.preventDefault()
+		showResult = false
+		getRandomQuestion()
+	}
+
+	$effect(() => {
+		if (progress > MAX_TRIES) {
+			endApp()
+		}
+	})
 </script>
 
 {#if stateApp === STATE.Progress}
-	<div class="mx-auto h-full w-full max-w-3xl xl:max-w-7xl">
+	<div class="flex h-16 items-center justify-evenly gap-4 text-red-500">
+		<span>{progress}/{MAX_TRIES} </span>
+		<Timer {endApp} />
+	</div>
+	<div class="flex flex-shrink-0 flex-grow items-center p-6 pb-20">
 		<div
 			class="flex h-full flex-col justify-start gap-6 md:grid md:grid-cols-2 xl:flex-row xl:gap-16"
 		>
@@ -144,6 +155,8 @@
 						<img
 							src={getImageUrl(currentQuestion.id)}
 							class="min-w-[320px] rounded-md"
+							width={320}
+							height={320}
 							alt={currentQuestion.question}
 						/>
 					</div>
@@ -154,8 +167,7 @@
 				<div class="w-full">
 					<div class="flex flex-col gap-4">
 						{#each alternatives as [letter, value]}
-							<label
-								aria-checked={selectAlternative === letter}
+							<button
 								class:show-result={showResult}
 								class="relative flex cursor-pointer items-center overflow-hidden rounded-lg border border-neutral-500 bg-black pl-8 leading-6 data-[selected=true]:border-white data-[selected=false]:opacity-60 data-[selected=true]:opacity-100"
 								data-is-correct={currentQuestion.correctAlternative === letter}
@@ -163,13 +175,11 @@
 								onclick={() => onSelectAlternative(letter)}
 								aria-disabled={showResult}
 							>
-								<button
-									class="absolute bottom-0 left-0 top-0 w-8 min-w-8 bg-[#222] text-[#fff]"
-									type="button"
+								<span
+									class="absolute bottom-0 left-0 top-0 flex w-8 min-w-8 items-center justify-center bg-[#222] text-[#fff]"
 									data-state={letter === selectAlternative}
-									value={letter}
 								>
-									{letter.toUpperCase()}</button
+									{letter.toUpperCase()}</span
 								>
 
 								<input
@@ -181,7 +191,7 @@
 									class="absolute h-14 w-8 -translate-x-full opacity-0"
 								/>
 								<span class="p-4">{value}</span>
-							</label>
+							</button>
 						{/each}
 					</div>
 				</div>
@@ -189,7 +199,10 @@
 		</div>
 
 		{#if !showResult}
-			<form onsubmit={handleSubmit} class="fixed bottom-0 left-0 right-0 h-[76px]">
+			<form
+				onsubmit={handleSubmit}
+				class="fixed bottom-0 left-0 right-0 h-[76px]"
+			>
 				<div
 					class="mx-auto flex h-full max-w-3xl items-center justify-end rounded-tl-lg rounded-tr-lg bg-[#1e2229] p-4"
 				>
@@ -204,7 +217,10 @@
 				</div>
 			</form>
 		{:else}
-			<form onsubmit={handleNextQuestion} class="fixed bottom-0 left-0 right-0 h-[76px]">
+			<form
+				onsubmit={handleNextQuestion}
+				class="fixed bottom-0 left-0 right-0 h-[76px]"
+			>
 				<div
 					class="mx-auto flex h-full max-w-3xl items-center justify-end rounded-tl-lg rounded-tr-lg bg-[#1e2229] p-4"
 				>
@@ -227,14 +243,13 @@
 		{/if}
 	</div>
 {:else}
-	<Results reset={resetApp} {answers} />
+	<Results
+		reset={resetApp}
+		{answers}
+	/>
 {/if}
 
 <style>
-	label[aria-disabled='true'] {
-		cursor: not-allowed;
-		pointer-events: none;
-	}
 	.show-result[data-is-correct='true'] {
 		border-color: hsl(var(--primary));
 	}
