@@ -1,11 +1,10 @@
 <script>
-	import { getQuestions } from '$lib/data/get-questions';
-	import { endApp } from '$lib/store/questions.svelte';
 	import { getRandomIndex } from '$lib/utils';
-	// import errorSound from '/error.mp3';
-	// import successSound from '/success.mp3';
+	// import errorSound from '../../../static/error.mp3';
+	import successSound from '$lib/assets/success.mp3';
 	import confetti from 'canvas-confetti';
-	import { MAX_TRIES } from '$lib/constants';
+	import { MAX_TRIES, STATE } from '$lib/constants';
+	import Results from '$lib/components/Results.svelte';
 
 	const { data } = $props();
 
@@ -19,6 +18,7 @@
 	/** @type {string | null} */
 	let selectAlternative = $state(null);
 	let showResult = $state(false);
+	let stateApp = $state(STATE.Progress);
 
 	let progress = $state(1);
 
@@ -30,6 +30,16 @@
 	const alternatives = $derived(Object.entries(currentQuestion.alternatives));
 
 	//Funciones
+	const endApp = () => {
+		stateApp = STATE.End;
+	};
+
+	const resetApp = () => {
+		stateApp = STATE.Progress;
+		progress = 1;
+		currentIndex = getRandomIndex(TOTAL_QUESTIONS);
+		answers = [];
+	};
 
 	/**
 	 * @param {string} value
@@ -100,8 +110,8 @@
 
 		showResult = false;
 
-		// const successAudio = new Audio(successSound);
-		// await successAudio.play();
+		const successAudio = new Audio(successSound);
+		await successAudio.play();
 		confetti();
 
 		getRandomQuestion();
@@ -117,102 +127,108 @@
 	};
 </script>
 
-<div class="mx-auto h-full w-full max-w-3xl xl:max-w-7xl">
-	<div
-		class="flex h-full flex-col justify-start gap-6 md:grid md:grid-cols-2 xl:flex-row xl:gap-16"
-	>
-		<!-- Sidebar -->
-		<aside class="flex h-full flex-col flex-wrap items-center justify-center">
-			<div class="flex flex-col items-start justify-start">
-				<div class="spacing leading-6 tracking-wide text-white">
-					<span>{currentQuestion.question}</span>
+{#if stateApp === STATE.Progress}
+	<div class="mx-auto h-full w-full max-w-3xl xl:max-w-7xl">
+		<div
+			class="flex h-full flex-col justify-start gap-6 md:grid md:grid-cols-2 xl:flex-row xl:gap-16"
+		>
+			<!-- Sidebar -->
+			<aside class="flex h-full flex-col flex-wrap items-center justify-center">
+				<div class="flex flex-col items-start justify-start">
+					<div class="spacing leading-6 tracking-wide text-white">
+						<span>{currentQuestion.question}</span>
+					</div>
 				</div>
-			</div>
-			{#if currentQuestion.hasImage}
-				<div class="mt-4">
-					<img
-						src={getImageUrl(currentQuestion.id)}
-						class="min-w-[320px] rounded-md"
-						alt={currentQuestion.question}
-					/>
-				</div>
-			{/if}
-		</aside>
-		<!-- Alternativas -->
-		<ul class="flex h-full w-full flex-col items-center justify-center gap-6 xl:items-center">
-			<div class="w-full">
-				<div class="flex flex-col gap-4">
-					{#each alternatives as [letter, value]}
-						<label
-							aria-checked={selectAlternative === letter}
-							class:show-result={showResult}
-							class="relative flex cursor-pointer items-center overflow-hidden rounded-lg border border-neutral-500 bg-black pl-8 leading-6 data-[selected=true]:border-white data-[selected=false]:opacity-60 data-[selected=true]:opacity-100"
-							data-is-correct={currentQuestion.correctAlternative === letter}
-							data-selected={selectAlternative === letter}
-							onclick={() => onSelectAlternative(letter)}
-							aria-disabled={showResult}
-						>
-							<button
-								class="absolute bottom-0 left-0 top-0 w-8 min-w-8 bg-[#222] text-[#fff]"
-								type="button"
-								data-state={letter === selectAlternative}
-								value={letter}
+				{#if currentQuestion.hasImage}
+					<div class="mt-4">
+						<img
+							src={getImageUrl(currentQuestion.id)}
+							class="min-w-[320px] rounded-md"
+							alt={currentQuestion.question}
+						/>
+					</div>
+				{/if}
+			</aside>
+			<!-- Alternativas -->
+			<ul class="flex h-full w-full flex-col items-center justify-center gap-6 xl:items-center">
+				<div class="w-full">
+					<div class="flex flex-col gap-4">
+						{#each alternatives as [letter, value]}
+							<label
+								aria-checked={selectAlternative === letter}
+								class:show-result={showResult}
+								class="relative flex cursor-pointer items-center overflow-hidden rounded-lg border border-neutral-500 bg-black pl-8 leading-6 data-[selected=true]:border-white data-[selected=false]:opacity-60 data-[selected=true]:opacity-100"
+								data-is-correct={currentQuestion.correctAlternative === letter}
+								data-selected={selectAlternative === letter}
+								onclick={() => onSelectAlternative(letter)}
+								aria-disabled={showResult}
 							>
-								{letter.toUpperCase()}</button
-							>
+								<button
+									class="absolute bottom-0 left-0 top-0 w-8 min-w-8 bg-[#222] text-[#fff]"
+									type="button"
+									data-state={letter === selectAlternative}
+									value={letter}
+								>
+									{letter.toUpperCase()}</button
+								>
 
-							<input
-								type="radio"
-								aria-hidden="true"
-								checked={letter === selectAlternative}
-								{value}
-								tabindex="-1"
-								class="absolute h-14 w-8 -translate-x-full opacity-0"
-							/>
-							<span class="p-4">{value}</span>
-						</label>
-					{/each}
+								<input
+									type="radio"
+									aria-hidden="true"
+									checked={letter === selectAlternative}
+									{value}
+									tabindex="-1"
+									class="absolute h-14 w-8 -translate-x-full opacity-0"
+								/>
+								<span class="p-4">{value}</span>
+							</label>
+						{/each}
+					</div>
 				</div>
-			</div>
-		</ul>
-	</div>
+			</ul>
+		</div>
 
-	{#if !showResult}
-		<form onsubmit={handleSubmit} class="fixed bottom-0 left-0 right-0 h-[76px]">
-			<div
-				class="mx-auto flex h-full max-w-3xl items-center justify-end rounded-tl-lg rounded-tr-lg bg-[#1e2229] p-4"
-			>
-				<button
-					class="h-full w-full cursor-pointer rounded-md bg-primary px-4 py-2 text-black disabled:pointer-events-none disabled:opacity-20"
-					aria-disabled={!selectAlternative}
-					type="submit"
-					disabled={!selectAlternative}
+		{#if !showResult}
+			<form onsubmit={handleSubmit} class="fixed bottom-0 left-0 right-0 h-[76px]">
+				<div
+					class="mx-auto flex h-full max-w-3xl items-center justify-end rounded-tl-lg rounded-tr-lg bg-[#1e2229] p-4"
 				>
-					Responder
-				</button>
-			</div>
-		</form>
-	{:else}
-		<form onsubmit={handleNextQuestion} class="fixed bottom-0 left-0 right-0 h-[76px]">
-			<div
-				class="mx-auto flex h-full max-w-3xl items-center justify-end rounded-tl-lg rounded-tr-lg bg-[#1e2229] p-4"
-			>
-				<button
-					class="flex h-full cursor-pointer items-center gap-2 rounded-md bg-primary px-4 py-2 text-black disabled:pointer-events-none"
-					>Siguiente <svg
-						width="1em"
-						height="1em"
-						fill="none"
-						viewBox="0 0 12 12"
-						xmlns="http://www.w3.org/2000/svg"
-						><path fill="#13161C" d="M6 0 4.943 1.058 9.128 5.25H0v1.5h9.128l-4.185 4.193L6 12l6-6z"
-						></path></svg
+					<button
+						class="h-full w-full cursor-pointer rounded-md bg-primary px-4 py-2 text-black disabled:pointer-events-none disabled:opacity-20"
+						aria-disabled={!selectAlternative}
+						type="submit"
+						disabled={!selectAlternative}
 					>
-				</button>
-			</div>
-		</form>
-	{/if}
-</div>
+						Responder
+					</button>
+				</div>
+			</form>
+		{:else}
+			<form onsubmit={handleNextQuestion} class="fixed bottom-0 left-0 right-0 h-[76px]">
+				<div
+					class="mx-auto flex h-full max-w-3xl items-center justify-end rounded-tl-lg rounded-tr-lg bg-[#1e2229] p-4"
+				>
+					<button
+						class="flex h-full cursor-pointer items-center gap-2 rounded-md bg-primary px-4 py-2 text-black disabled:pointer-events-none"
+						>Siguiente <svg
+							width="1em"
+							height="1em"
+							fill="none"
+							viewBox="0 0 12 12"
+							xmlns="http://www.w3.org/2000/svg"
+							><path
+								fill="#13161C"
+								d="M6 0 4.943 1.058 9.128 5.25H0v1.5h9.128l-4.185 4.193L6 12l6-6z"
+							></path></svg
+						>
+					</button>
+				</div>
+			</form>
+		{/if}
+	</div>
+{:else}
+	<Results reset={resetApp} {answers} />
+{/if}
 
 <style>
 	label[aria-disabled='true'] {

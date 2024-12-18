@@ -1,8 +1,10 @@
 <script>
-	import { globalState, resetApp } from '../store/questions.svelte';
 	import Button from './Button.svelte';
-	const totalAnswers = globalState.answers.length;
-	const correctAnswers = globalState.answers.filter((a) => a.correctAnswer === a.userAnswer).length;
+
+	const { answers, reset } = $props();
+
+	const totalAnswers = answers.length;
+	const correctAnswers = answers.filter((a) => a.correctAnswer === a.userAnswer).length;
 
 	const incorrectAnswers = totalAnswers - correctAnswers;
 	const result = incorrectAnswers >= 35;
@@ -37,7 +39,8 @@
 			</tr>
 		</tbody>
 	</table>
-	<div>
-		<Button full aria-label="Volver al inicio" onclick={resetApp}>Reintentar</Button>
+	<div class="flex items-center justify-center gap-4">
+		<Button aria-label="Volver al inicio" onclick={reset}>Reintentar</Button>
+		<a href="/" class="flex items-center text-center text-primary">Volver al Inicio</a>
 	</div>
 </div>
