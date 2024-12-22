@@ -20,11 +20,11 @@
 	let selectAlternative = $state(null)
 	let showResult = $state(false)
 	let stateApp = $state(STATE.Progress)
-
 	let progress = $state(1)
-
 	/** @type {Array<{question: number, userAnswer: string, correctAnser: string}>} */
 	let answers = $state([])
+	let selectedLetter = $state(null)
+	$inspect(selectedLetter)
 
 	// Estados computados
 	const currentQuestion = $derived(questions[currentIndex])
@@ -138,17 +138,34 @@
 	on:beforeunload={(ev) => {
 		ev.preventDefault()
 	}}
+	on:keydown={(ev) => {
+		const LETTERS = {
+			a: 'a',
+			b: 'b',
+			c: 'c',
+			d: 'd'
+		}
+
+		if (
+			ev.key === LETTERS.a ||
+			ev.key === LETTERS.b ||
+			ev.key === LETTERS.c ||
+			ev.key === LETTERS.d
+		) {
+			selectAlternative = ev.key
+		}
+	}}
 />
 {#if stateApp === STATE.Progress}
-	<div class="sticky left-0 top-16 z-50 flex h-10 w-full justify-center px-4">
-		<div class="relative h-3 w-full max-w-7xl rounded-3xl bg-gray-400">
+	<div class="absolute left-0 z-50 flex h-10 w-full justify-center">
+		<div class="relative h-[3px] w-full max-w-7xl bg-gray-400">
 			<span
-				class="absolute left-1/2 top-0 -translate-x-1/2 rounded-md bg-white px-2 text-xs text-black"
+				class="absolute left-1/2 top-0 -translate-x-1/2 rounded-md bg-white px-2 text-sm text-black"
 			>
 				{progress}/{MAX_TRIES}
 			</span>
 			<div
-				class="flex h-3 rounded-3xl bg-gradient-to-r from-primary to-cyan-500"
+				class="flex h-[3px] rounded-3xl bg-gradient-to-r from-primary to-cyan-500"
 				role="progressbar"
 				aria-valuenow={progress}
 				aria-valuemin="0"
@@ -167,9 +184,9 @@
 			<!-- Sidebar -->
 			<aside class="flex h-full flex-col flex-wrap items-center justify-center">
 				<div class="flex flex-col items-start justify-start">
-					<div class="spacing text-xl leading-6 tracking-wide text-white">
+					<p class="spacing text-balance text-xl leading-6 tracking-wide text-white">
 						<span>{currentQuestion.question}</span>
-					</div>
+					</p>
 				</div>
 				{#if currentQuestion.hasImage}
 					<div class="mt-4">
@@ -195,6 +212,7 @@
 								data-selected={selectAlternative === letter}
 								onclick={() => onSelectAlternative(letter)}
 								aria-disabled={showResult}
+								data-letter={letter}
 							>
 								<span
 									class="absolute bottom-0 left-0 top-0 flex w-8 min-w-8 items-center justify-center bg-[#222] text-[#fff]"

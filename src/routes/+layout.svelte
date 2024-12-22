@@ -22,13 +22,14 @@
 					<!-- Logo -->
 					<div>v1.0</div>
 				</div>
-				<!-- <div -->
-				<!-- 	class="absolute -bottom-[0.75rem] left-0 right-0 h-[3px] w-full before:absolute before:h-[3px] before:w-full before:bg-gradient-to-r before:from-primary before:to-blue-500 before:content-['']" -->
-				<!-- ></div> -->
 			</div>
 		</div>
 	</header>
-	<main class="flex h-full flex-1 flex-col">
+
+	<main class="relative flex h-full flex-1 flex-col">
+		<div
+			class="left-0 h-[3px] w-full max-w-7xl before:absolute before:h-[3px] before:w-full before:bg-gradient-to-r before:from-primary before:to-blue-500 before:content-['']"
+		></div>
 		{@render children()}
 	</main>
 </div>

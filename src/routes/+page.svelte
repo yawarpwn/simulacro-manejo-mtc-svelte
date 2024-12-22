@@ -58,7 +58,7 @@
 					<div>
 						<a
 							type="submit"
-							href="/quiz?category=A1"
+							href="/simulacro/A-I"
 							class="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-white"
 							>Empezar Prueba
 							<svg
