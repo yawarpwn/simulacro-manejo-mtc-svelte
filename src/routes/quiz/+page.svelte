@@ -134,6 +134,11 @@
 	})
 </script>
 
+<svelte:window
+	on:beforeunload={(ev) => {
+		ev.preventDefault()
+	}}
+/>
 {#if stateApp === STATE.Progress}
 	<div class="sticky left-0 top-16 z-50 flex h-10 w-full justify-center px-4">
 		<div class="relative h-3 w-full max-w-7xl rounded-3xl bg-gray-400">

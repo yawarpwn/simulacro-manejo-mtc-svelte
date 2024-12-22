@@ -4,10 +4,10 @@
 </script>
 
 <svelte:head>
-	<title>MTC Simulacro</title>
+	<title>Simulacro del MTC para aprobar examen de conocimientos y sacar tu brevete</title>
 	<meta
 		name="description"
-		content="MTC Simulacro de Manejo MTC"
+		content="Simulacro de preguntas para la evaluación de conocimientos en la conducción para postulantes a licencias de conducir"
 	/>
 </svelte:head>
 <div class="mx-auto flex min-h-[100dvh] w-screen max-w-3xl flex-col xl:max-w-7xl">
