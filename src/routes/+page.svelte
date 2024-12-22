@@ -1,15 +1,11 @@
 <script>
-	import { CATEGORIES } from '$lib/constants';
-	import Button from '$lib/components/Button.svelte';
-
-	/**
-	 * @param {Event} event
-	 */
+	import { CATEGORIES } from '$lib/constants'
+	import Button from '$lib/components/Button.svelte'
 </script>
 
-<form class="h-full p-6">
+<form class="flex h-full flex-1 items-center p-6">
 	<!-- Wrapper -->
-	<div class="mx-auto h-full max-w-3xl lg:max-w-7xl">
+	<div class="">
 		<!-- Container -->
 		<div class="flex h-full flex-col gap-8 xl:flex-row xl:items-center xl:justify-center xl:gap-16">
 			<!-- Left -->
