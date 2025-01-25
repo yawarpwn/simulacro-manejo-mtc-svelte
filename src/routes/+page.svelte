@@ -1,6 +1,18 @@
 <script>
 	import { CATEGORIES } from '$lib/constants'
 	import Button from '$lib/components/Button.svelte'
+
+  /**
+   * Suma dos números
+    * @param {number} num1
+      * @param {number} num2
+      * @return {number}
+  */
+  const sum = (num1, num2) => {
+    return num1 + num2
+  }
+
+  console.log(sum(10, 20))
 </script>
 
 <form class="flex h-full flex-1 items-center p-6">
