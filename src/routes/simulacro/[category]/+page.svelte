@@ -21,7 +21,7 @@
 	let showResult = $state(false)
 	let stateApp = $state(STATE.Progress)
 	let progress = $state(1)
-	/** @type {Array<{question: number, userAnswer: string, correctAnser: string}>} */
+	/** @type {Array<{question: number, userAnswer: string, correctAnswer: string}>} */
 	let answers = $state([])
 	let selectedLetter = $state(null)
 	$inspect(selectedLetter)
@@ -63,7 +63,7 @@
 			{
 				question: currentQuestion.id,
 				userAnswer: selectAlternative,
-				correctAnswer: currentQuestion.correctAlternative
+				correctAnswer: currentQuestion.correctAnswer
 			}
 		]
 
@@ -99,7 +99,7 @@
 
 		if (!selectAlternative) return
 
-		if (selectAlternative !== currentQuestion.correctAlternative) {
+		if (selectAlternative !== currentQuestion.correctAnswer) {
 			if ('vibrate' in navigator) {
 				navigator.vibrate(200)
 			}
@@ -188,7 +188,7 @@
 						<span>{currentQuestion.question}</span>
 					</p>
 				</div>
-				{#if currentQuestion.hasImage}
+				{#if currentQuestion.image}
 					<div class="mt-4">
 						<img
 							src={getImageUrl(currentQuestion.id)}
@@ -208,7 +208,7 @@
 							<button
 								class:show-result={showResult}
 								class="relative flex cursor-pointer items-center overflow-hidden rounded-lg border border-neutral-500 bg-black pl-8 leading-6 data-[selected=true]:border-white data-[selected=false]:opacity-60 data-[selected=true]:opacity-100"
-								data-is-correct={currentQuestion.correctAlternative === letter}
+								data-is-correct={currentQuestion.correctAnswer === letter}
 								data-selected={selectAlternative === letter}
 								onclick={() => onSelectAlternative(letter)}
 								aria-disabled={showResult}

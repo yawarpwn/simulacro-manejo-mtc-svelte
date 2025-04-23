@@ -1,10 +1,5 @@
 <script>
-const { data} = $props()
-const quos = data.quos
-
+console.log('test page')
 </script>
 
 <h1>Test Page</h1>
-<pre>
-  {JSON.stringify(quos, null, 2)}
-</pre>
