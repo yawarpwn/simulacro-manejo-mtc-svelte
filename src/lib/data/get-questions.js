@@ -1,5 +1,4 @@
 import a1Questions from '../data/a1.json';
-import { CATEGORIES } from '../constants';
 
 /**
  * @param {string} category
