@@ -1,4 +1,7 @@
 <script>
+import { CATEGORIES } from "$lib/constants";
+let selectedCategory = $state(CATEGORIES.AI)
+$inspect(selectedCategory)
 </script>
 
 <form class="flex h-full flex-1 items-center p-6">
@@ -25,38 +28,34 @@
 					<p>Selecciona la categoría a la que postula:</p>
 
 					<!-- Categorias de Licencias -->
-					<!-- <div class="flex flex-col border-l border-neutral-500"> -->
-					<!-- {#each Object.entries(CATEGORIES) as [key, value]} -->
-					<!--   <label -->
-					<!--     onclick={() => (globalState.selectedCategory = value)} -->
-					<!--     data-state={value === globalState.selectedCategory -->
-					<!--       ? 'checked' -->
-					<!--       : 'unchecked'} -->
-					<!--     class="relative cursor-pointer border-l border-neutral-800 py-2 pl-6 data-[state=checked]:border-primary" -->
-					<!--   > -->
-					<!--     <input -->
-					<!--       aria-label={value} -->
-					<!--       aria-hidden="true" -->
-					<!--       checked={globalState.selectedCategory === value} -->
-					<!--       class="absolute h-14 w-8 -translate-x-full opacity-0" -->
-					<!--       type="radio" -->
-					<!--     /> -->
-					<!--     <span -->
-					<!--       data-state={globalState.selectedCategory === value -->
-					<!--         ? 'checked' -->
-					<!--         : 'unchecked'} -->
-					<!--       class="p-4 data-[state=checked]:text-primary" -->
-					<!--     > -->
-					<!--       {value} -->
-					<!--     </span> -->
-					<!--   </label> -->
-					<!-- {/each} -->
-					<!-- </div> -->
-					<span>Categoria A1</span>
+					<div class="flex flex-col border-l border-neutral-500">
+						{#each Object.values(CATEGORIES) as value}
+							<label
+								data-state={value === selectedCategory ? 'checked' : 'unchecked'}
+								class="relative cursor-pointer border-l border-neutral-800 py-2 pl-6 data-[state=checked]:border-primary"
+							>
+								<input
+									aria-label={value}
+									aria-hidden="true"
+									{value}
+									bind:group={selectedCategory}
+									class="absolute h-14 w-8 -translate-x-full opacity-0"
+									type="radio"
+								/>
+								<span
+									data-state={selectedCategory === value ? 'checked' : 'unchecked'}
+									class="p-4 data-[state=checked]:text-primary"
+								>
+									Categoria <strong>{value}</strong>
+								</span>
+							</label>
+						{/each}
+					</div>
+					<span>Categoria {selectedCategory}</span>
 					<div>
 						<a
 							type="submit"
-							href="/simulacro/A-I"
+							href={`/simulacro/${selectedCategory}`}
 							class="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-white"
 							>Empezar Prueba
 							<svg

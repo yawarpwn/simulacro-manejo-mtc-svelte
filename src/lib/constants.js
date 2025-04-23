@@ -5,7 +5,14 @@ export const STATE = {
 }
 
 export const CATEGORIES = {
-	AI: 'A-I'
+	AI: 'A-I',
+  BIIA: 'BII-A',
+      BIIB: "BII-B",
+  AIIA: 'AII-A',
+  AIIIA: 'AIII-A',
+  AIIIB: 'AIII-B',
+  AIIIC: 'AIII-C',
+  BIIC: 'BII-C'
 }
 
 // BIIA: 'Categoría BII-A',
