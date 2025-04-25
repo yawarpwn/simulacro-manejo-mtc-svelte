@@ -20,8 +20,6 @@
 	const minutes = $derived(Math.floor(timer / 60))
 	const seconds = $derived(timer % 60)
 
-	$inspect(seconds)
-	// const formatedTime = $derived(`${minutes}:${seconds < 10 ? '0' + seconds : seconds}`) // minutes
 </script>
 
 <div class="count-down-main flex w-full items-start justify-center gap-1.5">

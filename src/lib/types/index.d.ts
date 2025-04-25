@@ -1,4 +1,4 @@
-type QuizItem = {
+export type Quiz = {
   id: number,
   question: string,
   alternatives: {
@@ -7,7 +7,8 @@ type QuizItem = {
     'C': string,
     'D': string
   }
+  correctAnswer: keyof Quiz['alternatives']
   image: string | null
 }
 
-export type Quiz = QuizItem[]
+

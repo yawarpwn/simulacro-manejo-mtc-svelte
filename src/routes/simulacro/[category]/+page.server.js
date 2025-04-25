@@ -1,8 +1,12 @@
-import { getQuestions } from '$lib/data/get-questions'
+import { getQuiz } from '$lib/server/index.js'
+import { fail } from '@sveltejs/kit'
 
 export async function load({ params }) {
 	const { category } = params
 
-		const questions = await getQuestions({ selectedCategory: category })
-  return { questions}
+  const quiz = getQuiz({category})
+
+
+  return { quiz}
+
 	}
