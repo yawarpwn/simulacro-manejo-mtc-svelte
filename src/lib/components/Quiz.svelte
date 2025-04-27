@@ -188,7 +188,7 @@
 				{#if currentQuestion.image}
 					<div class="mt-4">
 						<img
-							src={getImageUrl(currentQuestion.id)}
+							src={`https://sierdgtt.mtc.gob.pe${currentQuestion.image}`}
 							class="min-w-[320px] rounded-md"
 							width={320}
 							height={320}

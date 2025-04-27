@@ -2265,7 +2265,7 @@
 			"D": "Ninguna de las alternativas es correcta."
 		},
 		"image": "/Content/img-data/img144.jpg",
-		"correctAnswer": "A"
+		"correctAnswer": "C"
 	},
 	{
 		"id": 190,
@@ -3240,4 +3240,3 @@
 		"correctAnswer": "B"
 	}
 ]
-
