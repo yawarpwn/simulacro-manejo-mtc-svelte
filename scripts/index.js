@@ -1,60 +1,56 @@
 import fs from 'fs/promises'
-import path from 'node:path'
 
-// /**
-//  * @param {string} category
-//  */
-// const replaceMultipleSpaceWithSllipsis = (category) =>
-// 	category.replace(/_/, '').replace(/\s{3,}/g, ' ________ ');
-//
-// /**
-//  * @param {string} str
-//  */
-// const format = (str) => str.slice(3, str.length);
-//
-// /**
-//  * @param {{selectedCategory: string}} options
-//  */
-// const baseDir = path.resolve(__dirname, '../src/lib/data')
-// async function main() {
-//   const data = await fs.readFile(baseDir + '/a1.json', 'utf-8').then(res => JSON.parse(res))
-//   const capitalize = text => format(text.charAt(0).toUpperCase() + text.slice(1))
-//   const mapped = data.map(q => {
-//     return {
-//       id: q.index,
-//       alternatives: {
-//       'A': capitalize(q.alternativa_a),
-//       'B': capitalize(q.alternativa_b),
-//       'C': capitalize(q.alternativa_c),
-//       'D': capitalize(q.alternativa_d)
-//       },
-//       question: replaceMultipleSpaceWithSllipsis(q.pregunta),
-//       correctAnswer: q.respuesta.toUpperCase(),
-//       image: q.image === 1 ? `/Content/img-data/img${q.index}.jpg` : null
-//       }
-//   })
-//
-//    fs.writeFile('./A-I.json', JSON.stringify(mapped, null, 2)).then(res => console.log('success')).catch(err => console.log(err))
-//
-// }
-// main()
-//
-// url -X POST "https://api-mtc.dhs.pe/exam/create" \
-// -H "Content-Type: application/json" \
-// -d '{"category": "A-IIB", "exampleType": "practica"}'
-async function main() {
+async function getQuestions({ category}) {
+
   const res = await fetch('https://api-mtc.dhs.pe/exam/create', {
     method: "POST",
     headers: {
-      "Content-Type": "application/json"
+      "Content-Type": "application/json",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0"
     },
-    body: JSON.stringify({category: "A-IIB", exampleType: "practica"})
+
+    body: JSON.stringify({category, exampleType: "practica"})
   })
 
-  const data = await res.json()
-  console.log(data)
+  if(!res.ok) throw new Error('Error obteniendo preguntas')
 
+  const data = await res.json()
+
+  if(!data.success) throw new Error(data.error)  
+  return data
+}
+
+const CATEGORY = 'A-IIA'
+async function main() {
+
+  let dataJson
+
+  try {
+    dataJson = await import(`../${CATEGORY}.json`)
+  } catch (error) {
+    console.log(error)
+    dataJson = { default: []}
+  }
+
+  const savedData =  new Map(dataJson.default.map(q => [q.id, q]))
+    console.log('Preguntas guardadas: ', savedData.size)
+
+    const data = await getQuestions({ category: CATEGORY})
+
+    for (const question of data.exam.questions) {
+      const savedQuestion = savedData.get(question.id)
+      if (!savedQuestion) {
+        savedData.set(question.id, question)
+      }
+    }
+
+    console.log('preguntas totales: ', savedData.size)
+
+    const dataToSaved = Array.from(savedData.values())
+    fs.writeFile(`./${CATEGORY}.json`, JSON.stringify(dataToSaved, null, 2)).then(res => console.log('success')).catch(err => console.log(err))
 
 }
 
-main()
+main().catch(err => {
+  console.log(err)
+})

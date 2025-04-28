@@ -1,4 +1,4 @@
-export type Quiz = {
+    export type Quiz = {
   id: number,
   question: string,
   alternatives: {

@@ -1,7 +1,7 @@
 <script>
-import { CATEGORIES } from "$lib/constants";
-let selectedCategory = $state(CATEGORIES.AI)
-$inspect(selectedCategory)
+	import { CATEGORIES } from '$lib/constants'
+	let selectedCategory = $state('A-I')
+	$inspect(selectedCategory)
 </script>
 
 <form class="flex h-full flex-1 items-center p-6">
@@ -29,25 +29,26 @@ $inspect(selectedCategory)
 
 					<!-- Categorias de Licencias -->
 					<div class="flex flex-col border-l border-neutral-500">
-						{#each Object.values(CATEGORIES) as value}
+						{#each CATEGORIES as { category, description }}
 							<label
-								data-state={value === selectedCategory ? 'checked' : 'unchecked'}
-								class="relative cursor-pointer border-l border-neutral-800 py-2 pl-6 data-[state=checked]:border-primary"
+								data-state={category === selectedCategory ? 'checked' : 'unchecked'}
+								class="relative cursor-pointer border-l-2 rounded-tr-md rounded-br-md border-neutral-800 py-2 pl-6 data-[state=checked]:border-primary data-[state=checked]:bg-lime-900/20"
 							>
 								<input
-									aria-label={value}
+									aria-label={category}
 									aria-hidden="true"
-									{value}
+									value={category}
 									bind:group={selectedCategory}
 									class="absolute h-14 w-8 -translate-x-full opacity-0"
 									type="radio"
 								/>
 								<span
-									data-state={selectedCategory === value ? 'checked' : 'unchecked'}
-									class="p-4 data-[state=checked]:text-primary"
+									data-state={selectedCategory === category ? 'checked' : 'unchecked'}
+									class="pb-4 data-[state=checked]:text-primary"
 								>
-									Categoria <strong>{value}</strong>
+									Categoria <strong>{category}</strong>
 								</span>
+								<p class="text-sm text-muted-foreground">{description}</p>
 							</label>
 						{/each}
 					</div>
