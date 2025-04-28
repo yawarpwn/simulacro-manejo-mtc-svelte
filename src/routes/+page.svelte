@@ -1,7 +1,6 @@
 <script>
 	import { CATEGORIES } from '$lib/constants'
 	let selectedCategory = $state('A-I')
-	$inspect(selectedCategory)
 </script>
 
 <form class="flex h-full flex-1 items-center p-6">

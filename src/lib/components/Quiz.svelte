@@ -7,7 +7,7 @@
 	import { MAX_TRIES, STATE } from '$lib/constants'
 	import Results from '$lib/components/Results.svelte'
 
-  /** @type {{ quiz: import('$lib/types').Quiz[] }} */
+	/** @type {{ quiz: import('$lib/types').Quiz[] }} */
 	const { quiz } = $props()
 
 	const TOTAL_QUESTIONS = quiz.length
@@ -93,9 +93,14 @@
 	 */
 	const handleSubmit = async (event) => {
 		event.preventDefault()
+		validateAnswer()
+	}
 
+	async function validateAnswer() {
+		//Si no hay alternativa seleciona no hace nada
 		if (!selectAlternative) return
 
+		//Si la respuesta es incorrecta
 		if (selectAlternative !== currentQuestion.correctAnswer) {
 			if ('vibrate' in navigator) {
 				navigator.vibrate(200)
@@ -106,12 +111,14 @@
 			return
 		}
 
+		//Si la respuesta es correcta
 		showResult = false
 
 		const successAudio = new Audio(successSound)
 		await successAudio.play()
 		confetti()
 
+		//Actualizar progreso
 		getRandomQuestion()
 	}
 
@@ -143,13 +150,24 @@
 			d: 'd'
 		}
 
+		//Si presionar alguna opcion: a, b, c, d
 		if (
 			ev.key === LETTERS.a ||
 			ev.key === LETTERS.b ||
 			ev.key === LETTERS.c ||
 			ev.key === LETTERS.d
 		) {
-			selectAlternative = ev.key
+			selectAlternative = ev.key.toUpperCase()
+		}
+
+		//Si presiona Enter
+		if (ev.key === 'Enter') {
+			if (showResult) {
+				showResult = false
+				getRandomQuestion()
+			} else {
+				validateAnswer()
+			}
 		}
 	}}
 />
@@ -234,29 +252,8 @@
 			</ul>
 		</div>
 
-		{#if !showResult}
-			<form
-				onsubmit={handleSubmit}
-				class="fixed bottom-0 left-0 right-0 h-[76px]"
-			>
-				<div
-					class="mx-auto flex h-full max-w-3xl items-center justify-end rounded-tl-lg rounded-tr-lg bg-[#1e2229] p-4"
-				>
-					<button
-						class="h-full w-full cursor-pointer rounded-md bg-primary px-4 py-2 text-black disabled:pointer-events-none disabled:opacity-20"
-						aria-disabled={!selectAlternative}
-						type="submit"
-						disabled={!selectAlternative}
-					>
-						Responder
-					</button>
-				</div>
-			</form>
-		{:else}
-			<form
-				onsubmit={handleNextQuestion}
-				class="fixed bottom-0 left-0 right-0 h-[76px]"
-			>
+		{#if showResult}
+			<form onsubmit={handleNextQuestion} class="fixed bottom-0 left-0 right-0 h-[76px]">
 				<div
 					class="mx-auto flex h-full max-w-3xl items-center justify-end rounded-tl-lg rounded-tr-lg bg-[#1e2229] p-4"
 				>
@@ -276,13 +273,25 @@
 					</button>
 				</div>
 			</form>
+		{:else}
+			<form onsubmit={handleSubmit} class="fixed bottom-0 left-0 right-0 h-[76px]">
+				<div
+					class="mx-auto flex h-full max-w-3xl items-center justify-end rounded-tl-lg rounded-tr-lg bg-[#1e2229] p-4"
+				>
+					<button
+						class="h-full w-full cursor-pointer rounded-md bg-primary px-4 py-2 text-black disabled:pointer-events-none disabled:opacity-20"
+						aria-disabled={!selectAlternative}
+						type="submit"
+						disabled={!selectAlternative}
+					>
+						Responder
+					</button>
+				</div>
+			</form>
 		{/if}
 	</div>
 {:else}
-	<Results
-		reset={resetApp}
-		{answers}
-	/>
+	<Results reset={resetApp} {answers} />
 {/if}
 
 <style>
