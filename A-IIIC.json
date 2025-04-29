@@ -1,0 +1,2063 @@
+[
+  {
+    "id": "c488470388c11abb5918d1e351b9b28be5fc2935520978355fc88409e983ded6",
+    "slug": null,
+    "image": null,
+    "statement": "La señal vertical reglamentaria R-6 \"prohibido voltear a la izquierda\", significa que:",
+    "explanation": null,
+    "alternatives": [
+      "Está prohibido voltear a la izquierda y, por lo tanto, también está prohibido el giro en U",
+      "Está prohibido voltear a la izquierda, sin embargo, está permitido el giro en U",
+      "El único sentido de desplazamiento es continuar de frente",
+      "Ninguna de las alternativas es correcta"
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 1
+  },
+  {
+    "id": "3870ef386dd71196ed4d76d59d30cdd8d3f4ea3c09481a46b487b85ca13e58d8",
+    "slug": null,
+    "image": null,
+    "statement": "¿Cuál de las siguientes afirmaciones es correcta?",
+    "explanation": null,
+    "alternatives": [
+      "El conductor debe respetar los límites máximos y mínimos de velocidad establecidos.",
+      "El conductor debe respetar únicamente los límites máximos de velocidad, pues no existen límites mínimos.",
+      "El conductor puede conducir a la velocidad que desee, siempre que lo haga de manera prudente.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 1
+  },
+  {
+    "id": "e95ba7b521bdc41d5f9e7d832bd410be7fa4f3506c9a407669a0fa72cee89948",
+    "slug": null,
+    "image": "/transito/rule-P-22C.jpg",
+    "statement": "La siguiente señal vertical reglamentaria P-22C indica que:",
+    "explanation": null,
+    "alternatives": [
+      "Está permitido adelantar.",
+      "Se aproxima un carril adicional.",
+      "Está permitido cambiar de carril.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "6993d037b0ece6c96b086068ac23d7f970638f33c92e85d8bb7f2d0420b94e86",
+    "slug": null,
+    "image": "/transito/rule-P-1A-P-2A.jpg",
+    "statement": "¿Cuál es la diferencia entre las señales P-2A y P-1A?",
+    "explanation": null,
+    "alternatives": [
+      "No hay diferencia, se usan indistintamente.",
+      "La señal P-2A se utiliza en situaciones de mayor riesgo.",
+      "La señal P-1A advierte la presencia de curva pronunciada a la derecha mientras que la P-2A advierte la presencia de curva suave a la derecha.",
+      "La señal P-2A advierte la presencia de curva pronunciada a la derecha mientras que la P-1A advierte la presencia de curva suave a la derecha."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "0a9b0ad2c1b17768563ca831c7fb3d6603a3121372e0e6a36854c0a42424a936",
+    "slug": null,
+    "image": null,
+    "statement": "¿Se puede conducir un vehículo con el motor en punto neutro?",
+    "explanation": null,
+    "alternatives": [
+      "Sí, pero solo si está bajando una pendiente.",
+      "No, está prohibido.",
+      "Sí, en caso de que el conductor no sea novato.",
+      "No se encuentra regulado en la norma."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "910c72eca5ead1c84dec6f2e1ca038c95634e84ca17cd767e22a0368b7cdb147",
+    "slug": null,
+    "image": null,
+    "statement": "De acuerdo con el sistema de control de licencias de conducir por puntos:",
+    "explanation": null,
+    "alternatives": [
+      "Determinadas infracciones suman puntos.",
+      "Una infracción puede sumar o disminuir puntos, a elección del infractor.",
+      "Determinadas infracciones restan puntos.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 1
+  },
+  {
+    "id": "b40d6e06799da895385928e652a2f08f530d2011c0d622ffe18c4f81a87cccfc",
+    "slug": null,
+    "image": null,
+    "statement": "Siempre que no exista una señal de límite de velocidad en carreteras, el límite máximo de velocidad para automóviles, camionetas y motocicletas es de:",
+    "explanation": null,
+    "alternatives": [
+      "80km/h.",
+      "90km/h.",
+      "100km/h.",
+      "110km/h."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "887e6207e042a9700911d965e1aacc142a47041a7ba4a327c68f0a88129f7647",
+    "slug": null,
+    "image": null,
+    "statement": "Si se encuentra en una intersección y se enciende la luz verde del semáforo y observa que en la calle transversal hay vehículos o personas despejando la intersección, ¿qué debe hacer?",
+    "explanation": null,
+    "alternatives": [
+      "No iniciar la marcha hasta que el vehículo o las personas terminen de cruzar.",
+      "Tocar el claxon para que se apuren en pasar.",
+      "Bajar del vehículo y reclamar la falta al infractor.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 1
+  },
+  {
+    "id": "5fb6ed0fd5556482a64085e4fb67054f892248ac8af9fd3138bfd2fca38d42ad",
+    "slug": null,
+    "image": null,
+    "statement": "Si se aproxima a una zona escolar, ¿qué acción debe realizar?",
+    "explanation": null,
+    "alternatives": [
+      "No tiene ninguna obligación si no hay señalización.",
+      "Disminuir la velocidad a 40 Km/h.",
+      "Disminuir la velocidad a 30 Km/h.",
+      "Disminuir la velocidad a 35 Km/h."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "ee8661bbb93953ad4ce3670d1067be1070c750e9d9adef8ed2187dbd23ea5f0a",
+    "slug": null,
+    "image": "/transito/rule-R-4.jpg",
+    "statement": "Si usted se encuentra conduciendo su vehículo por una vía y antes de cruzar la intersección se encuentra con la señal R-4, esta le indica:",
+    "explanation": null,
+    "alternatives": [
+      "Que la calle está clausurada.",
+      "Que está por ingresar a una vía de sentido contrario y no debe entrar.",
+      "Que debe parar totalmente antes de poder ingresar.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "6ee71a8e7495a54c9636da2ac5d8402f5378b27133d7f979b8a3e116f36a482e",
+    "slug": null,
+    "image": "/transito/question-140.jpg",
+    "statement": "Si al conducir su vehículo se encuentra con la señal vertical que se muestra, usted debe entender que:",
+    "explanation": null,
+    "alternatives": [
+      "La vía está interrumpida y debe tomar el camino alternativo que muestra la señal.",
+      "En la siguiente intersección está prohibido girar a la izquierda y por lo tanto, si desea seguir esa ruta debe tomar el camino alternativo que muestra la señal.",
+      "En la siguiente intersección está prohibido girar a la derecha y por lo tanto, si desea seguir esa ruta debe tomar el camino alternativo que muestra la señal.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "8202956845669baa2f1d349f50de925e7392e1d37dac1b0ba31d6b78f821d8bf",
+    "slug": null,
+    "image": "/transito/question-141.jpg",
+    "statement": "Si al conducir su vehículo se encuentra con la señal vertical que se muestra, usted debe entender que:",
+    "explanation": null,
+    "alternatives": [
+      "Si quiere girar a la izquierda debe pasar la intersección y dar la vuelta a la manzana.",
+      "En la siguiente intersección está prohibido girar a la izquierda y por lo tanto, si desea seguir esa ruta debe hacerlo una cuadra antes.",
+      "En esa dirección hay una zona de parqueo.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 1
+  },
+  {
+    "id": "6374dcde9d7af463b3d65580d953bdd86e6da0f59b98168681b307513ce0fa5f",
+    "slug": null,
+    "image": null,
+    "statement": "El comportamiento del conductor como usuario de la vía, debe estar orientado a:",
+    "explanation": null,
+    "alternatives": [
+      "Valor por la vida.",
+      "Respeto por la integridad física del resto de los usuarios.",
+      "Respeto a la autoridad encargada de la vigilancia y disciplina de tráfico.",
+      "Todas las alternativas son correctas."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 4
+  },
+  {
+    "id": "a353699d6daddc26326b2b128689477e143217910b32a01a96da5c33e7336378",
+    "slug": null,
+    "image": "/transito/rule-P-61.jpg",
+    "statement": "La siguiente señal (P-61), muestra:",
+    "explanation": null,
+    "alternatives": [
+      "Flechas retroreflectivas que indican peligro.",
+      "Delineadores de curva, que guían al conductor.",
+      "Advertencia al conductor sobre la proximidad de un puente.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "090aede988a1fcc3deb71c006b319bd8b82a14743af544cf24a7eb8e0556fb7a",
+    "slug": null,
+    "image": null,
+    "statement": "¿Una persona con discapacidad física puede obtener una licencia de conducir particular?",
+    "explanation": null,
+    "alternatives": [
+      "Sí, siempre y cuando dicha discapacidad pueda ser superada con algún corrector que establezca alguna de las restricciones que prevé la norma vigente.",
+      "No, está terminantemente prohibido.",
+      "Depende del criterio del centro de emisión de la licencia de conducir.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 1
+  },
+  {
+    "id": "a637e8cce20dc57656004fb43aaeb15984711f17ff1897e4d4b8426e0048d38b",
+    "slug": null,
+    "image": null,
+    "statement": "El conductor antes de iniciar la conducción de un vehículo no está obligado a:",
+    "explanation": null,
+    "alternatives": [
+      "Portar la tarjeta de identificación vehicular del vehículo que conduce.",
+      "Portar y exhibir la Placa Única de Rodaje.",
+      "Constatar que el vehículo tiene SOAT vigente.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 4
+  },
+  {
+    "id": "ea2c28e4899b8c2d65a5ca6828d50ba6517c1f0ffcb515206881942367bf0f15",
+    "slug": null,
+    "image": null,
+    "statement": "A fin de determinar la presencia de alcohol o sustancias estupefacientes en el conductor, el efectivo de la Policía de Tránsito puede exigirle al momento de la intervención:",
+    "explanation": null,
+    "alternatives": [
+      "Que realice pruebas de coordinación y equilibrio.",
+      "Uso del alcoholímetro.",
+      "Prueba de alcoholemia.",
+      "Todas las alternativas son correctas."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 4
+  },
+  {
+    "id": "1d6340fe695c01832bf7bf7ddc202d55b21cb16b7b4fb71b1a32b0cb6fa16e24",
+    "slug": null,
+    "image": null,
+    "statement": "Después de qué tiempo de haber cometido la misma infracción se llama reincidencia y es sancionada con el doble de la multa establecida?",
+    "explanation": null,
+    "alternatives": [
+      "06 meses.",
+      "12 meses.",
+      "24 meses.",
+      "35 meses."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "5bce51e8ee78566221523e3356065451d783244f07ff5150f83aae34c91f8529",
+    "slug": null,
+    "image": "/transito/rule-P-31A.jpg",
+    "statement": "La siguiente señal (P-31A), indica:",
+    "explanation": null,
+    "alternatives": [
+      "La proximidad del final de la vía.",
+      "La proximidad de una vía asfaltada.",
+      "La proximidad de una pendiente leve.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 1
+  },
+  {
+    "id": "a132e926e99ff7cc83a9db25db7b5308095db3ac67a1ec789739f671b0a6545d",
+    "slug": null,
+    "image": null,
+    "statement": "La __________ es la parte de una carretera o camino contigua a la calzada, no habilitada para la circulación de vehículos y destinada eventualmente a la detención de vehículos en emergencia y circulación de peatones.",
+    "explanation": null,
+    "alternatives": [
+      "Berma.",
+      "Autopista.",
+      "Acera.",
+      "Demarcación."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 1
+  },
+  {
+    "id": "9366f705f1599d7c6ae2bd6ead39447f7a969b15e25cf796e7e00ed129f7557c",
+    "slug": null,
+    "image": null,
+    "statement": "Los rótulos de un vehículo que transporta material peligroso deberán ceñirse a lo establecido en:",
+    "explanation": "Conforme a lo establecido en el artículo 19 del Reglamento aprobado por el Decreto Supremo N° 021-2008-MTC",
+    "alternatives": [
+      "La Ley 27181, Ley General de Transporte Terrestre",
+      "El Reglamento Nacional de Vehículos",
+      "El Libro Naranja de las Naciones Unidas",
+      "Libro Púrpura"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 3
+  },
+  {
+    "id": "366cb7e494378ffbb8abff620c1c4256930f07f97e8dbdd57dfee8228b79377b",
+    "slug": null,
+    "image": null,
+    "statement": "Se considera como infracción grave del conductor cuando:",
+    "explanation": "Conforme a lo establecido en el código C.2 del Cuadro de Infracciones y Sanciones al Transporte Terrestre y de Materiales y/o Residuos Peligrosos del Reglamento aprobado por el Decreto Supremo N° 021-2008-MTC",
+    "alternatives": [
+      "Iniciar el transporte cuando el vehículo y/o unidad de carga no cuentan con la rotulación que corresponda al material y/o residuo peligroso declarado en la Guía de remisión - remitente",
+      "No portar en la cabina la documentación exigida para el transporte",
+      "No utilizar el uniforme de la empresa transportista",
+      "Todas las anteriores"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 1
+  },
+  {
+    "id": "35b6170087c9bb0a165a2c345a608cf93bd817568b725ea8f5863f00de688915",
+    "slug": null,
+    "image": null,
+    "statement": "Sólo se realizará el transbordo y/o trasiego de materiales y residuos peligrosos, en caso de:",
+    "explanation": "Conforme a lo establecido en el artículo 72º del Reglamento MATPEL",
+    "alternatives": [
+      "Cambio de itinerario",
+      "Emergencia",
+      "Ambas respuestas son correctas",
+      "Si lo realiza personal de SUTRAN"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "6bbad0db3895a704348f31729d4af5cbec5890e68f7f947bc0ec211e28fec3e0",
+    "slug": null,
+    "image": null,
+    "statement": "No interrumpir el viaje cuando las condiciones meteorológicas impidan la visibilidad del conductor que transporta MATPEL, es una falta:",
+    "explanation": "Conforme a lo establecido en el código C.7 del Cuadro de Infracciones y Sanciones al Transporte Terrestre y de Materiales y/o Residuos Peligrosos del Reglamento aprobado por el Decreto Supremo N° 021-2008-MTC",
+    "alternatives": [
+      "Grave",
+      "Muy grave",
+      "Leve",
+      "Ninguna de ellas"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 1
+  },
+  {
+    "id": "9276b6a9e337190767ede40a9c73c2aa17036605211e5b25578bf9fdc8b81d1d",
+    "slug": null,
+    "image": null,
+    "statement": "En caso de derrame, fuga o pérdida del material peligroso, el conductor debe:",
+    "explanation": "Conforme a lo establecido en el numeral 5 del artículo 56º del Reglamento MATPEL",
+    "alternatives": [
+      "Aplicar el artículo 58 del Reglamento",
+      "Aplicar el plan de emergencia",
+      "Aplicar las instrucciones del transportista",
+      "Aplicar el plan de contingencia"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 4
+  },
+  {
+    "id": "e59eb2146e90275ec0e776df21434fd762f9f3afa6f124679e552ea728f52b99",
+    "slug": null,
+    "image": null,
+    "statement": "El rótulo que identifica al material peligroso como sustancia corburente es:",
+    "explanation": "Conforme a lo señalado en la Clase 5, División 5.1 del numeral 5.2.2.2.2 del Libro Naranja de las Naciones Unidas - Volumen II",
+    "alternatives": [
+      {
+        "url": "/transito/IIIC/32-089.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/32-090.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/32-091.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/32-092.jpg",
+        "type": "imagen"
+      }
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 4
+  },
+  {
+    "id": "bdd0e47a76e6db2baec23658084a20c09afe620180adc7474554f185c805de5b",
+    "slug": null,
+    "image": null,
+    "statement": "El rótulo que identifica al material peligroso como sustancia infecciosa es:",
+    "explanation": "Conforme a lo señalado en la Clase 6, División 6.2 del numeral 5.2.2.2.2 del Libro Naranja de las Naciones Unidas - Volumen II",
+    "alternatives": [
+      {
+        "url": "/transito/IIIC/35-101.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/35-102.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/35-103.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/35-104.jpg",
+        "type": "imagen"
+      }
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 3
+  },
+  {
+    "id": "5a530c76f2ea9f88053d9419b90d2f4c9382653bb7ba31a15b2876c51247d58c",
+    "slug": null,
+    "image": null,
+    "statement": "Los rótulos que identifican al material peligroso como radioactivo son:",
+    "explanation": "Conforme a lo señalado en la Clase 7, 7A, 7B y 7C del numeral 5.2.2.2.2 del Libro Naranja de las Naciones Unidas - Volumen II",
+    "alternatives": [
+      {
+        "url": "/transito/IIIC/36-105.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/36-106.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/36-107.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/36-108.jpg",
+        "type": "imagen"
+      }
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 3
+  },
+  {
+    "id": "b888cbb0057ca55b482e5aa23eeba22d10760f2e38bf81274d168b08f0273e56",
+    "slug": null,
+    "image": null,
+    "statement": "El Reglamento de materiales y residuos peligrosos comprende los materiales peligrosos necesarios para la propulsión del medio de transporte o para el funcionamiento del equipo especializado que se utiliza durante la operación de transporte.",
+    "explanation": "Conforme a lo establecido en el numeral 2 del artículo 4º del Reglamento aprobado por el Decreto Supremo N° 021-2008-MTC",
+    "alternatives": [
+      "Si",
+      "No",
+      "El Reglamento no lo señala.",
+      "Ninguna de las anteriores"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "8e4385c8ef30d11d547d425075c9bae5c628a90abdc9f5d904aae255e98e1fcc",
+    "slug": null,
+    "image": null,
+    "statement": "¿Cuál es un elemento, característica o dispositivo considerados como requisito técnico general?",
+    "explanation": "Artículo 12 del RNV",
+    "alternatives": [
+      "Dispositivos de alumbrado y señalización óptica.",
+      "Sistema de frenos",
+      "Carrocería diseñada para evitar salpicaduras de las ruedas y/o protegida por guardafangos o escarpines",
+      "Todas las anteriores"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 4
+  },
+  {
+    "id": "1d7a7958184193f173d35025305a13272a9b31fa3d586eaf7388b89bacd0ae08",
+    "slug": null,
+    "image": null,
+    "statement": "¿Cuál es una característica adicional para los vehículos de las categorías M, según el Reglamento Nacional de Vehículos?",
+    "explanation": "Artículo 13 del RNV",
+    "alternatives": [
+      "Retrovisores y Asientos del conductor.",
+      "Guardafangos.",
+      "Bocina de sonido uniforme y continua y Fórmula rodante.",
+      "a y c son correctas."
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 4
+  },
+  {
+    "id": "c33a142a7f1b9623f05115c3b8497ca5ee0365b77232feeada3ef1da0356dcc3",
+    "slug": null,
+    "image": null,
+    "statement": "¿A qué categoría pertenecen los vehículos de mas de ocho asientos, sin contar el asiento del conductor y peso bruto vehicular de más de 5 toneladas?",
+    "explanation": "Anexo I del RNV",
+    "alternatives": [
+      "M1",
+      "M3",
+      "M2",
+      "N3"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "ba2ab8fc90f07bef96739b11335bb150f08ca0834d412aa06a06c63e465bd391",
+    "slug": null,
+    "image": null,
+    "statement": "¿A qué se le denomina Peso Bruto Vehicular Combinado?",
+    "explanation": "Anexo II del RNV",
+    "alternatives": [
+      "Peso total del vehículo determinado por el fabricante.",
+      "Peso bruto vehicular de la combinación camión más remolque(s).",
+      "Peso bruto vehicular legal del camión más remolque(s), de acuerdo a lo establecido en reglamento.",
+      "Ninguna de los anteriores"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "4d0c7c5fafed0f88a6ce89c2fd477be7c91f9cb874b76f88509579882f795ea7",
+    "slug": null,
+    "image": null,
+    "statement": "¿Cuál es la desventaja de utilizar la suspensión neumática en vez de suspensión mecánica?",
+    "explanation": "La suspensión neumática brinda mayor confort pero tiene muchos componentes como compresor, cañerías, etc. que hacen un mantenimiento de mayor costo que la suspensión mecánica",
+    "alternatives": [
+      "menor estabilidad",
+      "alto mantenimiento",
+      "acción de alta fricción",
+      "menor confort"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "50e6873626ad25ec47169ea1d3ea375d6047ec660b625d503b566541e127a9ff",
+    "slug": null,
+    "image": null,
+    "statement": "La edad máxima para conducir vehículos destinados al servicio de transporte terrestre es de:",
+    "explanation": "Numeral 29.2 del artículo 29 del RENAT",
+    "alternatives": [
+      "55 años.",
+      "60 años.",
+      "65 años.",
+      "70 años."
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 4
+  },
+  {
+    "id": "1c966bb898fe65f229557de41668e3102fb3fbf73759abadec7b826be31b3470",
+    "slug": null,
+    "image": null,
+    "statement": "El servicio de transporte regular de personas es aquel que se presta:",
+    "explanation": "Numeral 3.62 del artículo 3 del RENAT",
+    "alternatives": [
+      "Con regularidad y sin uniformidad.",
+      "Con regularidad y uniformidad.",
+      "Con uniformidad y sin regularidad.",
+      "Sin regularidad ni uniformidad."
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "9ba935d37a36d9d065c3a2be05bb1f3842701a69b612f868f62b191aefa1dd13",
+    "slug": null,
+    "image": null,
+    "statement": "Es el documento que sustenta el traslado de bienes por el transportista autorizado para prestar el servicio de transporte terrestre de mercancías:",
+    "explanation": "Numeral 3.36 del artículo 3 del RENAT",
+    "alternatives": [
+      "Hoja de ruta",
+      "Flete",
+      "Licencia de conducir",
+      "Guía de Remisión de Transportista"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 4
+  },
+  {
+    "id": "a2562c240b8e68d2a3d1afaa26b0346bba72c89ef724a48d3ece73e6d19d78a8",
+    "slug": null,
+    "image": null,
+    "statement": "¿A partir de qué edad los menores de edad deben ocupar su propio asiento?",
+    "explanation": "Numeral 42.1.17 del artículo 42 del RENAT",
+    "alternatives": [
+      "A partir de los cinco (5) años de edad.",
+      "A partir de los tres (3) años de edad.",
+      "A partir de los siete (7) años de edad.",
+      "No edad mínima para que los menores de edad ocupen su propio asiento."
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 1
+  },
+  {
+    "id": "0500d8a2f1a5284a45a9ffbe80f8fe4b9c95becb629e5df0c3fbe5108c67c1a3",
+    "slug": null,
+    "image": null,
+    "statement": "De las entidades que se indican a continuación, ¿cuál de ellas no es una autoridad competente en materia de transporte y tránsito terrestre?",
+    "explanation": "Artículo 15 de la Ley General de Transporte y Tránsito Terrestre.",
+    "alternatives": [
+      "El Ministerio de Transportes y Comunicaciones.",
+      "Las municipalidades provinciales y distritales.",
+      "El Consejo Nacional de Seguridad Vial.",
+      "La Policía Nacional del Perú."
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 3
+  },
+  {
+    "id": "5706c83116104f8d08485976ed68ee365e605e05d30699bd6d9e0a6d32a63e31",
+    "slug": null,
+    "image": null,
+    "statement": "Para efectos de la jornada de conducción, ¿qué horario es considerado como nocturno?",
+    "explanation": "Numeral 30.3 del artículo 30 del RENAT",
+    "alternatives": [
+      "El comprendido entre las 9:00 p.m. y 6:00 a.m.",
+      "El comprendido entre las 10:00 p.m. y las 5:59 a.m.",
+      "El comprendido entre las 11:00 p.m. y las 5:59 a.m.",
+      "El comprendido entre las 11:00 p.m. y las 6:00 a.m."
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "540f9e11e2bfb8e69a6fc8c07b60bed942c5177b1afdb87b26b069b80b2d3849",
+    "slug": null,
+    "image": null,
+    "statement": "En las vías, las marcas en el pavimento que son del tipo central discontinua y de color amarillo significan que:",
+    "explanation": null,
+    "alternatives": [
+      "Está permitido cruzar al otro carril para el adelantamiento vehicular, si es que es seguro hacerlo",
+      "No está permitido cruzar al otro carril para el adelantamiento vehicular",
+      "Se está reduciendo el ancho de la calzada de la vía por donde se circula",
+      "Se está frente a un lugar de cruce peatonal"
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 1
+  },
+  {
+    "id": "65d1d1d4cc4425d4adc37b5fb64082f8eacdc83dd76aaeaa0c6812deeac9e054",
+    "slug": null,
+    "image": "/transito/rule-R-29.jpg",
+    "statement": "La siguiente señal vertical reglamentaria (R-29):",
+    "explanation": null,
+    "alternatives": [
+      "Prohíbe el uso de la bocina en vías urbanas.",
+      "Prohíbe el uso de la bocina en carreteras.",
+      "Prohíbe el uso de la bocina.",
+      "Prohíbe hacer ruido."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "6e4cd60b18fa3027a9a901cb821b6c50cd9409bbb0813c361a184ee7505f01b8",
+    "slug": null,
+    "image": null,
+    "statement": "Las luces intermitentes de emergencia del vehículo deben utilizarse obligatoriamente:",
+    "explanation": null,
+    "alternatives": [
+      "Para girar en las intersecciones y para advertir los cambios de carril.",
+      "Para indicar la detención, parada o estacionamiento en zona peligrosa o la ejecución de maniobras riesgosas.",
+      "Durante toda la circulación del vehículo.",
+      "En cada intersección."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "1ef4b706377201d5bf342ec0c69504aa75867063610b5c237e62bcc56b6669d8",
+    "slug": null,
+    "image": null,
+    "statement": "Son documentos que deben portarse obligatoriamente, durante la conducción del vehículo, y exhibirse cuando la autoridad competente lo solicite:",
+    "explanation": null,
+    "alternatives": [
+      "Documento de identidad, SOAT vigente (puede ser virtual) y tarjeta de identificación vehicular.",
+      "Certificado de Inspección Técnica Vehicular y contrato de compraventa del vehículo.",
+      "Contrato de compraventa del vehículo.",
+      "Todas las alternativas son correctas."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 1
+  },
+  {
+    "id": "21ab90da7a8e361a18739d844cebf1c86d5e5bcde5c1804920fcedd4c4738464",
+    "slug": null,
+    "image": null,
+    "statement": "¿Qué debe hacer si se aproxima a una intersección sin semáforo y sin presencia de la Policía de Tránsito, y observa que un peatón está cruzando por el paso peatonal?",
+    "explanation": null,
+    "alternatives": [
+      "Disminuir la velocidad y pasar con cuidado.",
+      "Detener el vehículo y ceder el paso al peatón.",
+      "Continuar porque usted tiene la prioridad.",
+      "Incrementar la velocidad para adelantar al cruce del peatón."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "65679a643e3693d60509265eaf51e43c2e20432f3305a165190469c8578bd90a",
+    "slug": null,
+    "image": null,
+    "statement": "Una línea blanca continua en el sentido longitudinal de una vía, que se coloca en el pavimento, le indica al conductor:",
+    "explanation": null,
+    "alternatives": [
+      "Que se puede adelantar, debido a que la línea no es amarilla continua.",
+      "Que está prohibido cruzar la línea y no hay excepciones.",
+      "Que está prohibido pasar al otro lado de la línea con algunas excepciones.",
+      "Que es zona de peatones."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "844323f8bf322a9d02419433eead5ffd62c6dffe29eb967f7bbd0eadfba9587a",
+    "slug": null,
+    "image": null,
+    "statement": "Mientras usted está conduciendo su vehículo automotor, ¿puede llevar sujeto a su auto al conductor de una bicicleta mientras éste la conduce?",
+    "explanation": null,
+    "alternatives": [
+      "Sí, siempre y cuando el conductor de la bicicleta se sujete a la parte posterior del auto, pero nunca a la parte lateral de éste.",
+      "Sí, siempre y cuando se prevean todas las medidas de seguridad respectivas",
+      "Sí, siempre y cuando esta acción sea realizada a una velocidad no mayor 20 km/h.",
+      "No, es una acción prohibida y quien la cometa puede ser sancionado con una multa."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 4
+  },
+  {
+    "id": "ddf1599c3d86fa2352779dbcf961bcc939beef470d4cc470e58b9484aaf948a9",
+    "slug": null,
+    "image": null,
+    "statement": "Señale cuáles de las siguientes conductas constituye una infracción al tránsito:",
+    "explanation": null,
+    "alternatives": [
+      "Tener la puerta, capot o maletera del vehículo abierta, cuando el vehículo está en marcha.",
+      "Conducir un vehículo lentamente por el carril de la izquierda causando congestión.",
+      "Conducir un vehículo con el motor en punto neutro o apagado.",
+      "Todas las alternativas son correctas."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 4
+  },
+  {
+    "id": "ef007fb3e5ac5904e16c643bb5c4c849c0f4867ef6602d1a43e3abaf40e6ca0b",
+    "slug": null,
+    "image": "/transito/rule-R-17.jpg",
+    "statement": "La siguiente señal (R-17), significa:",
+    "explanation": null,
+    "alternatives": [
+      "Prohibido estacionar.",
+      "Prohibida la circulación de vehículos automotores.",
+      "Prohibida la circulación de autos particulares.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "56a5f369b54fd3353b3bfb39e6f70331b8d41c27cd613ccd846b251a07674c75",
+    "slug": null,
+    "image": "/transito/rule-R-5-4.jpg",
+    "statement": "La siguiente señal (R-5-4), significa:",
+    "explanation": null,
+    "alternatives": [
+      "Que la vía no continúa y los conductores deben girar a la izquierda.",
+      "Que la intersección contempla giros tangentes a la izquierda en ambos sentidos.",
+      "Que la intersección está en mantenimiento y que por el momento solo se puede girar a la izquierda.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "0258b068a2db33d849369877a6725a87d285caca8d61c9c916e1e2f943e5ed61",
+    "slug": null,
+    "image": "/transito/rule-R-49.jpg",
+    "statement": "La siguiente señal (R-49), significa:",
+    "explanation": null,
+    "alternatives": [
+      "Está permitido cambiar de carril por la izquierda y por la derecha.",
+      "Se debe mantener la distancia de seguridad entre vehículos.",
+      "Está permitido cambiar de carril por la izquierda para adelantar.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "56993bb01b8ac60450ef78c8577466f83c267e64ec78e88bb3371fa2a22ef4b8",
+    "slug": null,
+    "image": "/transito/rule-P-60.jpg",
+    "statement": "La siguiente señal (P-60), es:",
+    "explanation": null,
+    "alternatives": [
+      "Una señal turística.",
+      "Una señal informativa.",
+      "Una señal preventiva.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "c7d8fe1d81cc92e457336c11e1ef962ea0df2c769e48b90f807836985ff72680",
+    "slug": null,
+    "image": "/transito/rule-P-66.jpg",
+    "statement": "La siguiente señal (P-66), le indica:",
+    "explanation": null,
+    "alternatives": [
+      "Que se aproxima un desierto.",
+      "Que se aproxima una zona donde hay ráfagas de viento lateral.",
+      "Que se acerca a una zona de arenamiento en la vía.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "a629bc6a1ca8a0cb2b21ed902cdc91d3f4db78335b5d88e2c1fb2272bbc57e77",
+    "slug": null,
+    "image": null,
+    "statement": "El conductor está ________ a _________ a las pruebas que le solicite el Efectivo de la Policía Nacional del Perú, asignado al control del tránsito, para determinar su estado de intoxicación por alcohol, drogas, estupefacientes u otros tóxicos.",
+    "explanation": null,
+    "alternatives": [
+      "En su derecho - negarse.",
+      "Facultado - Rechazar.",
+      "Obligado - someterse.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "eadb48663d11b86d59cb03830062c497046d8e5f31e2dc123999c3c2a4c4b2b9",
+    "slug": null,
+    "image": null,
+    "statement": "Ante un conductor con evidente discapacidad física, la cual no figura en el rubro de restricciones de su licencia de conducir, procede:",
+    "explanation": null,
+    "alternatives": [
+      "Que la Policía de Tránsito intervenga a dicho conductor y que la autoridad que expidió la licencia de conducir ordene su reexaminación.",
+      "Que la autoridad competente expida un permiso excepcional para dicho conductor.",
+      "Que la Policía de Tránsito expida un permiso excepcional para dicho conductor.",
+      "Que la Policía de Tránsito otorgue a dicho conductor un plazo prudencial para que continúe conduciendo."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 1
+  },
+  {
+    "id": "3aec74381154e7d3f07c30968e9cb6c9c8e8275a0c65832d8f8f1ccd6fa06eb8",
+    "slug": null,
+    "image": null,
+    "statement": "Marque la afirmación incorrecta:",
+    "explanation": null,
+    "alternatives": [
+      "Está prohibido arrojar, depositar o abandonar objetos en la vía pública, o cualquier otro obstáculo que pueda dificultar la circulación.",
+      "El conductor debe mantener el vehículo que conduce con el combustible necesario para evitar detenciones en la vía.",
+      "Los vehículos deben circular en vías urbanas con las luces bajas las 24 horas del día.",
+      "En caso de haber agua en la calzada, el conductor de un vehículo debe tomar las precauciones, para evitar que ésta pueda mojar la acera y los peatones."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "f7b750ab1b9601462ff3c7d5bd328cbd483efd3a4d9e01ff7bf6c0ff9855101b",
+    "slug": null,
+    "image": null,
+    "statement": "El uso de la luz ________ es obligatorio en ________, debiendo cambiar por luz ________ momentos previos al cruce con otro vehículo que circule en sentido contrario.",
+    "explanation": null,
+    "alternatives": [
+      "Baja - carreteras - alta.",
+      "Alta - vías urbanas - baja.",
+      "Rompenieblas - carreteras - baja.",
+      "Alta - carreteras - baja."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 4
+  },
+  {
+    "id": "0ce190f4b68c8a4fb2104fe00f65aa13995e99373fc3b0edd7fccbf9f3d06553",
+    "slug": null,
+    "image": null,
+    "statement": "Sobre la emisión vehicular de sustancias contaminantes, marque la opción correcta:",
+    "explanation": null,
+    "alternatives": [
+      "Está permitida.",
+      "Está prohibida, en un índice superior al límite máximo que permite la norma.",
+      "Está prohibida en el ámbito urbano.",
+      "La norma no regula sobre ello."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "b20c573dec1eb63316a9255cd714deda93355b9aff2e94f995ec5ac3c1aee09f",
+    "slug": null,
+    "image": "/transito/question-200.jpg",
+    "statement": "De acuerdo al siguiente gráfico, es correcto afirmar que:",
+    "explanation": null,
+    "alternatives": [
+      "La zona que permite adelantar inicia con las líneas amarillas continuas.",
+      "Los conductores pueden estacionarse al empezar las líneas continuas.",
+      "La zona de no adelantar inicia con las líneas amarillas continuas.",
+      "El conductor del camión puede estacionarse antes de empezar las líneas continuas."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "6df08cef17252f5191ab8970a41a597bfa455769ca4f90744e9e6c27098746e1",
+    "slug": null,
+    "image": null,
+    "statement": "Está prohibido en el transporte de materiales y residuos peligrosos:",
+    "explanation": "Conforme a lo establecido en el numeral 1 del artículo 65º del Reglamento aprobado por el Decreto Supremo N° 021-2008-MTC",
+    "alternatives": [
+      "Prestar apoyo en caso de una emergencia",
+      "Cargar y transportar materiales y/o residuos peligrosos, conjuntamente con alimentos, medicamentos u objetos destinados al uso humano y/o animal",
+      "Tener la Guía de Remisión-Remitente en el transporte",
+      "Todas las anteriores"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "a0ebdb16add58e09bfbd1d9a0041a0bac54fdb855403a51ebdfb2e8103ac7444",
+    "slug": null,
+    "image": null,
+    "statement": "En el transporte de materiales y residuos peligrosos, la municipalidad provincial es competente para:",
+    "explanation": "Conforme a lo establecido en el numeral 1 del artículo 9º del Reglamento aprobado por el Decreto Supremo N° 021-2008-MTC",
+    "alternatives": [
+      "Otorgar el permiso especial para el transporte terrestre de materiales y/o residuos peligrosos",
+      "Establecer los requisitos para el transporte",
+      "Fiscalizar a los conductores",
+      "Señalar las vías alternas para el tránsito de los vehículos y unidades de carga en los que se transporta materiales y/o residuos peligrosos"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 4
+  },
+  {
+    "id": "861478e9ced444287d0945e3e68409d603c345fc2d359b0dce7f07e318fd68fd",
+    "slug": null,
+    "image": null,
+    "statement": "La autoridad encargada de fiscalizar y sancionar al personal que interviene en la operación de transporte de materiales y residuos peligrosos es:",
+    "explanation": "Conforme al literal a) del numeral 2 del artículo 4 de la Ley 29380, Ley de Creación de la SUTRAN",
+    "alternatives": [
+      "Ministerio de Transportes y Comunicaciones",
+      "SUNAT",
+      "La Policía Nacional del Perú",
+      "Superintendencia de Transporte Terrestre de Personas, Carga y Mercancías- SUTRAN"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 4
+  },
+  {
+    "id": "6791867ee337a05a257e11ea8db14474003b22a85db048f74bd52f8dcca7e28c",
+    "slug": null,
+    "image": null,
+    "statement": "Al tanque utilizado para el almacenamiento y transporte de materiales en estado líquido o gaseoso se le denomina:",
+    "explanation": "Conforme a lo establecido en el numeral 4 del artículo 5º del Reglamento aprobado por el Decreto Supremo N° 021-2008-MTC",
+    "alternatives": [
+      "Cisterna",
+      "Convoy",
+      "Contenedor",
+      "Vehículo"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 1
+  },
+  {
+    "id": "45dbb51460be2fcacdeb883354b98cd3867928b9cbe059fc399c4af20867daf7",
+    "slug": null,
+    "image": null,
+    "statement": "¿Los vehículos de las categorías M2 destinados al servicio de transporte terrestre, M3 y N deben contar con láminas retroreflectivas?",
+    "explanation": "Artículo 14 del RNV",
+    "alternatives": [
+      "Solo los Vehículos M3.",
+      "Si",
+      "No es obligatorio.",
+      "Ninguna de las anteriores"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "a171c8e168ddef9ee4314acd862d83a038f40d7dc2e7ffb6d42377bc9fea22fb",
+    "slug": null,
+    "image": null,
+    "statement": "El rótulo que identifica al material peligroso como peróxidos orgánicos es:",
+    "explanation": "Conforme a lo señalado en la Clase 5, División 5.2 del numeral 5.2.2.2.2 del Libro Naranja de las Naciones Unidas - Volumen II",
+    "alternatives": [
+      {
+        "url": "/transito/IIIC/33-093.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/33-094.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/33-095.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/33-096.jpg",
+        "type": "imagen"
+      }
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "acef645b4d5c8ea35437b32bac57a930a09fc096ebc252daecc3bf49e80c7880",
+    "slug": null,
+    "image": null,
+    "statement": "Los documentos que se deben portar durante la prestación del servicio de transporte de Materiales peligrosos.",
+    "explanation": "Conforme a lo establecido en el artículo 63º del Reglamento MATPEL",
+    "alternatives": [
+      "Guía de remisión - remitente, Guía de remisión - transportista, Hoja resumen de seguridad, Certificado de habilitación vehicular expedido por la DGTT, Licencia de conducir de categoría especial del conductor, Copia del certificado del seguro obligatorio por accidentes de tránsito - SOAT, Copia de la póliza de seguro que señala el reglamento.",
+      "Guía de remisión – remitente, Guía de remisión – transportista, Certificado de habilitación vehicular expedido por la DGTT, Licencia de conducir de categoría especial del conductor, Copia del certificado del seguro obligatorio por accidentes de tránsito – SOAT",
+      "Guía de remisión – transportista, Hoja resumen de seguridad, Certificado de habilitación vehicular expedido por la DGTT, Licencia de conducir de categoría especial del conductor, Copia del certificado del seguro obligatorio por accidentes de tránsito – SOAT",
+      "Ninguna de las anteriores"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 1
+  },
+  {
+    "id": "f388515a8a64e79d9b966060ce34c04a2230624df0e7362e96e8c13794ba5b5f",
+    "slug": null,
+    "image": null,
+    "statement": "¿A cuál clase pertenecen los vehículos construidos exclusivamente para el transporte de pasajeros sentados?",
+    "explanation": "Anexo I del RNV",
+    "alternatives": [
+      "Clase I",
+      "Clase II",
+      "Clase III",
+      "Ninguna de las anteriores"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 3
+  },
+  {
+    "id": "d53e369e678744c189cea740d467fb000e5c851784f8b072c7b813abd104b090",
+    "slug": null,
+    "image": null,
+    "statement": "¿A qué se denomina un ómnibus biarticulado?",
+    "explanation": "Anexo I del RNV",
+    "alternatives": [
+      "Vehículo compuesto de tres secciones rígidas unidas entre sí por dos juntas articuladas permitiendo libre paso entre las secciones.",
+      "Vehículo compuesto de dos secciones rígidas unidas entre sí por una junta articulada permitiendo libre paso entre una sección y otra.",
+      "Vehículo con la carrocería monocasco autoportante a la cual se fija el conjunto direccional en la parte delantera y el conjunto del tren motriz en la parte posterior.",
+      "Ninguna de las anteriores."
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 1
+  },
+  {
+    "id": "4cad148d2136eed8b1c1d8f5552ac5c2a712da2eaf9819019f787e267810dc34",
+    "slug": null,
+    "image": null,
+    "statement": "¿Cuál es la potencia mínima de la luz baja?",
+    "explanation": "Anexo III del RNV",
+    "alternatives": [
+      "20W",
+      "10W",
+      "25w",
+      "55w"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 3
+  },
+  {
+    "id": "691f4484062408013596e1b18aa77828fae7ba148b53e186f8fbd86efc9c76db",
+    "slug": null,
+    "image": null,
+    "statement": "La licencia clase A categoría III C, permite conducir vehículos señalados en la categoría",
+    "explanation": "Artículo 9 del Reglamento de Licencias",
+    "alternatives": [
+      "I.",
+      "II.",
+      "III a y III b",
+      "Todas las anteriores"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 4
+  },
+  {
+    "id": "8a2a5d212ebd35532311e9901afb6a5d72ed147823823390f7d14407faddb5d4",
+    "slug": null,
+    "image": null,
+    "statement": "¿Qué instrumento es obligatorio para que la autoridad pueda controlar la velocidad de un bus interprovincial?",
+    "explanation": "A partir de la posición de dos puntos en un tiempo dado, se puede determinar la velocidad de un vehículo.",
+    "alternatives": [
+      "Velocímetro",
+      "GPS",
+      "Modem",
+      "Tacómetro"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "942b8ad9e56bc6290a38e53ecf2abe9ebb80589d24d33e17dea21748f55c860e",
+    "slug": null,
+    "image": null,
+    "statement": "Es la medida preventiva que consiste en el traslado del vehículo fuera de la vía pública dispuesto por la autoridad competente y/o PNP, utilizando cualquier medio eficaz y proporcional al fin que se persigue:",
+    "explanation": "Artículo 110 del RENAT",
+    "alternatives": [
+      "Remoción del vehículo.",
+      "Retención del vehículo.",
+      "Internamiento del vehículo.",
+      "Interrupción del viaje."
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 1
+  },
+  {
+    "id": "6b31d4a574918cedaf8a0a2f0c5bf9b9c38408778c8d973383ee6057d561f47b",
+    "slug": null,
+    "image": null,
+    "statement": "Qué sanción le corresponde al conductor que presta el servicio sin contar con autorización otorgada por la autoridad competente o en una modalidad o ámbito diferente al autorizado?",
+    "explanation": "Código F1 del Anexo 2 del RENAT",
+    "alternatives": [
+      "Multa de 1 UIT",
+      "Multa de 2 UIT",
+      "Multa de 0.5 UIT",
+      "Multa de 0.05 UIT"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 1
+  },
+  {
+    "id": "044f20733feb98e924517499a691cf72ab03df8d1e432b95ce8ab08d51f58948",
+    "slug": null,
+    "image": null,
+    "statement": "Según el Reglamento Nacional de Administración de Transporte, se considera reincidencia a aquel que es sancionado, por la misma infracción____________________que amerite una sanción pecuniaria, por la que fue sancionado dentro de los doce (12) meses anteriores.",
+    "explanation": "Numeral 104.1 del artículo 104",
+    "alternatives": [
+      "Muy grave.",
+      "Grave.",
+      "Muy grave o grave.",
+      "Muy grave, grave o leve."
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 3
+  },
+  {
+    "id": "bd44031646c7b577f3afb6c4cbf66eaae0e8ff30d80c97f890c91705fa883eaa",
+    "slug": null,
+    "image": null,
+    "statement": "¿Qué tipos de condiciones deben cumplir quienes prestan un servicio de transporte de personas o de mercancías?",
+    "explanation": "Artículo 21, 37 y 41 del RENAT",
+    "alternatives": [
+      "Técnicas, legales y contractuales.",
+      "Técnicas, legales y de operación.",
+      "Legales, normativas y contractuales.",
+      "Operación, normativas específicas y generales."
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "0e2ff3723c073b18c2525b1a406e7634a934b00507ee645993c1a72c228b735c",
+    "slug": null,
+    "image": null,
+    "statement": "Es el servicio de transporte de personas y de mercancías en un vehículo autorizado para este tipo de transporte:",
+    "explanation": "Numeral 3.69 del artículo 3 del RENAT",
+    "alternatives": [
+      "Servicio de transporte estándar.",
+      "Servicio de transporte mixto.",
+      "Servicio de transporte diferenciado.",
+      "Ninguna de las anteriores."
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "06468d677fc0693ef2fd06b8918fa9da4240fe093595b706a036735f13d16de0",
+    "slug": null,
+    "image": null,
+    "statement": "Las sanciones por las infracciones al servicio de transporte se encuentran comprendidas en:",
+    "explanation": "Artículo 100 y Anexo 1 y 2 del RENAT",
+    "alternatives": [
+      "El Reglamento Nacional de Administración de Transporte.",
+      "El Texto Único Ordenado del Reglamento Nacional de Tránsito - Código de Tránsito.",
+      "El Reglamento Nacional de Inspecciones Técnicas Vehiculares.",
+      "Todas las anteriores."
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 1
+  },
+  {
+    "id": "255ff3f8041c46bdc45299c8ef7c467d5e0ae3f1303fd8e91c3a0c3f32ec79e8",
+    "slug": null,
+    "image": null,
+    "statement": "Está permitido en la vía:",
+    "explanation": null,
+    "alternatives": [
+      "Recoger o dejar pasajeros o carga en cualquier lugar",
+      "Dejar animales sueltos o situarlos de forma tal que obstaculicen solo un poco el tránsito",
+      "Recoger o dejar pasajeros en lugares autorizados",
+      "Ejercer el comercio ambulatorio o estacionario"
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "699f2e4c6859573c7448658573ded58b0b081841e3067bc48e23d8ecd0713e4c",
+    "slug": null,
+    "image": null,
+    "statement": "Se le impondrá el pago de una multa y no podrá obtener la licencia de conducir por 3 años a la persona que:",
+    "explanation": null,
+    "alternatives": [
+      "Conduzca un vehículo automotor sin tener licencia de conducir.",
+      "Conduzca un vehículo que no cuente con el equipamiento para brindar una máxima comodidad a sus ocupantes.",
+      "Conduzca un vehículo sin contar con el SOAT.",
+      "a) y c) son correctas"
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 1
+  },
+  {
+    "id": "20571d043ca4bf7019f03ac7cc25470d28b16a6e79460c9161379b5e7fb19831",
+    "slug": null,
+    "image": null,
+    "statement": "Si la licencia de conducir no se encuentra vigente, los vehículos que autoriza a conducir dicha licencia:",
+    "explanation": null,
+    "alternatives": [
+      "No podrán ser conducidos.",
+      "Podrán ser conducidos únicamente en zonas urbanas.",
+      "Podrán ser conducidos hasta por 90 días posteriores a la pérdida de vigencia de la licencia.",
+      "Podrán ser conducidos con normalidad hasta que renueve su licencia."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 1
+  },
+  {
+    "id": "3f5d9e6e2ce79bc6b4733d3c52bb0a441e5632315c75f45c7a921c6625f52382",
+    "slug": null,
+    "image": null,
+    "statement": "Si una fila de escolares cruza la calzada fuera del crucero peatonal, ¿qué acción se debe tomar?",
+    "explanation": null,
+    "alternatives": [
+      "Advertir con el claxon.",
+      "Advertir a viva voz.",
+      "Parar y ceder el paso.",
+      "Continuar la marcha lentamente."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "ce3808907f97c79cfb0bf173fb94b5977ba2ea0725f76189f03c04ac55794b65",
+    "slug": null,
+    "image": null,
+    "statement": "Sobre el uso de la bocina del vehículo, es correcto afirmar que:",
+    "explanation": null,
+    "alternatives": [
+      "El conductor debe tratar de no utilizar la bocina para llamar la atención en forma innecesaria.",
+      "El uso de la bocina para llamar la atención en forma innecesaria no es una infracción al tránsito.",
+      "El conductor únicamente debe utilizar la bocina para evitar situaciones peligrosas.",
+      "a y b son correctas."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "6ef778f361488ce97d16e2b11d6d7c7d801fd6ff13e9550af4b0bff674bf48dc",
+    "slug": null,
+    "image": "/transito/rule-R-11A.jpg",
+    "statement": "Si usted circula por una vía y se encuentra con la señal (R-11a), esta le indica:",
+    "explanation": null,
+    "alternatives": [
+      "Que es una vía de tres carriles de un solo sentido.",
+      "Que es una vía de tres carriles y usted puede utilizar solo uno de ellos.",
+      "Que es una vía de tres carriles y usted puede utilizar los dos de la derecha.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "ca72ec5d1a550ce13e93ea9334cf259f8f8fbe1a62eb9efbe07f6ef358d4a1a3",
+    "slug": null,
+    "image": "/transito/rule-R-30C.jpg",
+    "statement": "La siguiente señal (R-30c), significa:",
+    "explanation": null,
+    "alternatives": [
+      "Que la velocidad máxima de la vía es de 50 km/h.",
+      "Que la velocidad mínima de la vía es de 50 km/h.",
+      "Que al salir de la vía por donde está circulando, la velocidad máxima es 50 km/h.",
+      "Que al salir de la vía por donde está circulando, la velocidad mínima es 50 km/h."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "dcba20826b3797bedac15c171739b51fbe072d058bf283e769536231fa848e7d",
+    "slug": null,
+    "image": "/transito/rule-P-61.jpg",
+    "statement": "La siguiente señal (P-61), le advierte al conductor que:",
+    "explanation": null,
+    "alternatives": [
+      "El sentido del tránsito es el que indica la flecha.",
+      "Se aproxima a una reducción de la vía en ambos sentidos.",
+      "Está circulando por una curva horizontal.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "91c05fd848a276ada77af2bac7895cd8d21ac631ec28b4894caa70c37e54cd7d",
+    "slug": null,
+    "image": "/transito/rule-P-49.jpg",
+    "statement": "La siguiente señal (P-49), indica:",
+    "explanation": null,
+    "alternatives": [
+      "Zona escolar.",
+      "Proximidad a un cruce peatonal.",
+      "Zona transitada.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 1
+  },
+  {
+    "id": "f502306d9d0fbdb91ff16d695a54f454fa1e82c19ffe249fc173673dbbe9868f",
+    "slug": null,
+    "image": "/transito/rule-P-50.jpg",
+    "statement": "La siguiente señal (P-50), indica:",
+    "explanation": null,
+    "alternatives": [
+      "Zona de deportes.",
+      "Proximidad a campo deportivo.",
+      "Proximidad a zona urbana.",
+      "Niños jugando."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 4
+  },
+  {
+    "id": "6d96ce1b5ad9c981e3a5ec5b87af2e2da25e238c3e034aedab471b661e868c9f",
+    "slug": null,
+    "image": "/transito/rule-P-58.jpg",
+    "statement": "La siguiente señal (P-58), le indica:",
+    "explanation": null,
+    "alternatives": [
+      "Que usted se aproxima a una señal de PARE.",
+      "Que usted debe parar donde está la señal P-58.",
+      "Que se trata de un PARE, pero puede seguir adelante.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 1
+  },
+  {
+    "id": "ac440fac25b6fe3c4d639b4d8e961a0b159b30389ba1e406a746ce013440e824",
+    "slug": null,
+    "image": "/transito/rule-I-14.jpg",
+    "statement": "La siguiente señal (I-14), significa:",
+    "explanation": null,
+    "alternatives": [
+      "Señal de hostal.",
+      "Señal de hospedaje.",
+      "Señal de hospital.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "5d2ec8c13e16d4cf1cda53ace10067a8c52c02c350807a7e90bf76cfc09a763f",
+    "slug": null,
+    "image": "/transito/rule-R-16A.jpg",
+    "statement": "La siguiente señal (R-16a), se utiliza para indicar:",
+    "explanation": null,
+    "alternatives": [
+      "Fin de la restricción de circulación de automotores.",
+      "Fin de la restricción de prohibido adelantar.",
+      "Fin de la restricción de circulación en doble sentido.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "8a06a40bbdf4ba5d411346c1cdedeb2865c491ccad56cc1ee8868636d680ccb2",
+    "slug": null,
+    "image": null,
+    "statement": "Si usted es titular de una licencia particular A-I, está autorizado a conducir el siguiente vehículo:",
+    "explanation": null,
+    "alternatives": [
+      "Camión, tipo volquete.",
+      "Ómnibus, tipo panorámico.",
+      "Mototaxi.",
+      "Automóvil, tipo sedán."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 4
+  },
+  {
+    "id": "c0dd22d64032991f02cfd6408003eb3ec00e889e95c5339d07640dc845c523b7",
+    "slug": null,
+    "image": null,
+    "statement": "Las clases de materiales peligrosos son:",
+    "explanation": "Conforme a lo establecido en el artículo 15º del Reglamento MATPEL",
+    "alternatives": [
+      "5 clases",
+      "9 clases",
+      "2 clases",
+      "3 clases"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "d0a50371292d3bb6a783a46dd1216f080d7d3bbe3f299943bc19a361bb9f1f62",
+    "slug": null,
+    "image": null,
+    "statement": "El conductor deberá contar con la capacitación especializada sobre el manejo de materiales y residuos peligrosos cuando el transporte se realice:",
+    "explanation": "Conforme a lo establecido en el literal a) del numeral 1 del artículo 26º del Reglamento aprobado por el Decreto Supremo N° 021-2008-MTC",
+    "alternatives": [
+      "Transporte en Cisterna",
+      "Transporte de materiales y residuos peligros clase 2 y 3",
+      "Transporte de materiales y residuos peligros clase 2 y 9",
+      "Todas las anteriores"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 1
+  },
+  {
+    "id": "e245efb5533208cbfdabe81fbd5ce0b6b5dc5ef6b96191987d2afa2447aec327",
+    "slug": null,
+    "image": null,
+    "statement": "Es considerado como uno de los requisitos para la obtención de la licencia de conducir de categoría especial",
+    "explanation": "Conforme a lo establecido en el numeral 3 del artículo 51º del Reglamento aprobado por el Decreto Supremo N° 021-2008-MTC",
+    "alternatives": [
+      "Copia de certificado de capacitación en Manejo Defensivo",
+      "Copia de certificado de estudios que acredite contar con secundaria completa",
+      "Copia certificada de constancia de trabajo",
+      "Todas las anteriores"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "48e974735fa4baf4dded8ba8eb22471e15a77d567df7072880999787c4078d79",
+    "slug": null,
+    "image": null,
+    "statement": "La actualización de la capacitación básica para el personal que interviene en la operación del transporte terrestre de materiales y/o residuos peligrosos se realizará cada:",
+    "explanation": "Conforme a lo establecido en el numeral 2 del artículo 25º del Reglamento aprobado por el Decreto Supremo N° 021-2008-MTC",
+    "alternatives": [
+      "1 año",
+      "2 años",
+      "3 años",
+      "Ninguna de las anteriores"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 3
+  },
+  {
+    "id": "fa3e183a7c001542f3b49dc6e86f2d81a41892079f1354c4dea39a8cb1579cf0",
+    "slug": null,
+    "image": null,
+    "statement": "Es requisito para obtener la licencia de categoría especial:",
+    "explanation": "Conforme a lo establecido en el numeral 4 del artículo 51º del Reglamento aprobado por el Decreto Supremo N° 021-2008-MTC",
+    "alternatives": [
+      "El certificado domiciliario",
+      "La partida de nacimiento",
+      "Copia del certificado de examen médico psicosomático apto",
+      "Ninguna de las anteriores"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 3
+  },
+  {
+    "id": "0f26f81e62ef815e32cc4f2edd9fad1995a270234062ddb85bf826024693aeaa",
+    "slug": null,
+    "image": null,
+    "statement": "El rótulo que identifica al material peligroso como explosivo es :",
+    "explanation": "Conforme a lo señalado en las Divisiones 1.1., 1.2 y 1.3 - Clase I, del numeral 5.2.2.2.2 del Libro Naranja de las Naciones Unidas - Volumen II",
+    "alternatives": [
+      {
+        "url": "/transito/IIIC/28-073.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/28-074.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/28-075.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/28-076.jpg",
+        "type": "imagen"
+      }
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 4
+  },
+  {
+    "id": "5b10c87b7a651f90a8b4bd60516ac0702e57d08417a055eb595671e2500a1240",
+    "slug": null,
+    "image": null,
+    "statement": "Los rótulos que identifican al material peligrosos como sólido inflamable son:",
+    "explanation": "Conforme a lo señalado en la Clase 4, División 4.1, 4.2, 4.3 y 4.4 del numeral 5.2.2.2.2 del Libro Naranja de las Naciones Unidas - Volumen II",
+    "alternatives": [
+      {
+        "url": "/transito/IIIC/31-085.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/31-086.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/31-087.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/31-088.jpg",
+        "type": "imagen"
+      }
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 1
+  },
+  {
+    "id": "8c661aa5b001d85a59b20a705f9c8fca3d75f191bcbf9e44b4725a0efd3f317b",
+    "slug": null,
+    "image": null,
+    "statement": "El rótulo que identifica al material peligroso como corrosivo es:",
+    "explanation": "Conforme a lo señalado en la Clase 8 del numeral 5.2.2.2.2 del Libro Naranja de las Naciones Unidas - Volumen II",
+    "alternatives": [
+      {
+        "url": "/transito/IIIC/37-109.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/37-110.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/37-111.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/37-112.jpg",
+        "type": "imagen"
+      }
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "7949dbe516c0b42e1de9910856db8026c1387b06ca770ed0f4a9d006008ac4fb",
+    "slug": null,
+    "image": null,
+    "statement": "¿Cuál es la definición que corresponde a la carrocería, de acuerdo al Reglamento Nacional de Vehículos?",
+    "explanation": "Anexo II del RNV",
+    "alternatives": [
+      "Estructura básica del vehículo, compuesta por el bastidor, el tren motriz, suspensión, dirección, ejes, ruedas y otras partes mecánicas relacionadas.",
+      "Estructura que se instala sobre el chasis o estructura autoportante, para el transporte de personas y/o mercancías.",
+      "Elemento mecánico que sirve de soporte del vehículo, aloja a las ruedas y permite la movilidad del mismo.",
+      "Estructura básica del vehículo, que sirve de soporte del vehículo y se instala con el chasis."
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "20d51cd1cb5ece45a811d0fdd8928bd3815c7c90355d7c56ea404267ed80f669",
+    "slug": null,
+    "image": null,
+    "statement": "¿A qué se le denomina Peso Bruto Vehicular Legal?",
+    "explanation": "Anexo II del RNV",
+    "alternatives": [
+      "Peso total del vehículo incluyendo tara más capacidad de carga legal.",
+      "Peso total del vehículo determinado por el fabricante.",
+      "Peso del vehículo incluyendo tara y capacidad de carga.",
+      "Ninguna de los anteriores"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 1
+  },
+  {
+    "id": "6a7fe0a96c441a8f0f1b6f77d054b597a7957a33e0f77aaec4fdaf239bccbefc",
+    "slug": null,
+    "image": null,
+    "statement": "Es la entidad encargada de supervisar, fiscalizar y sancionar las actividades del transporte terrestre de personas, carga y mercancías en el ámbito nacional:",
+    "explanation": "Ley 29380 y su Reglamento, aprobado por Decreto Supremo 033-2009-MTC.",
+    "alternatives": [
+      "La Superintendencia de Transporte Terrestre de Personas, Carga y Mercancías-SUTRAN",
+      "La Dirección General de Transporte Terrestre del Ministerio de Transportes y Comunicaciones.",
+      "El Organismo Supervisor de la Inversión en Infraestructura de Transporte de uso Público (OSITRAN).",
+      "Las alternativas a) y b) son correctas."
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 1
+  },
+  {
+    "id": "b9b04ea112f563efa914916f0740fca73f84223b9b4450c3688ddb54bcca93cc",
+    "slug": null,
+    "image": null,
+    "statement": "La hoja de ruta electrónica se debe elaborar",
+    "explanation": "Numeral 30.3 del artículo 30 del RENAT",
+    "alternatives": [
+      "Al culminar el servicio de transporte terrestre.",
+      "Durante el servicio de transporte terrestre, que incluye la relación de pasajeros.",
+      "Antes del inicio del servicio de transporte terrestre.",
+      "Durante la venta del pasaje al usuario."
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 3
+  },
+  {
+    "id": "2ffd672bfbabf72daa36afbe29a3ca8f6009ce38eab4327603a48f970ef705c1",
+    "slug": null,
+    "image": null,
+    "statement": "¿La luz intermitente roja es igual que una señal de PARE?",
+    "explanation": null,
+    "alternatives": [
+      "Verdad.",
+      "Es verdad siempre y cuando también se encuentre un Policía de Tránsito indicando la señal de Pare.",
+      "Falso.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 1
+  },
+  {
+    "id": "a1a97c5486e168311255ad91617445940ddbdb336bd7ed5ace681cde0a3f23d3",
+    "slug": null,
+    "image": null,
+    "statement": "Para girar o cambiar de carril hacia la derecha, el conductor debe utilizar las luces direccionales y, en casos de fuerza mayor, la siguiente señal manual:",
+    "explanation": null,
+    "alternatives": [
+      "Brazo, antebrazo izquierdo y mano extendidos hacia arriba fuera del vehículo.",
+      "Antebrazo izquierdo y mano extendidos hacia abajo fuera del vehículo, formando un ángulo recto con el brazo.",
+      "Brazo, antebrazo derecho y mano extendidos hacia afuera del vehículo",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "f06d22108838dcdcf3d1dca40132365cb306d9fa9e35225508d8c4e4861dc932",
+    "slug": null,
+    "image": null,
+    "statement": "¿A partir de qué año de antigüedad debe realizarse la inspección técnica de un vehículo particular para transporte de personas de hasta 9 asientos incluido el conductor de la categoría M1?",
+    "explanation": null,
+    "alternatives": [
+      "A partir del segundo año contado desde el año siguiente de su fabricación.",
+      "A partir del cuarto año contado desde el año siguiente de su fabricación.",
+      "A partir del quinto año contado desde el año siguiente de su fabricación.",
+      "No está sujeto a inspección técnica."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "6103aabb2e6fe8159df1939ee028ebd2ea56222fcace92385633c715b01e2a8e",
+    "slug": null,
+    "image": null,
+    "statement": "¿Qué debería hacer el conductor al acercarse a una señal de “CEDA EL PASO” en una intersección?",
+    "explanation": null,
+    "alternatives": [
+      "Ceder el paso a los vehículos de emergencia.",
+      "Mantener la velocidad y avanzar con cuidado.",
+      "Disminuir la velocidad, parar si es necesario y ceder el paso a los peatones o vehículos que circulan por la vía transversal.",
+      "Parar totalmente y luego avanzar con cuidado."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "92b79c83c5679c78e614dc8e53c293c6182facf15cfabb4fb5d0b3916d67660a",
+    "slug": null,
+    "image": null,
+    "statement": "Si en una vía de dos carriles con tránsito en un mismo sentido usted se desplaza lentamente en su vehículo, debe circular por el carril de la _________ y los vehículos que circulen a mayor velocidad deben hacerlo por el carril de la _________.",
+    "explanation": null,
+    "alternatives": [
+      "Izquierda / Derecha.",
+      "Derecha / Derecha.",
+      "Derecha / Izquierda.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "ad2c90709e1cbaab156eacbea3d424b349b8dfee9d264dd2de2191806f3e91fb",
+    "slug": null,
+    "image": null,
+    "statement": "La acción correcta al abastecer de combustible su vehículo, es:",
+    "explanation": null,
+    "alternatives": [
+      "Asegurarse de que todos los pasajeros permanezcan a bordo del vehículo.",
+      "Abstenerse de fumar tanto el conductor como sus acompañantes.",
+      "Mantener encendido el motor del vehículo.",
+      "Todas las alternativas son correctas."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "6646c4ff077acf2a7544165f87f2ca36098268ff393354459d179a735c605790",
+    "slug": null,
+    "image": null,
+    "statement": "Las marcas en el pavimento de color ______ complementan las señales informativas, como por ejemplo las zonas de estacionamiento para personas con movilidad reducida.",
+    "explanation": null,
+    "alternatives": [
+      "Blanco.",
+      "Azul.",
+      "Rojo.",
+      "Gris."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "bee634388f6a7206adb7e4bf1a67a91c1c1371fd99b3aa693cf6b8e48f983992",
+    "slug": null,
+    "image": "/transito/rule-P-34.jpg",
+    "statement": "La siguiente señal (P-34), le advierte al conductor que:",
+    "explanation": null,
+    "alternatives": [
+      "La vía está en mal estado y tiene baches.",
+      "Se aproxima a un resalto.",
+      "Se aproxima a un rompe muelles.",
+      "Se aproxima a un badén."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 4
+  },
+  {
+    "id": "3f90489a5b3c544800e5197a46193b7531922cff6d768ad171e4b72123cc2a12",
+    "slug": null,
+    "image": "/transito/rule-P-53.jpg",
+    "statement": "La siguiente señal (P-53), indica:",
+    "explanation": null,
+    "alternatives": [
+      "Proximidad a un establo.",
+      "Proximidad a zona agrícola.",
+      "Animales en la vía.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "158de7ead949e251358054a2eefb7776cce0b7a3456f233a8a118393c6dbcdb8",
+    "slug": null,
+    "image": "/transito/rule-I-19.jpg",
+    "statement": "La siguiente señal (I-19), se utiliza para indicar:",
+    "explanation": null,
+    "alternatives": [
+      "Cercanía a un servicio mecánico.",
+      "Cercanía a una tienda.",
+      "Cercanía a un grifo.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 3
+  },
+  {
+    "id": "9d0960247a90f5f927003dcd8ec5c8a8d6cbb6843591bfbceb951b10b1fb679d",
+    "slug": null,
+    "image": null,
+    "statement": "Es una obligación general de tránsito que, los _________ circulen respetando los mensajes de _________, las instrucciones de los Efectivos de la Policía de Tránsito y el mandato de las normas legales y reglamentarias correspondientes.",
+    "explanation": null,
+    "alternatives": [
+      "Peatones - los letreros instalados en las vías públicas.",
+      "Los usuarios de la vía pública - los dispositivos de control de tránsito.",
+      "Vehículos - los medios de comunicación.",
+      "Menores de edad - los adultos mayores."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "cf9a5b83892dcdcd533c37377092af1bffe54b33c17fb66949809598d0715dd2",
+    "slug": null,
+    "image": null,
+    "statement": "Sobre la conducción en retroceso, marque la opción correcta:",
+    "explanation": null,
+    "alternatives": [
+      "Está prohibida, salvo en casos estrictamente justificados.",
+      "Nunca debe realizarse.",
+      "Está permitida.",
+      "Está permitida, salvo en carreteras."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 1
+  },
+  {
+    "id": "8c43f3593e4afa2c704c2964a8cbfb79ac532973fc48d46ba807e3c75bad0653",
+    "slug": null,
+    "image": null,
+    "statement": "Ciclista es a ciclovía como:",
+    "explanation": null,
+    "alternatives": [
+      "Conductor - acera.",
+      "Conductor - calzada.",
+      "Conductor - berma.",
+      "Peatón - autopista."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 2
+  },
+  {
+    "id": "950cd927b2326ca4831f012ef52258c5975c6bb4086f8b75142cedfad7ff8591",
+    "slug": null,
+    "image": "/transito/rule-P-15.jpg",
+    "statement": "La siguiente señal (P-15), se utiliza para advertir al conductor:",
+    "explanation": null,
+    "alternatives": [
+      "La proximidad a una vía de tres carriles.",
+      "La proximidad a un huracán.",
+      "La proximidad a un camino sinuoso.",
+      "La proximidad de una intersección rotatoria (óvalo o rotonda)."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 4
+  },
+  {
+    "id": "40a6a26b1562f2c8f78444f2d497dd3db02af4f9e89037620fdfa8b8c75f25bb",
+    "slug": null,
+    "image": null,
+    "statement": "¿Influye la somnolencia en la capacidad de conducir?",
+    "explanation": null,
+    "alternatives": [
+      "Sí, pues el conductor tomará decisiones lentas que lo inducirán a cometer errores.",
+      "Sí, ya que el conductor está de mal genio.",
+      "No, siempre que la conducción sea realizada lentamente.",
+      "No, siempre y cuando la conducción sea realizada con un acompañante."
+    ],
+    "questionType": "GENERAL",
+    "correctAnswer": 1
+  },
+  {
+    "id": "9524089abeff0db68647ef0298c45ca69e9d615d6e3cf8103ff03271aae4d57c",
+    "slug": null,
+    "image": null,
+    "statement": "Según el Reglamento, el material peligroso se identificará por:",
+    "explanation": "Conforme a lo establecido en el artículo 17º del Reglamento aprobado por el Decreto Supremo N° 021-2008-MTC",
+    "alternatives": [
+      "El número indicado en la lista de mercancías peligrosas del Libro Naranja de las Naciones Unidas.",
+      "El nombre consignado por el fabricante.",
+      "El documento que emite el transportista",
+      "La clase 1, explosivos"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 1
+  },
+  {
+    "id": "5b56e4e015af836175fed13bfacf40f10c2f97ba779152a33770693813b827b0",
+    "slug": null,
+    "image": null,
+    "statement": "El rótulo que identifica al material peligroso como sustancias y objetos varios, incluido las sustancias peligrosas para el medio ambiente es:",
+    "explanation": "Conforme a lo señalado en la Clase 9 del numeral 5.2.2.2.2 del Libro Naranja de las Naciones Unidas - Volumen II",
+    "alternatives": [
+      {
+        "url": "/transito/IIIC/38-113.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/38-114.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/38-115.jpg",
+        "type": "imagen"
+      },
+      {
+        "url": "/transito/IIIC/38-116.jpg",
+        "type": "imagen"
+      }
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "ddf984f52c825c9c2322432358d53de2e7ac604993bf2c29287acf96fdae0e23",
+    "slug": null,
+    "image": null,
+    "statement": "Dirige la atención de emergencias o accidentes ocurridos durante el transporte de materiales y residuos peligrosos.",
+    "explanation": "Conforme a lo establecido en el numeral 1 del artículo 14º del Reglamento aprobado por el Decreto Supremo N° 021-2008-MTC",
+    "alternatives": [
+      "Las municipalidades provinciales",
+      "El Ministerio de Salud",
+      "El Cuerpo General de Bomberos Voluntarios del Perú",
+      "El Ministerio de Transportes y Comunicaciones"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 3
+  },
+  {
+    "id": "fc6a46dc452780ebfe87367b185a5638154d020b7205d3dd766adc09f80d5532",
+    "slug": null,
+    "image": null,
+    "statement": "¿Qué porcentaje como mínimo de transparencia debe tener los parabrisas de vidrio de seguridad?",
+    "explanation": "Artículo 14 del RNV",
+    "alternatives": [
+      "50%",
+      "70%",
+      "80%",
+      "60%"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "97714c567a0addafe3a31b3793eb4b1f9caf020a6539f62c9395c844d4623b06",
+    "slug": null,
+    "image": null,
+    "statement": "¿Cuál es porcentaje general para la tolerancia por eje o conjunto de ejes?",
+    "explanation": "Artículo 38 del RNV",
+    "alternatives": [
+      "3%",
+      "5%",
+      "8%",
+      "4%"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "7566c138a54fbfbcd5d422ed50a170c2c173e8056c2b5ceb3d24ee6999471e68",
+    "slug": null,
+    "image": null,
+    "statement": "¿Cuál es la sanción al conductor por incurrir en supuestos de habitualidad por segunda vez?",
+    "explanation": "Artículo 61 del RNV",
+    "alternatives": [
+      "Suspensión de la licencia de conducir por un período de seis (6) meses",
+      "Suspensión de la licencia de conducir por un período de un (1) año",
+      "Cancelación de la licencia e inhabilitación definitiva para obtener una nueva",
+      "El doble de la multa que corresponda a la infracción"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 2
+  },
+  {
+    "id": "e96ec9a4ba6f7de5dfa140620cfa21664ff4062d45b30daa2640401eb9597d30",
+    "slug": null,
+    "image": null,
+    "statement": "¿A qué se le denomina Peso Bruto Vehicular?",
+    "explanation": "Anexo II del RNV",
+    "alternatives": [
+      "Peso total del vehículo incluyendo tara más capacidad de carga legal.",
+      "Peso total del vehículo incluyendo la tara pero no la capacidad de carga.",
+      "Peso total del vehículo determinado por el fabricante que incluye la tara y la capacidad de carga.",
+      "Ninguna de los anteriores"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 3
+  },
+  {
+    "id": "a14c5248c290b1540551f9fa7113021c89584e60c548223a8158396e63a045b7",
+    "slug": null,
+    "image": null,
+    "statement": "¿Cuál es la profundidad mínima en las ranuras principales situadas en la zona central de la banda de rodamiento del neumático para un vehículo de categoría N3?",
+    "explanation": "Anexo III del RNV",
+    "alternatives": [
+      "2.0mm",
+      "1.6mm",
+      "0.8mm",
+      "1.8mm"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 1
+  },
+  {
+    "id": "29afc5f040562ac9c7c980f383c82aa8af5103d7bdcdc3e3fb05f196a47b5825",
+    "slug": null,
+    "image": null,
+    "statement": "¿Cuál es la tolerancia del peso bruto vehicular máximo?",
+    "explanation": "Artículo 38 del RNV",
+    "alternatives": [
+      "2%",
+      "5%",
+      "3%",
+      "8%"
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 3
+  },
+  {
+    "id": "39495396dc5be27b4f83fe58a2e42dd180745d90b82ec4dec98ff0fb905f9877",
+    "slug": null,
+    "image": null,
+    "statement": "En el servicio de transporte la vigencia de la habilitación del conductor es ….y de renovación automática una vez acreditada la vigencia de la licencia de conducir de la categoría correspondiente al vehículo habilitado",
+    "explanation": "Numeral 71.4 del artículo 71 del RENAT",
+    "alternatives": [
+      "Anual.",
+      "Cada dos años.",
+      "Cada cinco años.",
+      "Ninguna de las anteriores."
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 1
+  },
+  {
+    "id": "cd83ff847275b3b68be506c2f03dd275f3443ba50252be081c7e276c959cc668",
+    "slug": null,
+    "image": null,
+    "statement": "Con relación a las jornadas de conducción. Marque la alternativa correcta:",
+    "explanation": "Numeral 30.2 del artículo 30 del RENAT",
+    "alternatives": [
+      "No debe exceder las cinco (5) horas de conducción continuas en el servicio diurno, ni las cuatro (4) horas en el servicio nocturno.",
+      "No debe exceder las cuatro (4) horas de conducción continuas en el servicio diurno, ni las cuatro (5) horas en el servicio nocturno.",
+      "No debe exceder las cinco (5) horas de conducción continuas en el servicio diurno, ni las cuatro (4.5) horas en el servicio nocturno.",
+      "No debe exceder las cuatro (4) horas de conducción continuas en el servicio diurno, ni las tres (3) horas en el servicio nocturno."
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 1
+  },
+  {
+    "id": "49530e671b6ddff93cc961f3c4e8d2e65b9b169c8391db8fe282f54a975a7c51",
+    "slug": null,
+    "image": null,
+    "statement": "¿En qué momento se debe elaborar la Hoja de ruta electrónica?",
+    "explanation": "Numeral 81.2 del artículo 81 del RENAT",
+    "alternatives": [
+      "Al culminar el servicio de transporte terrestre.",
+      "Durante el servicio de transporte terrestre, que incluye la relación de pasajeros.",
+      "Antes del inicio del servicio de transporte terrestre.",
+      "Durante la venta del pasaje al usuario."
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 3
+  },
+  {
+    "id": "68e26d9e7fc369a5714563d9a0ee8c90b9e0e4a00231d7edd721c34904f8a18b",
+    "slug": null,
+    "image": null,
+    "statement": "Los medios probatorios que sustentan los incumplimientos y las infracciones son:",
+    "explanation": "Artículo 94 del RENAT",
+    "alternatives": [
+      "El acta de control levantada por el inspector de transporte.",
+      "El documento por el que se da cuenta de la detección de algún incumplimiento o infracción en la fiscalización de gabinete.",
+      "Las actas de inspecciones, constataciones, ocurrencias, formularios y similares levantados por otras instituciones en el ejercicio de sus funciones.",
+      "Todas las anteriores."
+    ],
+    "questionType": "SPECIFIC",
+    "correctAnswer": 4
+  }
+]
