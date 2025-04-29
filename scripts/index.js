@@ -18,7 +18,7 @@ async function getQuestions({ category }) {
 	return data
 }
 
-const CATEGORY = 'A-IIIC'
+const CATEGORY = 'A-IIIA'
 async function main() {
 	let dataJson
 
