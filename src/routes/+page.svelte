@@ -1,8 +1,11 @@
 <script>
 	import { CATEGORIES } from '$lib/constants'
+
+	import photo from '$lib/assets/img100.jpg'
 	let selectedCategory = $state('A-I')
 </script>
 
+<img alt="logo" class="w-64 h-64" src={photo} />
 <form class="flex h-full flex-1 items-center p-6">
 	<!-- Wrapper -->
 	<div class="">
@@ -11,13 +14,6 @@
 			<!-- Left -->
 			<div class="flex flex-wrap items-center justify-center">
 				<div class="flex w-full max-w-xl flex-col gap-8">
-					<figure>
-						<img
-							alt="logo"
-							class="h-10"
-							src="https://sierdgtt.mtc.gob.pe/Content/assets/images/logo2.png"
-						/>
-					</figure>
 					<h1 class="flex flex-col text-2xl font-medium">
 						<span class="text-sm font-bold uppercase tracking-tight text-primary"
 							>Simulacro de preguntas</span

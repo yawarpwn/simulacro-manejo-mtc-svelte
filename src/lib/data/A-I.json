@@ -1,2402 +1,2403 @@
 [
-  {
-    "id": 1,
-    "alternatives": {
-      "A": "Recoger o dejar pasajeros o carga en cualquier lugar",
-      "B": "Dejar animales sueltos o situarlos de forma tal que obstaculicen solo un poco el tránsito",
-      "C": "Recoger o dejar pasajeros en lugares autorizados.",
-      "D": "Ejercer el comercio ambulatorio o estacionario"
-    },
-    "question": "Está permitido en la vía:",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 2,
-    "alternatives": {
-      "A": "Solo los peatones están obligados a su obediencia",
-      "B": "Los conductores y los peatones están obligados a su obediencia, salvo instrucción de la Policía Nacional del Perú asignada al tránsito que indique lo contrario",
-      "C": "Solo los conductores están obligados a su obediencia.",
-      "D": "Los conductores están obligados a su obediencia, aun cuando la Policía Nacional del Perú asignada al tránsito pueda indicar lo contrario."
-    },
-    "question": "Respecto de los dispositivos de control o regulación del tránsito:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 3,
-    "alternatives": {
-      "A": "Está prohibido voltear a la izquierda y, por lo tanto también está prohibido el giro en U.",
-      "B": "Está prohibido voltear a la izquierda, sin embargo, está permitido el giro en U.",
-      "C": "El único sentido de desplazamiento es continuar de frente.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La señal vertical reglamentaria R-6 ¿prohibido voltear a la izquierda¿, significa que:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 4,
-    "alternatives": {
-      "A": "Nos acercamos a una zona restringida al tránsito.",
-      "B": "Está permitido adelantar vehículos.",
-      "C": "El único sentido de desplazamiento es continuar de frente.",
-      "D": "Ninguna de las alternativas es correcta"
-    },
-    "question": "La señal vertical reglamentaria R-3 significa que:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img4.jpg"
-  },
-  {
-    "id": 5,
-    "alternatives": {
-      "A": "Está permitido cruzar al otro carril para el adelantamiento vehicular, si es que es seguro hacerlo.",
-      "B": "No está permitido cruzar al otro carril para el adelantamiento vehicular.",
-      "C": "Se está reduciendo el ancho de la calzada de la vía por donde se circula.",
-      "D": "Se está frente a un lugar de cruce peatonal."
-    },
-    "question": "En las vías, las marcas en el pavimento que son del tipo central discontinua y de color amarillo significan que:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 6,
-    "alternatives": {
-      "A": "Los vehículos deben avanzar.",
-      "B": "Los vehículos deben detenerse.",
-      "C": "Los vehículos deben acelerar la marcha.",
-      "D": "Los vehículos deben detenerse antes de ingresar a la intersección si su velocidad y ubicación lo permiten; de lo contrario, deberán cruzar y despejar la intersección."
-    },
-    "question": "El color ámbar o amarillo del semáforo significa que:",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 7,
-    "alternatives": {
-      "A": "Detención - prevención - paso.",
-      "B": "Detención - paso con prevención - circulación rápida.",
-      "C": "Disminución de la velocidad - prevención - paso rápido.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Los colores del semáforo tienen el siguiente significado: rojo: ________ ; ámbar o amarillo: ________ ; verde: ________ .",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 8,
-    "alternatives": {
-      "A": "Se puede continuar con precaución únicamente en la dirección de la flecha y desde el carril que esta flecha controla.",
-      "B": "No está permitida la circulación en el sentido que indica la flecha.",
-      "C": "Se debe respetar únicamente la luz circular.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "¿Qué indica una flecha verde en un semáforo vehicular?",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 9,
-    "alternatives": {
-      "A": "Prohíbe estacionar.",
-      "B": "Prohíbe al conductor detener el vehículo dentro del área de la intersección.",
-      "C": "Prohíbe la carga y descarga.",
-      "D": "Prohíbe la circulación de vehículos motorizados"
-    },
-    "question": "La siguiente señal vertical reglamentaria R-53:",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img9.jpg"
-  },
-  {
-    "id": 10,
-    "alternatives": {
-      "A": "Avanzar en cualquier sentido, ya que la luz circular está en verde.",
-      "B": "Avanzar, pero el giro a la izquierda está prohibido por la flecha roja.",
-      "C": "Avanzar únicamente hacia la izquierda, pues continuar de frente está prohibido.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Si llega a una intersección y visualiza el semáforo con una flecha roja hacia la izquierda y la luz circular verde prendidas al mismo tiempo, la acción correcta es:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 11,
-    "alternatives": {
-      "A": "Si la luz intermitente es roja, ésta es equivalente a un ¿CEDA EL PASO?",
-      "B": "Si la luz intermitente es ámbar, tiene preferencia, debiendo reducir la velocidad y continuar con precaución.",
-      "C": "Si la luz intermitente es verde, ésta es equivalente a un PARE.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Si llega a una intersección donde el semáforo muestra una luz intermitente, qué afirmación es correcta:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 12,
-    "alternatives": {
-      "A": "Verdad.",
-      "B": "Es verdad siempre y cuando también se encuentre un Policía de Tránsito indicando la señal de Pare.",
-      "C": "Falso",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "¿La luz intermitente roja es igual que una señal de PARE?",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 13,
-    "alternatives": {
-      "A": "Girar desde cualquier carril.",
-      "B": "Colocarse en el carril derecho, luego girar con precaución.",
-      "C": "Colocarse en el carril más despejado de tráfico, luego girar con precaución.",
-      "D": "Hacer la señal de volteo a la izquierda con las luces direccionales, ubicar con antelación el vehículo en el carril de circulación de la izquierda y girar con precaución."
-    },
-    "question": "Al aproximarse a una intersección con giro permitido a la izquierda, la conducta correcta es:",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 14,
-    "alternatives": {
-      "A": "Se deben encender las luces direccionales primero, buscar una brecha y realizar el cambio de carril con precaución.",
-      "B": "Se debe encontrar una brecha, luego cambiar de carril con precaución; no es necesario el uso de luces direccionales para cambios de carril.",
-      "C": "Se debe advertir utilizando el claxon, identificar una brecha y realizar el cambio de carril con precaución.",
-      "D": "Está prohibido el cambio de carril en vías de un solo sentido."
-    },
-    "question": "Al cambiar de carril en una vía de un solo sentido con múltiples carriles, ¿cuál es la conducta correcta?",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 15,
-    "alternatives": {
-      "A": "Los vehículos que transitan por la vía férrea tienen preferencia de paso sobre los que transitan por la vía que la cruza.",
-      "B": "Los vehículos que transitan por la vía que cruza la línea férrea tienen preferencia de paso sobre los que transitan por la vía férrea.",
-      "C": "El vehículo que llegue primero tiene preferencia.",
-      "D": "Tiene preferencia el conductor que viene por la derecha del otro."
-    },
-    "question": "Respecto a los cruces a nivel con vías férreas, señale la afirmación correcta:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 16,
-    "alternatives": {
-      "A": "Detenerse hasta que cambie a luz verde.",
-      "B": "Continuar la marcha.",
-      "C": "Estar prevenido.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Ante la señal de color rojo del semáforo y la indicación de continuar la marcha del efectivo de la Policía Nacional del Perú asignado al control del tránsito, corresponde:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 17,
-    "alternatives": {
-      "A": "En las curvas.",
-      "B": "Dentro de una intersección.",
-      "C": "Frente a la entrada de garajes y de recintos militares o policiales.",
-      "D": "Todas las alternativas son correctas."
-    },
-    "question": "Está prohibido estacionar un vehículo:",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 18,
-    "alternatives": {
-      "A": "Prohíbe el uso de la bocina en vías urbanas.",
-      "B": "Prohíbe el uso de la bocina en carreteras.",
-      "C": "Prohíbe el uso de la bocina.",
-      "D": "Prohíbe hacer ruido."
-    },
-    "question": "La siguiente señal vertical reglamentaria (R-29):",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img18.jpg"
-  },
-  {
-    "id": 19,
-    "alternatives": {
-      "A": "Conduzca un vehículo automotor sin tener licencia de conducir.",
-      "B": "Conduzca un vehículo que no cuente con el equipamiento para brindar una máxima comodidad a\nsus ocupantes.",
-      "C": "Conduzca un vehículo sin contar con el SOAT.",
-      "D": "a y c son correctas"
-    },
-    "question": "Se le impondrá el pago de una multa y no podrá obtener la licencia de conducir por 3 años a la persona que:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 20,
-    "alternatives": {
-      "A": "Debe aumentar la velocidad para no dejar que el otro vehículo lo pase.",
-      "B": "No debe aumentar la velocidad hasta que el vehículo lo sobrepase.",
-      "C": "Debe disminuir drásticamente la velocidad de su vehículo.",
-      "D": "Debe detener su vehículo."
-    },
-    "question": "En el supuesto que se encuentre manejando y un vehículo que tiene la intención de sobrepasarlo o adelantarlo lo alcance, ¿qué debería hacer usted?",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 21,
-    "alternatives": {
-      "A": "El conductor debe respetar los límites máximos y mínimos de velocidad establecidos.",
-      "B": "El conductor debe respetar únicamente los límites máximos de velocidad, pues no existen\nlímites mínimos.",
-      "C": "El conductor puede conducir a la velocidad que desee, siempre que lo haga de manera prudente.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "¿Cuál de las siguientes afirmaciones es correcta?",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 22,
-    "alternatives": {
-      "A": "Bajas.",
-      "B": "Altas.",
-      "C": "Luces altas en las intersecciones y bajas en las avenidas.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "¿Qué luces debe utilizar un conductor que circula en las vías públicas urbanas por la noche?",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 23,
-    "alternatives": {
-      "A": "Solo los ocupantes del vehículo.",
-      "B": "Los ocupantes y terceros no ocupantes del vehículo.",
-      "C": "Solo terceros afectados.",
-      "D": "Solo el conductor del vehículo."
-    },
-    "question": "En caso de accidentes, el SOAT cubre los daños que sufren:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 24,
-    "alternatives": {
-      "A": "Cualquier tipo de seguro de accidentes personales que comercialicen las empresas de seguro.",
-      "B": "Cualquier tipo de seguro vehicular, siempre que cubra a los ocupantes del vehículo y terceros afectados por un accidente\nde tránsito.",
-      "C": "El Seguro Obligatorio de Accidentes de Tránsito - SOAT.",
-      "D": "No es obligatorio contar con un seguro."
-    },
-    "question": "¿Cuál de los siguientes seguros es exigible para conducir un vehículo automotor?",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 25,
-    "alternatives": {
-      "A": "Cuando emita señales visibles.",
-      "B": "Cuando emita señales audibles.",
-      "C": "Cuando emita señales audibles y visibles.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Cuándo es obligatorio darle preferencia de paso a un vehículo de emergencia o vehículo oficial:",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 26,
-    "alternatives": {
-      "A": "Detener el vehículo y no continuar la marcha hasta que haya culminado el ascenso o descenso de los\nescolares.",
-      "B": "Adelantar por el lado izquierdo, pero con precaución.",
-      "C": "Tocar el claxon para alertar que está pasando.",
-      "D": "Adelantar muy despacio."
-    },
-    "question": "Si por el carril por donde está conduciendo se aproxima a un vehículo de transporte escolar que se encuentra detenido, recogiendo o dejando escolares ¿Qué debe hacer?",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 27,
-    "alternatives": {
-      "A": "La presencia de un vehículo inmovilizado en la vía pública por alguna circunstancia.",
-      "B": "Zona de obras por reparación en la calzada.",
-      "C": "Que el vehículo que lo enfrenta debe detenerse.",
-      "D": "a y c son correctas."
-    },
-    "question": "¿Qué significa un triángulo rojo de seguridad colocado en la calzada?",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 28,
-    "alternatives": {
-      "A": "Está permitido adelantar.",
-      "B": "Se aproxima un carril adicional.",
-      "C": "Está permitido cambiar de carril.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal vertical reglamentaria P-22C indica que:",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img28.jpg"
-  },
-  {
-    "id": 29,
-    "alternatives": {
-      "A": "Para girar en las intersecciones y para advertir los cambios de carril.",
-      "B": "Para indicar la detención, parada o estacionamiento en zona peligrosa o la ejecución de maniobras\nriesgosas.",
-      "C": "Durante toda la circulación del vehículo.",
-      "D": "En cada intersección."
-    },
-    "question": "Las luces intermitentes de emergencia del vehículo deben utilizarse obligatoriamente:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 30,
-    "alternatives": {
-      "A": "No.",
-      "B": "Si.",
-      "C": "Depende de la intersección.",
-      "D": "No se encuentra regulado en el reglamento."
-    },
-    "question": "En intersecciones que no tienen señales de Pare, Ceda el Paso o Semáforo, ¿las vías de doble sentido tienen prioridad de paso respecto a las vías de un solo sentido de igual clasificación?",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 31,
-    "alternatives": {
-      "A": "Disminuir su velocidad y cederle el paso a los vehículos que circulan por la transversal.",
-      "B": "Disminuir su velocidad y pasar con cuidado.",
-      "C": "Sobre parar y pasar rápidamente.",
-      "D": "Parar por completo, ceder el paso a los usuarios que tengan preferencia y luego continuar con\nprecaución."
-    },
-    "question": "Si usted se aproxima a una señal de PARE colocada verticalmente o pintada en la vía, la acción correcta es:",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 32,
-    "alternatives": {
-      "A": "No hay diferencia, se usan indistintamente.",
-      "B": "La señal P-2A se utiliza en situaciones de mayor riesgo.",
-      "C": "La señal P-1A advierte la presencia de curva pronunciada a la derecha mientras que la P-2A advierte la presencia de curva suave a la derecha.",
-      "D": "La señal P-2A advierte la presencia de curva pronunciada a la derecha mientras que la P-1A advierte la presencia de curva suave a la derecha."
-    },
-    "question": "¿Cuál es la diferencia entre las señales P-2A y P-1A?",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img32.jpg"
-  },
-  {
-    "id": 33,
-    "alternatives": {
-      "A": "Tener precaución con vehículos lentos.",
-      "B": "Regula la velocidad máxima permitida en curvas.",
-      "C": "Regula la velocidad máxima en zonas rurales.",
-      "D": "No se encuentra regulada en el reglamento."
-    },
-    "question": "¿Qué indica la señal R-30F?",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img33.jpg"
-  },
-  {
-    "id": 34,
-    "alternatives": {
-      "A": "Luces direccionales.",
-      "B": "Solo el antebrazo izquierdo y mano extendidos hacia abajo fuera del vehículo.",
-      "C": "Luces intermitentes y, en caso de fuerza mayor, utilizar el antebrazo izquierdo y mano extendidos hacia abajo fuera del vehículo, haciendo ángulo recto con el brazo.",
-      "D": "Luces bajas."
-    },
-    "question": "¿Qué señal debe utilizar el conductor para disminuir la velocidad o detener el vehículo cuando está en marcha?",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 35,
-    "alternatives": {
-      "A": "Cualquiera de los dos.",
-      "B": "El que se aproxime por la derecha del otro.",
-      "C": "El que se aproxime por la izquierda del otro.",
-      "D": "El que haga sonar la bocina primero."
-    },
-    "question": "Si dos vehículos se aproximan simultáneamente a una intersección no regulada (sin señalización) procedentes de vías diferentes,\n¿quién tiene preferencia de paso?",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img35.jpg"
-  },
-  {
-    "id": 36,
-    "alternatives": {
-      "A": "El vehículo que ingresó primero a la intersección.",
-      "B": "El vehículo que haga sonar la bocina primero.",
-      "C": "El vehículo que haga cambio de luces primero.",
-      "D": "Cualquier vehículo"
-    },
-    "question": "En una intersección no regulada (sin señalización) tiene preferencia de paso:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 37,
-    "alternatives": {
-      "A": "Quiere ingresar a la rotonda.",
-      "B": "Circula por ella.",
-      "C": "Acelera primero.",
-      "D": "Hace sonar la bocina."
-    },
-    "question": "En una rotonda, tiene prioridad de paso el vehículo que:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 38,
-    "alternatives": {
-      "A": "Derecha.",
-      "B": "Izquierda.",
-      "C": "Berma",
-      "D": "Por la derecha o izquierda."
-    },
-    "question": "El sobrepaso o adelantamiento de un vehículo en movimiento se efectúa, salvo excepciones, por la ________ retornando el vehículo después de la maniobra a su carril original.",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 39,
-    "alternatives": {
-      "A": "Manejar normalmente.",
-      "B": "Manejar despacio.",
-      "C": "Abstenerse de manejar.",
-      "D": "Manejar con un copiloto."
-    },
-    "question": "Si un conductor está tomando medicamentos y por ello siente sueño ¿qué debe hacer?",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 40,
-    "alternatives": {
-      "A": "Documento de identidad, SOAT vigente (puede ser virtual) y tarjeta de identificación vehicular.",
-      "B": "Certificado de Inspección Técnica Vehicular y contrato de compraventa del vehículo.",
-      "C": "Contrato de compraventa del vehículo.",
-      "D": "Todas las alternativas son correctas."
-    },
-    "question": "Son documentos que deben portarse obligatoriamente, durante la conducción del vehículo, y exhibirse cuando la autoridad competente lo solicite:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 41,
-    "alternatives": {
-      "A": "No tiene preferencia de paso.",
-      "B": "Tiene preferencia de paso.",
-      "C": "Debe detenerse.",
-      "D": "Debe retroceder."
-    },
-    "question": "En los tramos de una vía con pendiente pronunciada, que permite la circulación de un solo vehículo, se debe de tener en cuenta que el vehículo que asciende respecto al vehículo que desciende:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 42,
-    "alternatives": {
-      "A": "Señalizar toda la maniobra hasta su\nculminación.",
-      "B": "Cambiar de dirección y luego señalizar.",
-      "C": "No existe ninguna obligación.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Al cambiar de dirección, un conductor debe:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 43,
-    "alternatives": {
-      "A": "Sí, pero solo si está bajando una pendiente.",
-      "B": "No, está prohibido.",
-      "C": "Sí, en caso de que el conductor no sea novato.",
-      "D": "No se encuentra regulado en la norma."
-    },
-    "question": "¿Se puede conducir un vehículo con el motor en punto neutro?",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 44,
-    "alternatives": {
-      "A": "Brazo, antebrazo izquierdo y mano extendidos hacia afuera del vehículo.",
-      "B": "Antebrazo izquierdo y mano extendidos hacia arriba fuera del vehículo, formando un ángulo recto con el brazo.",
-      "C": "Brazo, antebrazo derecho y mano extendidos hacia afuera del vehículo.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Para girar o cambiar de carril hacia la derecha, el conductor debe utilizar las luces direccionales y, en casos de fuerza mayor, la siguiente señal manual:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 45,
-    "alternatives": {
-      "A": "No podrán ser conducidos.",
-      "B": "Podrán ser conducidos únicamente en zonas urbanas.",
-      "C": "Podrán ser conducidos hasta por 90 días posteriores a la pérdida de vigencia de la licencia.",
-      "D": "Podrán ser conducidos con normalidad hasta que renueve su licencia."
-    },
-    "question": "Si la licencia de conducir no se encuentra vigente, los vehículos que autoriza a conducir dicha licencia:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 46,
-    "alternatives": {
-      "A": "Determinadas infracciones suman puntos.",
-      "B": "Una infracción puede sumar o disminuir puntos, a elección del infractor.",
-      "C": "Determinadas infracciones restan puntos.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "De acuerdo con el sistema de control de licencias de conducir por puntos:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 47,
-    "alternatives": {
-      "A": "Suspensión de licencia de conducir.",
-      "B": "Anulación de la Placa Única Nacional de Rodaje.",
-      "C": "Inhabilitación definitiva para obtener una licencia de conducir.",
-      "D": "Internamiento vehicular."
-    },
-    "question": "¿Cuál es la consecuencia de acumular 100 puntos en la licencia de conducir en un período de 24 meses?",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 48,
-    "alternatives": {
-      "A": "Parte de la vía destinada a la circulación de peatones.",
-      "B": "Parte de la calzada destinada al tránsito de una fila de vehículos.",
-      "C": "Vía rural destinada a la circulación de peatones y animales.",
-      "D": "Todas las alternativas son correctas."
-    },
-    "question": "Se entiende por carril a la:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 49,
-    "alternatives": {
-      "A": "La línea transversal marcada en la calzada antes de la intersección, que indica al conductor el límite para detener el\nvehículo.",
-      "B": "Las líneas que se encuentran en los lugares del estacionamiento.",
-      "C": "El lugar utilizado para embarcar y desembarcar pasajeros.",
-      "D": "Todas las alternativas son correctas."
-    },
-    "question": "Se entiende por línea de parada a:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 50,
-    "alternatives": {
-      "A": "Reducción de la calzada al lado derecho.",
-      "B": "Reducción de la calzada al lado izquierdo.",
-      "C": "Reducción de la calzada en ambos lados.",
-      "D": "Ensanchamiento de la calzada en ambos lados."
-    },
-    "question": "La siguiente señal vertical reglamentaria P-17A, indica:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img50.jpg"
-  },
-  {
-    "id": 51,
-    "alternatives": {
-      "A": "Se puede adelantar en ambos sentidos.",
-      "B": "No está permitido adelantar en ningún sentido.",
-      "C": "Respetar la línea que está de su lado (si es continua, no adelantar; si es discontinua, está permitido adelantar).",
-      "D": "Respetar la línea que está de su lado (si es discontinua, no adelantar; si es continua, está permitido adelantar)"
-    },
-    "question": "En caso de encontrar marcación de doble línea amarilla compuesta por un trazo continuo y otro trazo discontinuo en una vía de doble sentido, ¿qué se debe hacer?",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 52,
-    "alternatives": {
-      "A": "Área donde se prohíbe la circulación de vehículos.",
-      "B": "Área donde se prohíbe la circulación de peatones.",
-      "C": "Área de la vía en la que se prohíbe el estacionamiento de\nvehículos.",
-      "D": "Todas las alternativas son correctas."
-    },
-    "question": "Se define como zona rígida al:",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 53,
-    "alternatives": {
-      "A": "Obligación de detenerse de quien así lo enfrente.",
-      "B": "Continuar la marcha por el carril izquierdo de la calzada.",
-      "C": "Continuar la marcha.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La posición de frente o de espaldas ejecutada por el efectivo de la Policía Nacional del Perú asignado al control de tránsito significa:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 54,
-    "alternatives": {
-      "A": "30km/h.",
-      "B": "40km/h.",
-      "C": "60km/h.",
-      "D": "80km/h."
-    },
-    "question": "Siempre que no exista una señal de límite de velocidad, en zonas urbanas el límite máximo de velocidad en calles y jirones es de:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 55,
-    "alternatives": {
-      "A": "30km/h.",
-      "B": "40km/h.",
-      "C": "60km/h.",
-      "D": "80km/h."
-    },
-    "question": "Siempre que no exista una señal de límite de velocidad, en zonas urbanas el límite máximo de velocidad en avenidas es de:",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 56,
-    "alternatives": {
-      "A": "60km/h.",
-      "B": "70km/h.",
-      "C": "80km/h.",
-      "D": "100km/h."
-    },
-    "question": "Siempre que no exista una señal de límite de velocidad, en zonas urbanas el límite máximo de velocidad en vías expresas es de:",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 57,
-    "alternatives": {
-      "A": "20km/h.",
-      "B": "30km/h.",
-      "C": "35km/h.",
-      "D": "50km/h."
-    },
-    "question": "Siempre que no exista una señal de límite de velocidad en zonas urbanas, el límite máximo de velocidad en zona escolar es de:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 58,
-    "alternatives": {
-      "A": "80km/h.",
-      "B": "90km/h.",
-      "C": "100km/h.",
-      "D": "110km/h."
-    },
-    "question": "Siempre que no exista una señal de límite de velocidad en carreteras, el límite máximo de velocidad para automóviles, camionetas y motocicletas es de:",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 59,
-    "alternatives": {
-      "A": "30km/h.",
-      "B": "La mitad de la velocidad máxima establecida para cada tipo de vía.",
-      "C": "20 km/h.",
-      "D": "15 km/h."
-    },
-    "question": "Siempre que no exista una señal de límite de velocidad mínima, el límite mínimo de velocidad en zona urbana y en carreteras es de:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 60,
-    "alternatives": {
-      "A": "Multa.",
-      "B": "Cancelación de licencia de conducir.",
-      "C": "Suspensión de la licencia de conducir.",
-      "D": "Multa, cancelación de la licencia de conducir e inhabilitación definitiva para obtener una licencia de conducir."
-    },
-    "question": "¿Cuál es la sanción por conducir con presencia de alcohol en la sangre en proporción mayor a lo previsto en el Código Penal, o bajo los efectos de estupefacientes, narcóticos y/o alucinógenos comprobados con el examen respectivo, o por negarse al mismo y que haya participado en un accidente de tránsito?",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 61,
-    "alternatives": {
-      "A": "Una multa",
-      "B": "La suspensión de la licencia de conducir.",
-      "C": "Multa y suspensión de la licencia de conducir por 3 años.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "¿Cuál es la sanción si en un operativo de alcoholemia usted es intervenido y se comprueba que ha consumido alcohol por encima del límite legal, o está conduciendo bajo los efectos de estupefacientes, narcóticos y/o alucinógenos comprobada con el examen respectivo?",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 62,
-    "alternatives": {
-      "A": "Cada medio año.",
-      "B": "Cada año.",
-      "C": "Cada dos años.",
-      "D": "Cada tres años."
-    },
-    "question": "La frecuencia de la inspección técnica de un vehículo particular es:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 63,
-    "alternatives": {
-      "A": "A partir del segundo año contado desde el año siguiente de su fabricación.",
-      "B": "A partir del cuarto año contado desde el año siguiente de su fabricación.",
-      "C": "A partir del quinto año contado desde el año siguiente de su fabricación.",
-      "D": "No está sujeto a inspección técnica."
-    },
-    "question": "¿A partir de qué año de antigüedad debe realizarse la inspección técnica de un vehículo particular para transporte de personas de hasta 9 asientos incluido el conductor de la categoría M1?",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 64,
-    "alternatives": {
-      "A": "1 año.",
-      "B": "6 meses.",
-      "C": "4 años.",
-      "D": "2 años."
-    },
-    "question": "¿Cuál es el plazo de vigencia del SOAT?",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 65,
-    "alternatives": {
-      "A": "Dar aviso a los bomberos.",
-      "B": "Dar aviso solo a la compañía de seguros.",
-      "C": "Dar aviso a la compañía de seguros y dejar constancia en la delegación de la Policía Nacional del\nPerú más cercana.",
-      "D": "Dar aviso únicamente a la Policía Nacional del Perú."
-    },
-    "question": "Si ocurre un accidente de tránsito, ¿qué obligación tiene el conductor, el propietario del vehículo o el prestador del servicio de transporte?",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 66,
-    "alternatives": {
-      "A": "Dicha restricción es meramente informativa.",
-      "B": "Es una obligación cumplir con la restricción.",
-      "C": "Incumplir la restricción no genera un riesgo para la seguridad vial.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Si una licencia de conducir consiga alguna restricción, es correcto afirmar que:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 67,
-    "alternatives": {
-      "A": "Señal de curva sinuosa.",
-      "B": "Señal de proximidad a un badén.",
-      "C": "Señal de proximidad de un reductor de velocidad tipo resalto.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La señal preventiva P-33A, significa:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img67.jpg"
-  },
-  {
-    "id": 68,
-    "alternatives": {
-      "A": "Activar las luces intermitentes de emergencia.",
-      "B": "Parar en su posición actual.",
-      "C": "Salir del vehículo rápidamente.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Si su vehículo deja de funcionar o comienza a tener problemas y usted trata de moverlo al costado de la autopista, debe:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 69,
-    "alternatives": {
-      "A": "Sí, siempre y cuando el sonido no sea estridente.",
-      "B": "Si, salvo prohibición expresa mediante la correspondiente señal.",
-      "C": "No, está prohibido.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "¿Está permitido usar la bocina de su vehículo para advertir al conductor del vehículo que circula delante, que será adelantado?",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 70,
-    "alternatives": {
-      "A": "No estamos obligados a darle preferencia de paso.",
-      "B": "Estamos obligados a darle prioridad de paso por ser una ambulancia.",
-      "C": "Está informando que está en servicio de urgencia.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Si observa que se aproxima una ambulancia sin las luces especiales encendidas y sin sirena, es correcto afirmar que:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 71,
-    "alternatives": {
-      "A": "No iniciar la marcha hasta que el vehículo o las personas terminen de cruzar.",
-      "B": "Tocar el claxon para que se apuren en pasar.",
-      "C": "Bajar del vehículo y reclamar la falta al infractor.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Si se encuentra en una intersección y se enciende la luz verde del semáforo y observa que en la calle transversal hay vehículos o personas despejando la intersección, ¿qué debe hacer?",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 72,
-    "alternatives": {
-      "A": "Amarillo - blanco.",
-      "B": "Blanco - Amarillo.",
-      "C": "Azul - rojo.",
-      "D": "Rojo - Amarillo."
-    },
-    "question": "En señalética vial, el color ________ en el pavimento es utilizado para carriles de tráfico en sentido opuesto y el color ________ en el pavimento es utilizado como separador de carriles de tráfico en el mismo sentido.",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 73,
-    "alternatives": {
-      "A": "Advertir con el claxon.",
-      "B": "Advertir a viva voz.",
-      "C": "Parar y ceder el paso.",
-      "D": "Continuar la marcha lentamente."
-    },
-    "question": "Si una fila de escolares cruza la calzada fuera del crucero peatonal,\n¿qué acción se debe tomar?",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 74,
-    "alternatives": {
-      "A": "No tiene ninguna\nobligación si no hay\nseñalización.",
-      "B": "Disminuir la velocidad a 40 Km/h.",
-      "C": "Disminuir la velocidad a 30 Km/h.",
-      "D": "Disminuir la velocidad a 35 km/h."
-    },
-    "question": "Si se aproxima a una zona escolar, ¿qué acción debe realizar?",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 75,
-    "alternatives": {
-      "A": "Señales reguladoras o de reglamentación.",
-      "B": "Señales preventivas.",
-      "C": "Señales informativas.",
-      "D": "Señales horizontales."
-    },
-    "question": "Tienen el objetivo de notificar a los usuarios las limitaciones, prohibiciones o restricciones en el uso de la vía.",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 76,
-    "alternatives": {
-      "A": "Señales reguladoras o de reglamentación.",
-      "B": "Señales preventivas.",
-      "C": "Señales informativas.",
-      "D": "Señales horizontales."
-    },
-    "question": "Tienen el propósito de advertir a los usuarios sobre la existencia y naturaleza de un peligro en la vía.",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 77,
-    "alternatives": {
-      "A": "No detenerse totalmente en una señal de PARE.",
-      "B": "Arrojar, depositar o abandonar objetos o sustancias en la vía pública que dificulten la circulación.",
-      "C": "Utilizar la bocina para llamar la atención en forma innecesaria.",
-      "D": "Todas las alternativas son correctas."
-    },
-    "question": "Es una infracción de tránsito:",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 78,
-    "alternatives": {
-      "A": "Ceder el paso a los vehículos de emergencia.",
-      "B": "Mantener la velocidad y avanzar con cuidado.",
-      "C": "Disminuir la velocidad, parar si es necesario y ceder el paso a los peatones o vehículos que circulan por la vía transversal.",
-      "D": "Parar totalmente y luego avanzar con cuidado."
-    },
-    "question": "¿Qué debería hacer el conductor al acercarse a una señal de CEDA EL PASO en una intersección?",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 79,
-    "alternatives": {
-      "A": "Si no se cuenta con el SOAT.",
-      "B": "En retroceso, salvo las excepciones que establece la norma.",
-      "C": "Si no se tiene la licencia para el tipo de vehículo que se quiere conducir.",
-      "D": "Todas son correctas."
-    },
-    "question": "No se debe conducir un vehículo:",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 80,
-    "alternatives": {
-      "A": "Disminuir la velocidad y pasar con cuidado.",
-      "B": "Detener el vehículo y ceder el paso al peatón.",
-      "C": "Continuar porque usted tiene la prioridad.",
-      "D": "Incrementar la velocidad para adelantar el cruce el peatón."
-    },
-    "question": "¿Qué debe hacer si se aproxima a una intersección sin semáforo y sin presencia de la Policía de Tránsito, y observa que un peatón está cruzando por el paso peatonal?",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 81,
-    "alternatives": {
-      "A": "El uso del cinturón de seguridad es obligatorio para las personas que ocupen los asientos delanteros.",
-      "B": "En los asientos posteriores el uso del cinturón de seguridad es obligatorio en todos los vehículos cuando los tengan incorporados de fábrica y en los casos en que, de acuerdo a las normas se encuentren obligados a tenerlos.",
-      "C": "El uso del cinturón de seguridad no solo es obligatorio para el conductor.",
-      "D": "Todas las alternativas son correctas."
-    },
-    "question": "Sobre el uso del cinturón de seguridad en los vehículos que se encuentran en circulación, es correcto afirmar que:",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 82,
-    "alternatives": {
-      "A": "Izquierda / Derecha.",
-      "B": "Derecha / Derecha.",
-      "C": "Derecha / Izquierda.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Si en una vía de dos carriles con tránsito en un mismo sentido usted se desplaza lentamente en su vehículo, debe circular por el carril de la ________ y los vehículos que circulen a mayor velocidad deben hacerlo por el carril de la ________ ",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 83,
-    "alternatives": {
-      "A": "El conductor debe tratar de no utilizar la bocina para llamar la atención en forma innecesaria.",
-      "B": "El uso de la bocina para llamar la atención en forma innecesaria no es una infracción al tránsito.",
-      "C": "El conductor únicamente debe utilizar la bocina para evitar situaciones peligrosas.",
-      "D": "a y b son correctas."
-    },
-    "question": "Sobre el uso de la bocina del vehículo, es correcto afirmar que:",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 84,
-    "alternatives": {
-      "A": "Que se puede adelantar, debido a que la línea no es amarilla continua.",
-      "B": "Que está prohibido cruzar la línea y no hay excepciones.",
-      "C": "Que está prohibido pasar al otro lado de la línea con algunas excepciones.",
-      "D": "Que es zona de peatones."
-    },
-    "question": "Una línea blanca continua en el sentido longitudinal de una vía, que se coloca en el pavimento, le indica al conductor:",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 85,
-    "alternatives": {
-      "A": "Es igual al número de asientos señalados en la tarjeta de identificación vehicular, con la excepción de niños en brazos en los asientos posteriores.",
-      "B": "No existe prohibición sobre un número máximo de personas que se puede transportar.",
-      "C": "La restricción sobre un número máximo de personas que se puede transportar se aplica para los asientos delanteros, para los asientos posteriores no hay restricción.",
-      "D": "Se puede transportar a todas las personas que entren en el vehículo, sin restricción, siempre y cuando no obstaculicen la visibilidad del conductor y todos sean de la misma familia."
-    },
-    "question": "¿Cuál es el número máximo de personas que puede transportar un vehículo particular?",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 86,
-    "alternatives": {
-      "A": "Asegurarse de que todos los pasajeros permanezcan a bordo del vehículo.",
-      "B": "Abstenerse de fumar tanto el conductor como sus acompañantes.",
-      "C": "Mantener encendido el motor del vehículo.",
-      "D": "Todas las alternativas son correctas."
-    },
-    "question": "La acción correcta al abastecer de combustible su vehículo, es:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 87,
-    "alternatives": {
-      "A": "Sí, siempre y cuando el conductor de la bicicleta se sujete a la parte posterior del auto, pero nunca a la\nparte lateral de éste.",
-      "B": "Sí, siempre y cuando se prevean todas las medidas de seguridad respectivas.",
-      "C": "Sí, siempre y cuando esta acción sea realizada a una velocidad no mayor a",
-      "D": "No, es una acción prohibida y quien la cometa puede ser sancionado con una multa."
-    },
-    "question": "Mientras usted está conduciendo su vehículo automotor, ¿puede llevar sujeto a su auto al conductor de una bicicleta mientras éste la conduce?",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 88,
-    "alternatives": {
-      "A": "Las vías aledañas del parque del distrito en el cual reside, en el horario de 11:00 pm. a 5:00 am.",
-      "B": "Un circuito de carrera, autódromo o pista de aceleración autorizado por la autoridad competente.",
-      "C": "Las vías aledañas del parque del distrito en el cual reside, siempre y cuando tenga el permiso municipal correspondiente.",
-      "D": "Todas las alternativas son correctas."
-    },
-    "question": "Si usted desea realizar una competencia de carreras entre su vehículo y otro vehículo motorizado; para ello puede utilizar:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 89,
-    "alternatives": {
-      "A": "Tener la puerta, capot o maletera del vehículo abierta, cuando el vehículo está en marcha.",
-      "B": "Conducir un vehículo lentamente por el carril de la izquierda causando congestión.",
-      "C": "Conducir un vehículo con el motor en punto neutro o apagado.",
-      "D": "Todas las alternativas son correctas."
-    },
-    "question": "Señale cuáles de las siguientes conductas constituye una infracción al tránsito:",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 90,
-    "alternatives": {
-      "A": "Reemplazar a la señalización vertical cuando ésta no se encuentra en la vía, por tal motivo son colocadas donde no existe\nseñales verticales.",
-      "B": "Guiar a los usuarios únicamente en las vías que presentan peligros.",
-      "C": "Reglamentar la circulación, así como advertir y guiar a los usuarios de la vía.",
-      "D": "Todas las alternativas son correctas."
-    },
-    "question": "La marcas en el pavimento constituyen un elemento indispensable para la operación vehicular, pues su función es:",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 91,
-    "alternatives": {
-      "A": "Blanco.",
-      "B": "Azul.",
-      "C": "Rojo.",
-      "D": "Gris."
-    },
-    "question": "Las marcas en el pavimento de color ________ complementan las señales informativas, como por ejemplo las zonas de estacionamiento para personas con movilidad reducida.",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 92,
-    "alternatives": {
-      "A": "No está permitido cruzar al otro carril.",
-      "B": "Está permitido cruzar al otro carril para el adelantamiento.",
-      "C": "Se trata de una vía de\ndoble sentido de circulación, que permite\ncruzar al otro carril.",
-      "D": "Separa corrientes de tráfico en el mismo sentido."
-    },
-    "question": "La línea central de color amarillo en el pavimento es continua cuando:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 93,
-    "alternatives": {
-      "A": "Continuar la circulación por el carril en que se encuentra.",
-      "B": "Adelantar al vehículo que se encuentra delante de él y que circula por el carril izquierdo.",
-      "C": "No adelantar al vehículo que tiene adelante y que circula por el carril izquierdo y continuar por su carril.",
-      "D": "Cambiarse al carril izquierdo con precaución."
-    },
-    "question": "Si un conductor que circula por el carril derecho de una vía se encuentra con las flechas inclinadas que se muestran en la figura, su conducta correcta es:",
-    "correctAnswer": "D",
-    "image": "/Content/img-data/img93.jpg"
-  },
-  {
-    "id": 94,
-    "alternatives": {
-      "A": "Someterse a la prueba de alcoholemia, ya que está obligado a ello ante la solicitud del efectivo de la Policía de Tránsito.",
-      "B": "Someterse o negarse a la prueba de alcoholemia, ya que no constituye una obligación del conductor realizarse dicha prueba.",
-      "C": "Negarse a la prueba de alcoholemia, ya que únicamente es exigible si ha participado en un accidente de tránsito.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Si durante la conducción vehicular, un efectivo de la Policía de Tránsito le solicita al conductor someterse a una prueba de alcoholemia; la acción correcta del conductor es:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 95,
-    "alternatives": {
-      "A": "Llevar las placas de rodaje en el lugar que no corresponde.",
-      "B": "Seguir a los vehículos de emergencia y vehículos oficiales para avanzar más rápidamente.",
-      "C": "Arrojar objetos en la vía pública que dificulten la circulación.",
-      "D": "Detenerse totalmente en\nuna señal de PARE cuando no hay peatones y/o vehículos circulando por la\nvía transversal."
-    },
-    "question": "¿Cuál de las siguientes conductas no es una infracción de tránsito?",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 96,
-    "alternatives": {
-      "A": "Dar preferencia de paso solo a los vehículos que circulan por la vía, pero no a los peatones.",
-      "B": "Dar preferencia de paso a los vehículos que circulan por la vía y a los peatones que circulan por la acera.",
-      "C": "Tocar el claxon para advertir a los peatones que circulen por la acera, que se detengan.",
-      "D": "Salir rápidamente, a fin de evitar accidentes."
-    },
-    "question": "Si un conductor sale de su propiedad y tiene que cruzar la acera e ingresar a una vía, la conducta correcta es:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 97,
-    "alternatives": {
-      "A": "Un carril para motocicletas.",
-      "B": "Una línea que divide el área peatonal y el área de vehículos.",
-      "C": "Una línea que puede cruzarse para rebasar en caso de congestión.",
-      "D": "Que no se debe conducir atravesándola, al menos que haya una situación de emergencia."
-    },
-    "question": "¿Qué significa una línea continua blanca pintada entre el carril de la derecha y la berma de una carretera?",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 98,
-    "alternatives": {
-      "A": "Las luces bajas junto con las rompenieblas.",
-      "B": "Solo las luces altas.",
-      "C": "Solo las luces bajas.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Si maneja de noche, hubiera neblina y tuviera luces rompenieblas, debe utilizar:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 99,
-    "alternatives": {
-      "A": "Puede hacerlo si no viene un vehículo en el sentido contrario.",
-      "B": "Puede hacerlo solo si, el vehículo en sentido contrario está lejos y alcanza hacer la maniobra con seguridad.",
-      "C": "No puede hacerlo.",
-      "D": "Puede hacerlo por la izquierda."
-    },
-    "question": "En el caso representado en el siguiente gráfico ¿el vehículo rojo puede rebasar al azul?",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img99.jpg"
-  },
-  {
-    "id": 100,
-    "alternatives": {
-      "A": "Prohibido estacionar.",
-      "B": "Prohibida la circulación de vehículos automotores.",
-      "C": "Prohibida la circulación de autos particulares.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (R-17), significa:",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img100.jpg"
-  },
-  {
-    "id": 101,
-    "alternatives": {
-      "A": "Que la calle está clausurada.",
-      "B": "Que está por ingresar a una vía de sentido contrario y no debe entrar.",
-      "C": "Que debe parar totalmente antes de poder ingresar.",
-      "D": "Ninguna de las alternativas es correcta"
-    },
-    "question": "Si usted se encuentra conduciendo su vehículo por una vía y antes de cruzar la intersección se encuentra con la señal R-4, esta le indica:",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img101.jpg"
-  },
-  {
-    "id": 102,
-    "alternatives": {
-      "A": "Proximidad de un túnel.",
-      "B": "Superficie deslizante.",
-      "C": "Prender las luces bajas.",
-      "D": "Mantener la distancia entre vehículos por seguridad."
-    },
-    "question": "La siguiente señal (P-36), significa:",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img102.jpg"
-  },
-  {
-    "id": 103,
-    "alternatives": {
-      "A": "Circular por el carril de la derecha.",
-      "B": "Circular por el carril central.",
-      "C": "Circular solo en el sentido indicado por la flecha.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (R-14), significa:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img103.jpg"
-  },
-  {
-    "id": 104,
-    "alternatives": {
-      "A": "Que es una vía de tres carriles de un solo sentido.",
-      "B": "Que es una vía de tres carriles y usted puede utilizar solo uno de ellos.",
-      "C": "Que es una vía de tres carriles y usted puede utilizar los dos de la derecha.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Si usted circula por una vía y se encuentra con la señal (R-11a) , ésta le indica:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img104.jpg"
-  },
-  {
-    "id": 105,
-    "alternatives": {
-      "A": "Que la velocidad máxima de la vía es de 50 km/h.",
-      "B": "Que la velocidad mínima de la vía es de 50 km/h.",
-      "C": "Que al salir de la vía por donde está circulando, la velocidad máxima es 50 km/h.",
-      "D": "Que al salir de la vía por donde está circulando, la velocidad mínima es 50 km/h."
-    },
-    "question": "La siguiente señal (R-30c) , significa:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img105.jpg"
-  },
-  {
-    "id": 106,
-    "alternatives": {
-      "A": "Que la vía no continúa y los conductores deben girar a la izquierda.",
-      "B": "Que la intersección contempla giros tangentes a la izquierda en ambos sentidos.",
-      "C": "Que la intersección está en mantenimiento y que por el momento solo se puede girar a la izquierda.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (R-5-4), significa:",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img106.jpg"
-  },
-  {
-    "id": 107,
-    "alternatives": {
-      "A": "Que no está permitido girar en U.",
-      "B": "Que está permitido el giro en U.",
-      "C": "Que si desea puede girar a la izquierda.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (R-9), significa:",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img107.jpg"
-  },
-  {
-    "id": 108,
-    "alternatives": {
-      "A": "Que la vía solo permite girar a la izquierda.",
-      "B": "Prevención por bifurcación de la vía.",
-      "C": "Que el carril por donde circula permite girar a la izquierda o seguir de frente.",
-      "D": "No es una señal válida en el Perú."
-    },
-    "question": "La siguiente señal (R-5-2), significa:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img108.jpg"
-  },
-  {
-    "id": 109,
-    "alternatives": {
-      "A": "Que el peatón antes de cruzar debe mirar si se acercan autos por la derecha.",
-      "B": "Que el conductor que viene por la derecha debe tener cuidado con los peatones.",
-      "C": "Que los peatones deben circular por la izquierda.",
-      "D": "Que los peatones deben circular por la derecha."
-    },
-    "question": "La siguiente señal (R-20), significa:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img109.jpg"
-  },
-  {
-    "id": 110,
-    "alternatives": {
-      "A": "Crucero tipo cebra.",
-      "B": "Control policial.",
-      "C": "Pavimento deslizante.",
-      "D": "Circular con luces bajas."
-    },
-    "question": "La siguiente señal (R-40), significa:",
-    "correctAnswer": "D",
-    "image": "/Content/img-data/img110.jpg"
-  },
-  {
-    "id": 111,
-    "alternatives": {
-      "A": "Los peatones deben circular por la derecha y los camiones por la izquierda",
-      "B": "Los peatones deben tener cuidado con los camiones.",
-      "C": "Zona de carga y descarga.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (R-48), significa:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img111.jpg"
-  },
-  {
-    "id": 112,
-    "alternatives": {
-      "A": "Está permitido cambiar de carril por la izquierda y por la derecha.",
-      "B": "Se debe mantener la distancia de seguridad entre vehículos.",
-      "C": "Está permitido cambiar de carril por la izquierda para adelantar.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (R-49), significa:",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img112.jpg"
-  },
-  {
-    "id": 113,
-    "alternatives": {
-      "A": "Que si solo hay un carril tiene preferencia de paso el conductor que llegó primero.",
-      "B": "Que si solo hay un carril tiene preferencia el conductor que está mirando la señal.",
-      "C": "Que si solo hay un carril no tiene preferencia el que está mirando la señal y debe darle paso al del sentido contrario.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (R-50), significa:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img113.jpg"
-  },
-  {
-    "id": 114,
-    "alternatives": {
-      "A": "Una señal informativa.",
-      "B": "Una señal preventiva.",
-      "C": "Una señal de obligación.",
-      "D": "No es una señal válida en el Perú."
-    },
-    "question": "La señal (R-5-1), es:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img114.jpg"
-  },
-  {
-    "id": 115,
-    "alternatives": {
-      "A": "Hay una curva y contra- curva a la izquierda.",
-      "B": "Hay una curva y contra- curva a la derecha.",
-      "C": "Hay una curva y contra- curva pronunciada a la derecha.",
-      "D": "Hay una curva y contra- curva pronunciada a la izquierda."
-    },
-    "question": "La señal (P-3a) , le indica al conductor que:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img115.jpg"
-  },
-  {
-    "id": 116,
-    "alternatives": {
-      "A": "Se aproxima a una curva y contra-curva a la izquierda.",
-      "B": "Se aproxima a una curva y contra-curva a la derecha.",
-      "C": "Se aproxima a un camino sinuoso a la derecha.",
-      "D": "Se aproxima a un camino sinuoso a la izquierda."
-    },
-    "question": "La siguiente señal (P-5-1a) , le advierte al conductor que:",
-    "correctAnswer": "D",
-    "image": "/Content/img-data/img116.jpg"
-  },
-  {
-    "id": 117,
-    "alternatives": {
-      "A": "El sentido del tránsito es el que indica la flecha.",
-      "B": "Se aproxima a una reducción de la vía en ambos sentidos.",
-      "C": "Está circulando por una curva horizontal.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (P-61), le advierte al conductor que:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img117.jpg"
-  },
-  {
-    "id": 118,
-    "alternatives": {
-      "A": "La vía está en mal estado y tiene baches.",
-      "B": "Se aproxima a un resalto.",
-      "C": "Se aproxima a un rompe muelles.",
-      "D": "Se aproxima a un badén."
-    },
-    "question": "La siguiente señal (P-34), le advierte al conductor que:",
-    "correctAnswer": "D",
-    "image": "/Content/img-data/img118.jpg"
-  },
-  {
-    "id": 119,
-    "alternatives": {
-      "A": "Una señal turística.",
-      "B": "Una señal informativa.",
-      "C": "Una señal preventiva.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (P-60), es:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img119.jpg"
-  },
-  {
-    "id": 120,
-    "alternatives": {
-      "A": "Existencia de una ciclovía.",
-      "B": "Autorización para el cruce de ciclistas.",
-      "C": "Ciclistas en la vía.",
-      "D": "Cercanía de una ciclovía."
-    },
-    "question": "La siguiente señal (P-46), indica:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img120.jpg"
-  },
-  {
-    "id": 121,
-    "alternatives": {
-      "A": "Que los ciclistas deben usar la ciclovía.",
-      "B": "Que nos aproximamos a un cruce de ciclovía.",
-      "C": "Que la ciclovía es solo para los ciclistas.",
-      "D": "Todas las alternativas son correctas."
-    },
-    "question": "La siguiente señal (P-46-a) , indica:",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img121.jpg"
-  },
-  {
-    "id": 122,
-    "alternatives": {
-      "A": "Que los ciclistas deben detenerse en ese punto.",
-      "B": "Que nos aproximamos a un cruce de ciclovía.",
-      "C": "Que la ciclovía es solo para los ciclistas.",
-      "D": "La ubicación de un cruce de ciclistas."
-    },
-    "question": "La siguiente señal (P-46b) , indica:",
-    "correctAnswer": "D",
-    "image": "/Content/img-data/img122.jpg"
-  },
-  {
-    "id": 123,
-    "alternatives": {
-      "A": "Vía es de uso exclusivo de los peatones.",
-      "B": "Zona con presencia de peatones.",
-      "C": "Ubicación de un cruce escolar.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (P-48), indica:",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img123.jpg"
-  },
-  {
-    "id": 124,
-    "alternatives": {
-      "A": "Vía es de uso exclusivo de peatones.",
-      "B": "Proximidad a un cruce peatonal.",
-      "C": "Ubicación de un cruce escolar.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (P-48a) , indica:",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img124.jpg"
-  },
-  {
-    "id": 125,
-    "alternatives": {
-      "A": "Ubicación de un cruce escolar.",
-      "B": "Proximidad a una calzada.",
-      "C": "Ubicación de un cruce peatonal.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (P-48-b) , indica:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img125.jpg"
-  },
-  {
-    "id": 126,
-    "alternatives": {
-      "A": "Zona escolar.",
-      "B": "Proximidad a un cruce peatonal.",
-      "C": "Zona transitada.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (P-49), indica:",
-    "correctAnswer": "A",
-    "image": "/Content/img-data/img126.jpg"
-  },
-  {
-    "id": 127,
-    "alternatives": {
-      "A": "Zona escolar.",
-      "B": "Proximidad a un cruce escolar.",
-      "C": "Ubicación de un cruce escolar.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (P-49a) , indica:",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img127.jpg"
-  },
-  {
-    "id": 128,
-    "alternatives": {
-      "A": "Zona transitada.",
-      "B": "Proximidad a un cruce peatonal.",
-      "C": "Ubicación de un cruce escolar",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (P-49b) , indica:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img128.jpg"
-  },
-  {
-    "id": 129,
-    "alternatives": {
-      "A": "Zona de deportes.",
-      "B": "Proximidad a campo deportivo.",
-      "C": "Proximidad a zona urbana.",
-      "D": "Niños jugando."
-    },
-    "question": "La siguiente señal (P-50), indica:",
-    "correctAnswer": "D",
-    "image": "/Content/img-data/img129.jpg"
-  },
-  {
-    "id": 130,
-    "alternatives": {
-      "A": "Zona de parqueo de vehículos pesados.",
-      "B": "Proximidad a zona rural.",
-      "C": "Maquinaria agrícola en la vía.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (P-51), indica:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img130.jpg"
-  },
-  {
-    "id": 131,
-    "alternatives": {
-      "A": "Proximidad a un establo.",
-      "B": "Proximidad a zona agrícola.",
-      "C": "Animales en la vía.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (P-53), indica:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img131.jpg"
-  },
-  {
-    "id": 132,
-    "alternatives": {
-      "A": "Semáforo malogrado.",
-      "B": "Proximidad a un semáforo.",
-      "C": "Semáforos en ola verde.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (P-55), indica:",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img132.jpg"
-  },
-  {
-    "id": 133,
-    "alternatives": {
-      "A": "Que usted se aproxima a una señal de PARE.",
-      "B": "Que usted debe parar donde está la señal P-58.",
-      "C": "Que se trata de un PARE, pero puede seguir adelante.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (P-58), le indica:",
-    "correctAnswer": "A",
-    "image": "/Content/img-data/img133.jpg"
-  },
-  {
-    "id": 134,
-    "alternatives": {
-      "A": "Que usted se aproxima a una señal de CEDA EL PASO.",
-      "B": "Que usted debe ceder el paso donde está la señal P- 59.",
-      "C": "Que se trata de un PARE, pero puede seguir adelante.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (P-59), le indica:",
-    "correctAnswer": "A",
-    "image": "/Content/img-data/img134.jpg"
-  },
-  {
-    "id": 135,
-    "alternatives": {
-      "A": "Que usted se aproxima a una zona de camiones.",
-      "B": "Que usted debe encender sus luces pues se aproxima a una zona con poca visibilidad.",
-      "C": "Que usted se aproxima a un túnel.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (P-41), le indica:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img135.jpg"
-  },
-  {
-    "id": 136,
-    "alternatives": {
-      "A": "Proximidad a un aeropuerto.",
-      "B": "Proximidad a una pista de aviones.",
-      "C": "Vuelo de aviones a baja altura.",
-      "D": "Aviones que generan ruido."
-    },
-    "question": "La siguiente señal (P-45), indica:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img136.jpg"
-  },
-  {
-    "id": 137,
-    "alternatives": {
-      "A": "Que usted debe dar prioridad de paso a las ambulancias.",
-      "B": "Que usted debe dar prioridad de paso a los bomberos.",
-      "C": "Que se aproxima a una salida de vehículos de bomberos.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (P-52), le indica:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img137.jpg"
-  },
-  {
-    "id": 138,
-    "alternatives": {
-      "A": "Que se aproxima un desierto.",
-      "B": "Que se aproxima una zona donde hay ráfagas de viento lateral.",
-      "C": "Que se acerca a una zona de arenamiento en la vía.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (P-66), le indica:",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img138.jpg"
-  },
-  {
-    "id": 139,
-    "alternatives": {
-      "A": "Que se aproxima una tormenta.",
-      "B": "Que está pasando por una zona donde hay ráfagas de viento lateral.",
-      "C": "Que se acerca a una zona de arenamiento en la vía.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (P-66a) , le indica:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img139.jpg"
-  },
-  {
-    "id": 140,
-    "alternatives": {
-      "A": "La vía está interrumpida y debe tomar el camino alternativo que muestra la señal.",
-      "B": "En la siguiente intersección está prohibido girar a la izquierda y por lo tanto, si desea seguir esa ruta debe tomar el camino alternativo que muestra la señal.",
-      "C": "En la siguiente intersección está prohibido girar a la derecha y por lo tanto, si desea seguir esa ruta debe tomar el camino alternativo que muestra la señal.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Si al conducir su vehículo se encuentra con la señal vertical que se\nmuestra, usted debe entender que:",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img140.jpg"
-  },
-  {
-    "id": 141,
-    "alternatives": {
-      "A": "Si quiere girar a la izquierda debe pasar la intersección y dar la vuelta a la manzana.",
-      "B": "En la siguiente intersección está prohibido girar a la izquierda y por lo tanto, si desea seguir esa ruta debe hacerlo una cuadra antes.",
-      "C": "En esa dirección hay una zona de parqueo.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Si al conducir su vehículo se encuentra con la señal vertical que se muestra, usted debe entender que:",
-    "correctAnswer": "A",
-    "image": "/Content/img-data/img141.jpg"
-  },
-  {
-    "id": 142,
-    "alternatives": {
-      "A": "Señal de hostal.",
-      "B": "Señal de hospedaje.",
-      "C": "Señal de hospital.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (I-14), significa:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img142.jpg"
-  },
-  {
-    "id": 143,
-    "alternatives": {
-      "A": "Proximidad de una bahía de taxis.",
-      "B": "Proximidad a un estacionamiento permitido.",
-      "C": "Proximidad de una zona de parqueo para vecinos.",
-      "D": "Proximidad de un estacionamiento para emergencias."
-    },
-    "question": "La siguiente señal (I-31), significa:",
-    "correctAnswer": "D",
-    "image": "/Content/img-data/img143.jpg"
-  },
-  {
-    "id": 144,
-    "alternatives": {
-      "A": "Zona de control policial.",
-      "B": "Zona de control de aduanas.",
-      "C": "Zona militar.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (I-9), significa:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img144.jpg"
-  },
-  {
-    "id": 145,
-    "alternatives": {
-      "A": "Cercanía a una ferretería.",
-      "B": "Cercanía a un servicio mecánico.",
-      "C": "Cercanía a un grifo.",
-      "D": "Ninguna de las alternativas es correcta"
-    },
-    "question": "La siguiente señal (I-18), se utiliza para indicar:",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img145.jpg"
-  },
-  {
-    "id": 146,
-    "alternatives": {
-      "A": "Cercanía a un servicio mecánico.",
-      "B": "Cercanía a una tienda.",
-      "C": "Cercanía a un grifo.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (I-19), se utiliza para indicar:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img146.jpg"
-  },
-  {
-    "id": 147,
-    "alternatives": {
-      "A": "Cercanía a un servicio mecánico.",
-      "B": "Cercanía a una zona donde debe circular con cadenas en las llantas.",
-      "C": "Cercanía a un grifo.",
-      "D": "Cercanía a una llantería."
-    },
-    "question": "La siguiente señal (I-20), se utiliza para indicar:",
-    "correctAnswer": "D",
-    "image": "/Content/img-data/img147.jpg"
-  },
-  {
-    "id": 148,
-    "alternatives": {
-      "A": "Fin de la restricción de circulación de automotores.",
-      "B": "Fin de la restricción de prohibido adelantar.",
-      "C": "Fin de la restricción de circulación en doble sentido.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (R-16a) , se utiliza para indicar:",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img148.jpg"
-  },
-  {
-    "id": 149,
-    "alternatives": {
-      "A": "Valor por la vida.",
-      "B": "Respeto por la integridad física del resto de los usuarios.",
-      "C": "Respeto a la autoridad encargada de la vigilancia y disciplina de tráfico.",
-      "D": "Todas las alternativas son correctas."
-    },
-    "question": "El comportamiento del conductor como usuario de la vía, debe estar orientado a:",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 150,
-    "alternatives": {
-      "A": "Peatones, niños, adultos mayores, personas con movilidad reducida, ciclistas.",
-      "B": "Únicamente los peatones y ciclistas.",
-      "C": "Únicamente los peatones y niños.",
-      "D": "Todas las alternativas son correctas, con excepción de los ciclistas."
-    },
-    "question": "Son considerados usuarios vulnerables de la vía y por tanto merecen especial protección:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 151,
-    "alternatives": {
-      "A": "Flechas retroreflectivas que indican peligro.",
-      "B": "Delineadores de curva, que guían al conductor.",
-      "C": "Advertencia al conductor sobre la proximidad de un puente.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (P-61), muestra:",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img151.jpg"
-  },
-  {
-    "id": 152,
-    "alternatives": {
-      "A": "Camión, tipo volquete.",
-      "B": "Ómnibus, tipo panorámico.",
-      "C": "Mototaxi.",
-      "D": "Automóvil, tipo sedan."
-    },
-    "question": "Si usted es titular de una licencia particular A-I, está autorizado a conducir el siguiente vehículo:",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 153,
-    "alternatives": {
-      "A": "Compartir su asiento con un niño, siempre y cuando éste sea menor de un año de edad.",
-      "B": "Que otra persona tome el control de la dirección del vehículo, siempre y",
-      "C": "Conducir con una mano sobre el volante de dirección, cuando es necesario accionar algún comando del vehículo, como realizar los cambios de velocidad.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Mientras la persona conduce, le está permitido:",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 154,
-    "alternatives": {
-      "A": "En su derecho - negarse.",
-      "B": "Facultado - Rechazar.",
-      "C": "Obligado - someterse.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "El conductor está ________ a ________ a las pruebas que le solicite el Efectivo de la Policía Nacional del Perú, asignado al control del tránsito, para determinar su estado de intoxicación por alcohol, drogas, estupefacientes u otros tóxicos",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 155,
-    "alternatives": {
-      "A": "Que la Policía de Tránsito intervenga a dicho conductor y que la autoridad que expidió la licencia de conducir ordene su reexaminación.",
-      "B": "Que la autoridad competente expida un permiso excepcional para dicho conductor.",
-      "C": "Que la Policía de Tránsito expida un permiso excepcional para dicho conductor.",
-      "D": "Que la Policía de Tránsito otorgue a dicho conductor un plazo prudencial para que continúe conduciendo."
-    },
-    "question": "Ante un conductor con evidente discapacidad física, la cual no figura en el rubro de restricciones de su licencia de conducir, procede:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 156,
-    "alternatives": {
-      "A": "Sí, siempre y cuando dicha discapacidad pueda ser superada con algún corrector que establezca alguna de las restricciones que prevé la norma vigente.",
-      "B": "No, está terminantemente prohibido.",
-      "C": "Depende del criterio del centro de emisión de la licencia de conducir.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "¿Una persona con discapacidad física puede obtener una licencia de conducir particular?",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 157,
-    "alternatives": {
-      "A": "Nunca.",
-      "B": "Sí, siempre y cuando vaya acompañada de una personas mayor de edad y titular de una licencia de conducir.",
-      "C": "No, salvo que conduzca un vehículo de dimensión reducida.",
-      "D": "Sí, siempre y cuando sea mayor de 16 años y cuente con licencia de conducir o permiso provisional, conforme a lo dispuesto en el Reglamento Nacional del Sistema de Emisión de Licencias de Conducir."
-    },
-    "question": "¿Puede una persona menor de edad conducir un vehículo?",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 158,
-    "alternatives": {
-      "A": "Peatones - los letreros instalados en las vías públicas.",
-      "B": "Los usuarios de la vía pública - los dispositivos de control de tránsito.",
-      "C": "Vehículos - los medios de comunicación.",
-      "D": "Menores de edad - los adultos mayores."
-    },
-    "question": "Es una obligación general de tránsito que, los ________ circulen respetando los mensajes de ________ , las instrucciones de los Efectivos de la Policía de Tránsito y el mandato de las normas legales y reglamentarias correspondientes.",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 159,
-    "alternatives": {
-      "A": "Está prohibido arrojar, depositar o abandonar objetos en la vía pública, o cualquier otro obstáculo que pueda dificultar la\ncirculación.",
-      "B": "El conductor debe mantener el vehículo que conduce con el combustible necesario para evitar detenciones en la vía.",
-      "C": "Los vehículos deben circular en vías urbanas con las luces bajas las 24 horas del día.",
-      "D": "En caso de haber agua en la calzada, el conductor de un vehículo debe tomar las precauciones, para evitar que ésta pueda mojar la\nacera y los peatones."
-    },
-    "question": "Marque la afirmación incorrecta:",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 160,
-    "alternatives": {
-      "A": "Debe obedecer la señal de velocidad instalada en la vía.",
-      "B": "Puede ir a una velocidad máxima de 60 km/h.",
-      "C": "Debe ir a una velocidad máxima de 60 km/h.",
-      "D": "Debe ir a una velocidad entre 50 y 60 km/h."
-    },
-    "question": "¿Si al conducir por una avenida se encuentra con una señal en la vía que indica un límite máximo de 50 km/h, sin embargo, conforme a lo dispuesto en la norma el límite máximo de velocidad en dicha vía es de 60 km/h; usted:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 161,
-    "alternatives": {
-      "A": "Está prohibida, salvo en casos estrictamente\njustificados.",
-      "B": "Nunca debe realizarse.",
-      "C": "Está permitida",
-      "D": "Está permitida, salvo en carreteras."
-    },
-    "question": "Sobre la conducción en retroceso, marque la opción correcta:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 162,
-    "alternatives": {
-      "A": "Baja - carreteras - alta.",
-      "B": "Alta - vías urbanas - baja.",
-      "C": "Rompenieblas - carreteras - baja.",
-      "D": "Alta - carretereras - baja."
-    },
-    "question": "El uso de la luz ________ es obligatorio en ________ , debiendo cambiar por luz ________ momentos previos al cruce con otro vehículo que circule en sentido contrario.",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 163,
-    "alternatives": {
-      "A": "El estacionamiento de un vehículo a la salida de salas de espectáculos en\nfuncionamiento.",
-      "B": "El estacionamiento de un vehículo de emergencia en un lugar no permitido, si\nello fuera imprescindible.",
-      "C": "El estacionamiento de un vehículo después de 1 metro de un paso peatonal.",
-      "D": "El estacionamiento de un vehículo sobre las aceras."
-    },
-    "question": "Indique la conducta permitida:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 164,
-    "alternatives": {
-      "A": "El vehículo está estacionado en un lugar permitido en la vía pública, pero sin conductor por un tiempo mayor de 72 horas.",
-      "B": "El vehículo está estacionado en un lugar permitido en la vía pública, pero sin conductor por un tiempo mayor de 96 horas.",
-      "C": "El vehículo está estacionado en un lugar permitido en la vía pública, pero sin conductor y por un tiempo mayor de 48 horas.",
-      "D": "La norma de tránsito no establece nada sobre el abandono del vehículo."
-    },
-    "question": "Se considera el abandono de un vehículo cuando:",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 165,
-    "alternatives": {
-      "A": "Asegurarse, en caso la carga sobresalga lateralmente de la\ncarrocería, esté bien sujeta.",
-      "B": "Evitar todo riesgo de caída de la carga que sobresale lateralmente de\nla carrocería.",
-      "C": "Tratar que la carga no sea arrastrada.",
-      "D": "Asegurarse que la carga no sobrepase las dimensiones de la\ncarrocería."
-    },
-    "question": "Al transportar carga en su vehículo, usted debe:",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 166,
-    "alternatives": {
-      "A": "Está permitida.",
-      "B": "Está prohibida, en un índice superior al límite máximo que permite la norma.",
-      "C": "Está prohibida en el ámbito urbano.",
-      "D": "La norma no regula sobre ello."
-    },
-    "question": "Sobre la emisión vehicular de sustancias contaminantes, marque la opción correcta:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 167,
-    "alternatives": {
-      "A": "Cuando la situación lo justifique - la circulación o estacionamiento de vehículos.",
-      "B": "Aun cuando la situación lo justifique no - circulación o estacionamiento de vehículos.",
-      "C": "No se encuentra facultada ni - circulación de vehículos",
-      "D": "Únicamente con el consentimiento del conductor - circulación de vehículos."
-    },
-    "question": "La autoridad competente, ________ puede prohibir o restringir ________ en determinadas vías públicas.",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 168,
-    "alternatives": {
-      "A": "Cambiar de luces bajas a luces altas",
-      "B": "Encender las luces de emergencia.",
-      "C": "Cambiar de luces altas a luces bajas.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Si al conducir en una carretera de noche se aproxima un vehículo en sentido contrario; usted debe:",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 169,
-    "alternatives": {
-      "A": "En el sentido contrario a la circulación y en el carril izquierdo de la vía.",
-      "B": "En el sentido de la circulación y en el carril derecho de la vía, utilizando las luces altas.",
-      "C": "En el sentido de la circulación y en el carril izquierdo de la vía, utilizando las luces\nintermitentes.",
-      "D": "En el sentido de la circulación y en el carril derecho de la vía, utilizando las luces intermitentes."
-    },
-    "question": "La detención de un vehículo debe efectuarse:",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 170,
-    "alternatives": {
-      "A": "Acudir a la estación de bomberos.",
-      "B": "Llamar a un familiar.",
-      "C": "Solicitar la intervención de la autoridad policial.",
-      "D": "Abandonar el lugar donde ocurrió el accidente."
-    },
-    "question": "En caso de un accidente de tránsito con daños personales y/o materiales los participantes deben:",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 171,
-    "alternatives": {
-      "A": "Portar la tarjeta de identificación vehicular del vehículo que conduce.",
-      "B": "Portar y exhibir la Placa Única de Rodaje.",
-      "C": "Constatar que el vehículo tiene SOAT vigente.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "El conductor antes de iniciar la conducción de un vehículo no está obligado a:",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 172,
-    "alternatives": {
-      "A": "Tarjeta de identificación vehicular.",
-      "B": "Municipalidad provincial.",
-      "C": "La Superintendencia Nacional de Aduanas y de Administración Tributaria - SUNAT.",
-      "D": "Placa Única Nacional de Rodaje."
-    },
-    "question": "La ________ faculta y autoriza la circulación del vehículo por la vía pública, identifica el bien, y, por ende, al titular responsable de las acciones que deriven de su propiedad.",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 173,
-    "alternatives": {
-      "A": "Que realice pruebas de coordinación y equilibrio.",
-      "B": "Uso del alcoholímetro.",
-      "C": "Prueba de alcoholemia.",
-      "D": "Todas las alternativas son correctas."
-    },
-    "question": "A fin de determinar la presencia de alcohol o sustancias estupefacientes en el conductor, el efectivo de la Policía de Tránsito puede exigirle al momento de la intervención:",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 174,
-    "alternatives": {
-      "A": "No, el conductor puede cometer la misma infracción varias veces y la sanción será la misma.",
-      "B": "Si, cuando el conductor comete la misma infracción dentro de los 12 meses será sancionado con el doble de\nla multa.",
-      "C": "Solo en los casos en que se cometan infracciones gravísimas.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "¿El Reglamento Nacional de Tránsito considera la reincidencia en las infracciones de tránsito?",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 175,
-    "alternatives": {
-      "A": "06 meses.",
-      "B": "12 meses.",
-      "C": "24 meses.",
-      "D": "35 meses."
-    },
-    "question": "¿Después de qué tiempo de haber cometido la misma infracción se llama reincidencia y es sancionada con el doble de la multa establecida?",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 176,
-    "alternatives": {
-      "A": "Tramitar el duplicado de su licencia de conducir.",
-      "B": "Tramitar la revalidación de su licencia de conducir.",
-      "C": "Tramitar la recategorización de su\nlicencia de conducir.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Si a un conductor infractor le suspendieron su licencia de conducir, éste se encuentra facultado para:",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 177,
-    "alternatives": {
-      "A": "Señales de localización.",
-      "B": "Señales de salida inmediata.",
-      "C": "Señales de servicios generales.",
-      "D": "Señales ordinarias"
-    },
-    "question": "Las ________ tienen por función informar a los usuarios sobre los servicios generales existentes próximos a la vía, tales como teléfono, hospedaje, restaurante, primeros auxilios,\nestación de combustibles, talleres, y otros.",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 178,
-    "alternatives": {
-      "A": "No constituye una infracción.",
-      "B": "Solo cuando la licencia de conducir ha sido retenida por la comisión de una infracción muy grave.",
-      "C": "Si, constituye una infracción.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "¿Constituye una infracción tramitar el duplicado de una licencia de conducir que se encuentra retenida?",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 179,
-    "alternatives": {
-      "A": "Horizontal - reglamentar.",
-      "B": "Vertical - reglamentar.",
-      "C": "Más importante - mejorar.",
-      "D": "Menos importante - adornar."
-    },
-    "question": "Las marcas en el pavimento constituyen la señalización ________ y se emplean para ________ la circulación.",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 180,
-    "alternatives": {
-      "A": "Conductor - acera.",
-      "B": "Conductor - calzada.",
-      "C": "Conductor - berma.",
-      "D": "Peatón - autopista."
-    },
-    "question": "Ciclista es a ciclovía como:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 181,
-    "alternatives": {
-      "A": "La proximidad a una vía de tres carriles.",
-      "B": "La proximidad a un huracán.",
-      "C": "La proximidad a un camino sinuoso.",
-      "D": "La proximidad de una intersección rotatoria (óvalo o rotonda)."
-    },
-    "question": "La siguiente señal (P-15), se utiliza para advertir al conductor:",
-    "correctAnswer": "D",
-    "image": "/Content/img-data/img181.jpg"
-  },
-  {
-    "id": 182,
-    "alternatives": {
-      "A": "La proximidad del final de la vía.",
-      "B": "La proximidad de una vía asfaltada.",
-      "C": "La proximidad de una pendiente leve.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "La siguiente señal (P-31a) , indica:",
-    "correctAnswer": "A",
-    "image": "/Content/img-data/img182.jpg"
-  },
-  {
-    "id": 183,
-    "alternatives": {
-      "A": "Línea de carril.",
-      "B": "Línea de borde de calzada.",
-      "C": "Línea de pare.",
-      "D": "Todas las alternativas son correctas."
-    },
-    "question": "Es una línea transversal a la calzada, que indica al conductor que debe detener completamente el vehículo, no debiendo sobrepasar el inicio de la indicada línea:",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 184,
-    "alternatives": {
-      "A": "Dispositivos de control del tránsito que tienen por finalidad regular y controlar el tránsito vehicular, motorizado y no motorizado, y el peatonal, a través de las indicaciones de las luces respectivas.",
-      "B": "Dispositivos de control del tránsito que tienen por finalidad regular y controlar únicamente el tránsito vehicular motorizado y peatonal, a través de las indicaciones de luces.",
-      "C": "Señales de color rojo, verde y amarillo, que tienen como único fin regular la corriente vehicular.",
-      "D": "Artefactos que emiten luces de colores y cuyo único fin es regular la corriente de vehículos motorizados y peatones."
-    },
-    "question": "Los semáforos son:",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 185,
-    "alternatives": {
-      "A": "Preocupaciones.",
-      "B": "Uso del teléfono celular.",
-      "C": "Manipulación de la radio mientras se conduce.",
-      "D": "Todas las alternativas son correctas."
-    },
-    "question": "La conducción requiere un alto nivel de atención, pues existen distracciones que pueden ocasionar accidentes de tránsito, como por ejemplo:",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 186,
-    "alternatives": {
-      "A": "Si, pues el conductor tomará decisiones lentas que lo inducirán a cometer errores.",
-      "B": "Si, ya que el conductor está de mal genio.",
-      "C": "No, siempre que la conducción sea realizada lentamente.",
-      "D": "No, siempre y cuando la conducción sea realizada con un acompañante."
-    },
-    "question": "¿Influye la somnolencia en la capacidad de conducir?",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 187,
-    "alternatives": {
-      "A": "Girar rápidamente a la derecha antes que el peatón cruce la calzada.",
-      "B": "Dar preferencia de paso al peatón para que cruce la calzada.",
-      "C": "Girar lentamente a la derecha antes que el peatón cruce la calzada.",
-      "D": "Tocar el claxon para que el peatón no cruce la calzada"
-    },
-    "question": "¿Cuál es la acción correcta del conductor, según las normas de tránsito, en la situación que plantea el siguiente gráfico?",
-    "correctAnswer": "B",
-    "image": "/Content/img-data/img187.jpg"
-  },
-  {
-    "id": 188,
-    "alternatives": {
-      "A": "Pavimento seco, somnolencia, frenos desgastados.",
-      "B": "Pavimento húmedo, neumáticos desgastados, cansancio.",
-      "C": "Reductores de velocidad, falta de atención, uso del teléfono celular.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "¿En cuál de las siguientes opciones, los factores mencionados contribuyen a una colisión vehicular?",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 189,
-    "alternatives": {
-      "A": "Berma.",
-      "B": "Autopista.",
-      "C": "Acera.",
-      "D": "Demarcación."
-    },
-    "question": "La ________ es la parte de una carretera o camino contigua a la calzada, no habilitada para la circulación de vehículos y destinada eventualmente a la detención de vehículos en emergencia y circulación de peatones.",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 190,
-    "alternatives": {
-      "A": "La calzada.",
-      "B": "La acera.",
-      "C": "La berma.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "Es una parte de la vía destinada a la circulación de vehículos y eventualmente al cruce de peatones y animales.",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 191,
-    "alternatives": {
-      "A": "La acera.",
-      "B": "La calzada.",
-      "C": "La berma.",
-      "D": "La autopista."
-    },
-    "question": "Es una parte de la vía destinada al uso de peatones",
-    "correctAnswer": "A",
-    "image": null
-  },
-  {
-    "id": 192,
-    "alternatives": {
-      "A": "Las bocinas y las marcas en la calzada o señales horizontales.",
-      "B": "Las bocinas y las señales verticales.",
-      "C": "Las señales verticales, las marcas en la calzada o señales horizontales y las bocinas.",
-      "D": "Las señales verticales y las marcas en la calzada o señales horizontales."
-    },
-    "question": "Son señales que regulan el tránsito:",
-    "correctAnswer": "D",
-    "image": null
-  },
-  {
-    "id": 193,
-    "alternatives": {
-      "A": "Puertas y capot cerrados, permitiéndose la maletera entreabierta para casos especiales.",
-      "B": "Puertas, capot y maletera cerrados.",
-      "C": "Puertas, capot y maletera cerrados, salvo autorización especial.",
-      "D": "Capot y maletera cerrados, permitiéndose dos puertas entreabiertas para casos especiales."
-    },
-    "question": "Los vehículos deben ser conducidos con:",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 194,
-    "alternatives": {
-      "A": "2 segundos antes de realizar la maniobra.",
-      "B": "1 metro antes de realizar la maniobra.",
-      "C": "20 metros antes de realizar la maniobra.",
-      "D": "3 metros antes de realizar la maniobra."
-    },
-    "question": "El conductor que en una vía urbana va a girar a la izquierda, a la derecha o en ¿U¿ debe hacer la señal respectiva con la luz direccional, por lo menos:",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 195,
-    "alternatives": {
-      "A": "2 segundos antes de realizar la maniobra.",
-      "B": "2 metros antes de realizar la maniobra.",
-      "C": "30 metros antes de realizar la maniobra.",
-      "D": "1 metro antes de realizar la maniobra."
-    },
-    "question": "Si usted está conduciendo por una carretera y va girar a la izquierda, debe realizar la señal respectiva con la luz direccional por lo menos:",
-    "correctAnswer": "C",
-    "image": null
-  },
-  {
-    "id": 196,
-    "alternatives": {
-      "A": "Si.",
-      "B": "No",
-      "C": "Únicamente en el ámbito urbano.",
-      "D": "Únicamente en carreteras."
-    },
-    "question": "La licencia particular de la Clase y Categoría A-I, permite conducir motos?",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 197,
-    "alternatives": {
-      "A": "Señalización de tránsito vertical y horizontal en una zona escolar.",
-      "B": "Únicamente señalización de tránsito vertical en una zona escolar.",
-      "C": "Únicamente señalización de tránsito horizontal en una zona escolar.",
-      "D": "Ninguna de las alternativas es correcta."
-    },
-    "question": "El siguiente gráfico muestra:",
-    "correctAnswer": "A",
-    "image": "/Content/img-data/img197.jpg"
-  },
-  {
-    "id": 198,
-    "alternatives": {
-      "A": "Islas canalizadoras - vía.",
-      "B": "Líneas - intersección.",
-      "C": "Vías - intersección.",
-      "D": "Todas las alternativas son correctas."
-    },
-    "question": "Las ________ canalizadoras, tiene por función conformar las islas canalizadoras del tránsito automotor en una ________ .",
-    "correctAnswer": "B",
-    "image": null
-  },
-  {
-    "id": 199,
-    "alternatives": {
-      "A": "Que no puede detener el vehículo dentro del área de intersección.",
-      "B": "Que se están realizando trabajos de emergencia en el área demarcada.",
-      "C": "Que únicamente puede detener el vehículo dentro del área de intersección.",
-      "D": "Que es una isla de refugio peatonal."
-    },
-    "question": "Si al conducir en una intersección se encuentra con las siguientes marcas en el pavimento (malla ortogonal de color amarillo), significa:",
-    "correctAnswer": "A",
-    "image": "/Content/img-data/img199.jpg"
-  },
-  {
-    "id": 200,
-    "alternatives": {
-      "A": "La zona que permite adelantar inicia con las líneas amarillas continuas.",
-      "B": "Los conductores pueden estacionarse al empezar las líneas continuas.",
-      "C": "La zona de no adelantar inicia con las líneas amarillas continuas.",
-      "D": "El conductor del camión puede estacionarse antes de empezar las líneas continuas"
-    },
-    "question": "De acuerdo al siguiente gráfico, es correcto afirmar que:",
-    "correctAnswer": "C",
-    "image": "/Content/img-data/img200.jpg"
-  }
+	{
+		"id": 1,
+		"alternatives": {
+			"A": "Recoger o dejar pasajeros o carga en cualquier lugar",
+			"B": "Dejar animales sueltos o situarlos de forma tal que obstaculicen solo un poco el tránsito",
+			"C": "Recoger o dejar pasajeros en lugares autorizados.",
+			"D": "Ejercer el comercio ambulatorio o estacionario"
+		},
+		"question": "Está permitido en la vía:",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 2,
+		"alternatives": {
+			"A": "Solo los peatones están obligados a su obediencia",
+			"B": "Los conductores y los peatones están obligados a su obediencia, salvo instrucción de la Policía Nacional del Perú asignada al tránsito que indique lo contrario",
+			"C": "Solo los conductores están obligados a su obediencia.",
+			"D": "Los conductores están obligados a su obediencia, aun cuando la Policía Nacional del Perú asignada al tránsito pueda indicar lo contrario."
+		},
+		"question": "Respecto de los dispositivos de control o regulación del tránsito:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 3,
+		"alternatives": {
+			"A": "Está prohibido voltear a la izquierda y, por lo tanto también está prohibido el giro en U.",
+			"B": "Está prohibido voltear a la izquierda, sin embargo, está permitido el giro en U.",
+			"C": "El único sentido de desplazamiento es continuar de frente.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La señal vertical reglamentaria R-6 ¿prohibido voltear a la izquierda¿, significa que:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 4,
+		"alternatives": {
+			"A": "Nos acercamos a una zona restringida al tránsito.",
+			"B": "Está permitido adelantar vehículos.",
+			"C": "El único sentido de desplazamiento es continuar de frente.",
+			"D": "Ninguna de las alternativas es correcta"
+		},
+		"question": "La señal vertical reglamentaria R-3 significa que:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img4.jpg"
+	},
+	{
+		"id": 5,
+		"alternatives": {
+			"A": "Está permitido cruzar al otro carril para el adelantamiento vehicular, si es que es seguro hacerlo.",
+			"B": "No está permitido cruzar al otro carril para el adelantamiento vehicular.",
+			"C": "Se está reduciendo el ancho de la calzada de la vía por donde se circula.",
+			"D": "Se está frente a un lugar de cruce peatonal."
+		},
+		"question": "En las vías, las marcas en el pavimento que son del tipo central discontinua y de color amarillo significan que:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 6,
+		"alternatives": {
+			"A": "Los vehículos deben avanzar.",
+			"B": "Los vehículos deben detenerse.",
+			"C": "Los vehículos deben acelerar la marcha.",
+			"D": "Los vehículos deben detenerse antes de ingresar a la intersección si su velocidad y ubicación lo permiten; de lo contrario, deberán cruzar y despejar la intersección."
+		},
+		"question": "El color ámbar o amarillo del semáforo significa que:",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 7,
+		"alternatives": {
+			"A": "Detención - prevención - paso.",
+			"B": "Detención - paso con prevención - circulación rápida.",
+			"C": "Disminución de la velocidad - prevención - paso rápido.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Los colores del semáforo tienen el siguiente significado: rojo: ________ ; ámbar o amarillo: ________ ; verde: ________ .",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 8,
+		"alternatives": {
+			"A": "Se puede continuar con precaución únicamente en la dirección de la flecha y desde el carril que esta flecha controla.",
+			"B": "No está permitida la circulación en el sentido que indica la flecha.",
+			"C": "Se debe respetar únicamente la luz circular.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "¿Qué indica una flecha verde en un semáforo vehicular?",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 9,
+		"alternatives": {
+			"A": "Prohíbe estacionar.",
+			"B": "Prohíbe al conductor detener el vehículo dentro del área de la intersección.",
+			"C": "Prohíbe la carga y descarga.",
+			"D": "Prohíbe la circulación de vehículos motorizados"
+		},
+		"question": "La siguiente señal vertical reglamentaria R-53:",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img9.jpg"
+	},
+	{
+		"id": 10,
+		"alternatives": {
+			"A": "Avanzar en cualquier sentido, ya que la luz circular está en verde.",
+			"B": "Avanzar, pero el giro a la izquierda está prohibido por la flecha roja.",
+			"C": "Avanzar únicamente hacia la izquierda, pues continuar de frente está prohibido.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Si llega a una intersección y visualiza el semáforo con una flecha roja hacia la izquierda y la luz circular verde prendidas al mismo tiempo, la acción correcta es:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 11,
+		"alternatives": {
+			"A": "Si la luz intermitente es roja, ésta es equivalente a un ¿CEDA EL PASO?",
+			"B": "Si la luz intermitente es ámbar, tiene preferencia, debiendo reducir la velocidad y continuar con precaución.",
+			"C": "Si la luz intermitente es verde, ésta es equivalente a un PARE.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Si llega a una intersección donde el semáforo muestra una luz intermitente, qué afirmación es correcta:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 12,
+		"alternatives": {
+			"A": "Verdad.",
+			"B": "Es verdad siempre y cuando también se encuentre un Policía de Tránsito indicando la señal de Pare.",
+			"C": "Falso",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "¿La luz intermitente roja es igual que una señal de PARE?",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 13,
+		"alternatives": {
+			"A": "Girar desde cualquier carril.",
+			"B": "Colocarse en el carril derecho, luego girar con precaución.",
+			"C": "Colocarse en el carril más despejado de tráfico, luego girar con precaución.",
+			"D": "Hacer la señal de volteo a la izquierda con las luces direccionales, ubicar con antelación el vehículo en el carril de circulación de la izquierda y girar con precaución."
+		},
+		"question": "Al aproximarse a una intersección con giro permitido a la izquierda, la conducta correcta es:",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 14,
+		"alternatives": {
+			"A": "Se deben encender las luces direccionales primero, buscar una brecha y realizar el cambio de carril con precaución.",
+			"B": "Se debe encontrar una brecha, luego cambiar de carril con precaución; no es necesario el uso de luces direccionales para cambios de carril.",
+			"C": "Se debe advertir utilizando el claxon, identificar una brecha y realizar el cambio de carril con precaución.",
+			"D": "Está prohibido el cambio de carril en vías de un solo sentido."
+		},
+		"question": "Al cambiar de carril en una vía de un solo sentido con múltiples carriles, ¿cuál es la conducta correcta?",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 15,
+		"alternatives": {
+			"A": "Los vehículos que transitan por la vía férrea tienen preferencia de paso sobre los que transitan por la vía que la cruza.",
+			"B": "Los vehículos que transitan por la vía que cruza la línea férrea tienen preferencia de paso sobre los que transitan por la vía férrea.",
+			"C": "El vehículo que llegue primero tiene preferencia.",
+			"D": "Tiene preferencia el conductor que viene por la derecha del otro."
+		},
+		"question": "Respecto a los cruces a nivel con vías férreas, señale la afirmación correcta:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 16,
+		"alternatives": {
+			"A": "Detenerse hasta que cambie a luz verde.",
+			"B": "Continuar la marcha.",
+			"C": "Estar prevenido.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Ante la señal de color rojo del semáforo y la indicación de continuar la marcha del efectivo de la Policía Nacional del Perú asignado al control del tránsito, corresponde:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 17,
+		"alternatives": {
+			"A": "En las curvas.",
+			"B": "Dentro de una intersección.",
+			"C": "Frente a la entrada de garajes y de recintos militares o policiales.",
+			"D": "Todas las alternativas son correctas."
+		},
+		"question": "Está prohibido estacionar un vehículo:",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 18,
+		"alternatives": {
+			"A": "Prohíbe el uso de la bocina en vías urbanas.",
+			"B": "Prohíbe el uso de la bocina en carreteras.",
+			"C": "Prohíbe el uso de la bocina.",
+			"D": "Prohíbe hacer ruido."
+		},
+		"question": "La siguiente señal vertical reglamentaria (R-29):",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img18.jpg"
+	},
+	{
+		"id": 19,
+		"alternatives": {
+			"A": "Conduzca un vehículo automotor sin tener licencia de conducir.",
+			"B": "Conduzca un vehículo que no cuente con el equipamiento para brindar una máxima comodidad a\nsus ocupantes.",
+			"C": "Conduzca un vehículo sin contar con el SOAT.",
+			"D": "a y c son correctas"
+		},
+		"question": "Se le impondrá el pago de una multa y no podrá obtener la licencia de conducir por 3 años a la persona que:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 20,
+		"alternatives": {
+			"A": "Debe aumentar la velocidad para no dejar que el otro vehículo lo pase.",
+			"B": "No debe aumentar la velocidad hasta que el vehículo lo sobrepase.",
+			"C": "Debe disminuir drásticamente la velocidad de su vehículo.",
+			"D": "Debe detener su vehículo."
+		},
+		"question": "En el supuesto que se encuentre manejando y un vehículo que tiene la intención de sobrepasarlo o adelantarlo lo alcance, ¿qué debería hacer usted?",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 21,
+		"alternatives": {
+			"A": "El conductor debe respetar los límites máximos y mínimos de velocidad establecidos.",
+			"B": "El conductor debe respetar únicamente los límites máximos de velocidad, pues no existen\nlímites mínimos.",
+			"C": "El conductor puede conducir a la velocidad que desee, siempre que lo haga de manera prudente.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "¿Cuál de las siguientes afirmaciones es correcta?",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 22,
+		"alternatives": {
+			"A": "Bajas.",
+			"B": "Altas.",
+			"C": "Luces altas en las intersecciones y bajas en las avenidas.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "¿Qué luces debe utilizar un conductor que circula en las vías públicas urbanas por la noche?",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 23,
+		"alternatives": {
+			"A": "Solo los ocupantes del vehículo.",
+			"B": "Los ocupantes y terceros no ocupantes del vehículo.",
+			"C": "Solo terceros afectados.",
+			"D": "Solo el conductor del vehículo."
+		},
+		"question": "En caso de accidentes, el SOAT cubre los daños que sufren:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 24,
+		"alternatives": {
+			"A": "Cualquier tipo de seguro de accidentes personales que comercialicen las empresas de seguro.",
+			"B": "Cualquier tipo de seguro vehicular, siempre que cubra a los ocupantes del vehículo y terceros afectados por un accidente\nde tránsito.",
+			"C": "El Seguro Obligatorio de Accidentes de Tránsito - SOAT.",
+			"D": "No es obligatorio contar con un seguro."
+		},
+		"question": "¿Cuál de los siguientes seguros es exigible para conducir un vehículo automotor?",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 25,
+		"alternatives": {
+			"A": "Cuando emita señales visibles.",
+			"B": "Cuando emita señales audibles.",
+			"C": "Cuando emita señales audibles y visibles.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Cuándo es obligatorio darle preferencia de paso a un vehículo de emergencia o vehículo oficial:",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 26,
+		"alternatives": {
+			"A": "Detener el vehículo y no continuar la marcha hasta que haya culminado el ascenso o descenso de los\nescolares.",
+			"B": "Adelantar por el lado izquierdo, pero con precaución.",
+			"C": "Tocar el claxon para alertar que está pasando.",
+			"D": "Adelantar muy despacio."
+		},
+		"question": "Si por el carril por donde está conduciendo se aproxima a un vehículo de transporte escolar que se encuentra detenido, recogiendo o dejando escolares ¿Qué debe hacer?",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 27,
+		"alternatives": {
+			"A": "La presencia de un vehículo inmovilizado en la vía pública por alguna circunstancia.",
+			"B": "Zona de obras por reparación en la calzada.",
+			"C": "Que el vehículo que lo enfrenta debe detenerse.",
+			"D": "a y c son correctas."
+		},
+		"question": "¿Qué significa un triángulo rojo de seguridad colocado en la calzada?",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 28,
+		"alternatives": {
+			"A": "Está permitido adelantar.",
+			"B": "Se aproxima un carril adicional.",
+			"C": "Está permitido cambiar de carril.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal vertical reglamentaria P-22C indica que:",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img28.jpg"
+	},
+	{
+		"id": 29,
+		"alternatives": {
+			"A": "Para girar en las intersecciones y para advertir los cambios de carril.",
+			"B": "Para indicar la detención, parada o estacionamiento en zona peligrosa o la ejecución de maniobras\nriesgosas.",
+			"C": "Durante toda la circulación del vehículo.",
+			"D": "En cada intersección."
+		},
+		"question": "Las luces intermitentes de emergencia del vehículo deben utilizarse obligatoriamente:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 30,
+		"alternatives": {
+			"A": "No.",
+			"B": "Si.",
+			"C": "Depende de la intersección.",
+			"D": "No se encuentra regulado en el reglamento."
+		},
+		"question": "En intersecciones que no tienen señales de Pare, Ceda el Paso o Semáforo, ¿las vías de doble sentido tienen prioridad de paso respecto a las vías de un solo sentido de igual clasificación?",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 31,
+		"alternatives": {
+			"A": "Disminuir su velocidad y cederle el paso a los vehículos que circulan por la transversal.",
+			"B": "Disminuir su velocidad y pasar con cuidado.",
+			"C": "Sobre parar y pasar rápidamente.",
+			"D": "Parar por completo, ceder el paso a los usuarios que tengan preferencia y luego continuar con\nprecaución."
+		},
+		"question": "Si usted se aproxima a una señal de PARE colocada verticalmente o pintada en la vía, la acción correcta es:",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 32,
+		"alternatives": {
+			"A": "No hay diferencia, se usan indistintamente.",
+			"B": "La señal P-2A se utiliza en situaciones de mayor riesgo.",
+			"C": "La señal P-1A advierte la presencia de curva pronunciada a la derecha mientras que la P-2A advierte la presencia de curva suave a la derecha.",
+			"D": "La señal P-2A advierte la presencia de curva pronunciada a la derecha mientras que la P-1A advierte la presencia de curva suave a la derecha."
+		},
+		"question": "¿Cuál es la diferencia entre las señales P-2A y P-1A?",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img32.jpg"
+	},
+	{
+		"id": 33,
+		"alternatives": {
+			"A": "Tener precaución con vehículos lentos.",
+			"B": "Regula la velocidad máxima permitida en curvas.",
+			"C": "Regula la velocidad máxima en zonas rurales.",
+			"D": "No se encuentra regulada en el reglamento."
+		},
+		"question": "¿Qué indica la señal R-30F?",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img33.jpg"
+	},
+	{
+		"id": 34,
+		"alternatives": {
+			"A": "Luces direccionales.",
+			"B": "Solo el antebrazo izquierdo y mano extendidos hacia abajo fuera del vehículo.",
+			"C": "Luces intermitentes y, en caso de fuerza mayor, utilizar el antebrazo izquierdo y mano extendidos hacia abajo fuera del vehículo, haciendo ángulo recto con el brazo.",
+			"D": "Luces bajas."
+		},
+		"question": "¿Qué señal debe utilizar el conductor para disminuir la velocidad o detener el vehículo cuando está en marcha?",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 35,
+		"alternatives": {
+			"A": "Cualquiera de los dos.",
+			"B": "El que se aproxime por la derecha del otro.",
+			"C": "El que se aproxime por la izquierda del otro.",
+			"D": "El que haga sonar la bocina primero."
+		},
+		"question": "Si dos vehículos se aproximan simultáneamente a una intersección no regulada (sin señalización) procedentes de vías diferentes,\n¿quién tiene preferencia de paso?",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img35.jpg"
+	},
+	{
+		"id": 36,
+		"alternatives": {
+			"A": "El vehículo que ingresó primero a la intersección.",
+			"B": "El vehículo que haga sonar la bocina primero.",
+			"C": "El vehículo que haga cambio de luces primero.",
+			"D": "Cualquier vehículo"
+		},
+		"question": "En una intersección no regulada (sin señalización) tiene preferencia de paso:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 37,
+		"alternatives": {
+			"A": "Quiere ingresar a la rotonda.",
+			"B": "Circula por ella.",
+			"C": "Acelera primero.",
+			"D": "Hace sonar la bocina."
+		},
+		"question": "En una rotonda, tiene prioridad de paso el vehículo que:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 38,
+		"alternatives": {
+			"A": "Derecha.",
+			"B": "Izquierda.",
+			"C": "Berma",
+			"D": "Por la derecha o izquierda."
+		},
+		"question": "El sobrepaso o adelantamiento de un vehículo en movimiento se efectúa, salvo excepciones, por la ________ retornando el vehículo después de la maniobra a su carril original.",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 39,
+		"alternatives": {
+			"A": "Manejar normalmente.",
+			"B": "Manejar despacio.",
+			"C": "Abstenerse de manejar.",
+			"D": "Manejar con un copiloto."
+		},
+		"question": "Si un conductor está tomando medicamentos y por ello siente sueño ¿qué debe hacer?",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 40,
+		"alternatives": {
+			"A": "Documento de identidad, SOAT vigente (puede ser virtual) y tarjeta de identificación vehicular.",
+			"B": "Certificado de Inspección Técnica Vehicular y contrato de compraventa del vehículo.",
+			"C": "Contrato de compraventa del vehículo.",
+			"D": "Todas las alternativas son correctas."
+		},
+		"question": "Son documentos que deben portarse obligatoriamente, durante la conducción del vehículo, y exhibirse cuando la autoridad competente lo solicite:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 41,
+		"alternatives": {
+			"A": "No tiene preferencia de paso.",
+			"B": "Tiene preferencia de paso.",
+			"C": "Debe detenerse.",
+			"D": "Debe retroceder."
+		},
+		"question": "En los tramos de una vía con pendiente pronunciada, que permite la circulación de un solo vehículo, se debe de tener en cuenta que el vehículo que asciende respecto al vehículo que desciende:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 42,
+		"alternatives": {
+			"A": "Señalizar toda la maniobra hasta su\nculminación.",
+			"B": "Cambiar de dirección y luego señalizar.",
+			"C": "No existe ninguna obligación.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Al cambiar de dirección, un conductor debe:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 43,
+		"alternatives": {
+			"A": "Sí, pero solo si está bajando una pendiente.",
+			"B": "No, está prohibido.",
+			"C": "Sí, en caso de que el conductor no sea novato.",
+			"D": "No se encuentra regulado en la norma."
+		},
+		"question": "¿Se puede conducir un vehículo con el motor en punto neutro?",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 44,
+		"alternatives": {
+			"A": "Brazo, antebrazo izquierdo y mano extendidos hacia afuera del vehículo.",
+			"B": "Antebrazo izquierdo y mano extendidos hacia arriba fuera del vehículo, formando un ángulo recto con el brazo.",
+			"C": "Brazo, antebrazo derecho y mano extendidos hacia afuera del vehículo.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Para girar o cambiar de carril hacia la derecha, el conductor debe utilizar las luces direccionales y, en casos de fuerza mayor, la siguiente señal manual:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 45,
+		"alternatives": {
+			"A": "No podrán ser conducidos.",
+			"B": "Podrán ser conducidos únicamente en zonas urbanas.",
+			"C": "Podrán ser conducidos hasta por 90 días posteriores a la pérdida de vigencia de la licencia.",
+			"D": "Podrán ser conducidos con normalidad hasta que renueve su licencia."
+		},
+		"question": "Si la licencia de conducir no se encuentra vigente, los vehículos que autoriza a conducir dicha licencia:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 46,
+		"alternatives": {
+			"A": "Determinadas infracciones suman puntos.",
+			"B": "Una infracción puede sumar o disminuir puntos, a elección del infractor.",
+			"C": "Determinadas infracciones restan puntos.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "De acuerdo con el sistema de control de licencias de conducir por puntos:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 47,
+		"alternatives": {
+			"A": "Suspensión de licencia de conducir.",
+			"B": "Anulación de la Placa Única Nacional de Rodaje.",
+			"C": "Inhabilitación definitiva para obtener una licencia de conducir.",
+			"D": "Internamiento vehicular."
+		},
+		"question": "¿Cuál es la consecuencia de acumular 100 puntos en la licencia de conducir en un período de 24 meses?",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 48,
+		"alternatives": {
+			"A": "Parte de la vía destinada a la circulación de peatones.",
+			"B": "Parte de la calzada destinada al tránsito de una fila de vehículos.",
+			"C": "Vía rural destinada a la circulación de peatones y animales.",
+			"D": "Todas las alternativas son correctas."
+		},
+		"question": "Se entiende por carril a la:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 49,
+		"alternatives": {
+			"A": "La línea transversal marcada en la calzada antes de la intersección, que indica al conductor el límite para detener el\nvehículo.",
+			"B": "Las líneas que se encuentran en los lugares del estacionamiento.",
+			"C": "El lugar utilizado para embarcar y desembarcar pasajeros.",
+			"D": "Todas las alternativas son correctas."
+		},
+		"question": "Se entiende por línea de parada a:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 50,
+		"alternatives": {
+			"A": "Reducción de la calzada al lado derecho.",
+			"B": "Reducción de la calzada al lado izquierdo.",
+			"C": "Reducción de la calzada en ambos lados.",
+			"D": "Ensanchamiento de la calzada en ambos lados."
+		},
+		"question": "La siguiente señal vertical reglamentaria P-17A, indica:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img50.jpg"
+	},
+	{
+		"id": 51,
+		"alternatives": {
+			"A": "Se puede adelantar en ambos sentidos.",
+			"B": "No está permitido adelantar en ningún sentido.",
+			"C": "Respetar la línea que está de su lado (si es continua, no adelantar; si es discontinua, está permitido adelantar).",
+			"D": "Respetar la línea que está de su lado (si es discontinua, no adelantar; si es continua, está permitido adelantar)"
+		},
+		"question": "En caso de encontrar marcación de doble línea amarilla compuesta por un trazo continuo y otro trazo discontinuo en una vía de doble sentido, ¿qué se debe hacer?",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 52,
+		"alternatives": {
+			"A": "Área donde se prohíbe la circulación de vehículos.",
+			"B": "Área donde se prohíbe la circulación de peatones.",
+			"C": "Área de la vía en la que se prohíbe el estacionamiento de\nvehículos.",
+			"D": "Todas las alternativas son correctas."
+		},
+		"question": "Se define como zona rígida al:",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 53,
+		"alternatives": {
+			"A": "Obligación de detenerse de quien así lo enfrente.",
+			"B": "Continuar la marcha por el carril izquierdo de la calzada.",
+			"C": "Continuar la marcha.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La posición de frente o de espaldas ejecutada por el efectivo de la Policía Nacional del Perú asignado al control de tránsito significa:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 54,
+		"alternatives": {
+			"A": "30km/h.",
+			"B": "40km/h.",
+			"C": "60km/h.",
+			"D": "80km/h."
+		},
+		"question": "Siempre que no exista una señal de límite de velocidad, en zonas urbanas el límite máximo de velocidad en calles y jirones es de:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 55,
+		"alternatives": {
+			"A": "30km/h.",
+			"B": "40km/h.",
+			"C": "60km/h.",
+			"D": "80km/h."
+		},
+		"question": "Siempre que no exista una señal de límite de velocidad, en zonas urbanas el límite máximo de velocidad en avenidas es de:",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 56,
+		"alternatives": {
+			"A": "60km/h.",
+			"B": "70km/h.",
+			"C": "80km/h.",
+			"D": "100km/h."
+		},
+		"question": "Siempre que no exista una señal de límite de velocidad, en zonas urbanas el límite máximo de velocidad en vías expresas es de:",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 57,
+		"alternatives": {
+			"A": "20km/h.",
+			"B": "30km/h.",
+			"C": "35km/h.",
+			"D": "50km/h."
+		},
+		"question": "Siempre que no exista una señal de límite de velocidad en zonas urbanas, el límite máximo de velocidad en zona escolar es de:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 58,
+		"alternatives": {
+			"A": "80km/h.",
+			"B": "90km/h.",
+			"C": "100km/h.",
+			"D": "110km/h."
+		},
+		"question": "Siempre que no exista una señal de límite de velocidad en carreteras, el límite máximo de velocidad para automóviles, camionetas y motocicletas es de:",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 59,
+		"alternatives": {
+			"A": "30km/h.",
+			"B": "La mitad de la velocidad máxima establecida para cada tipo de vía.",
+			"C": "20 km/h.",
+			"D": "15 km/h."
+		},
+		"question": "Siempre que no exista una señal de límite de velocidad mínima, el límite mínimo de velocidad en zona urbana y en carreteras es de:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 60,
+		"alternatives": {
+			"A": "Multa.",
+			"B": "Cancelación de licencia de conducir.",
+			"C": "Suspensión de la licencia de conducir.",
+			"D": "Multa, cancelación de la licencia de conducir e inhabilitación definitiva para obtener una licencia de conducir."
+		},
+		"question": "¿Cuál es la sanción por conducir con presencia de alcohol en la sangre en proporción mayor a lo previsto en el Código Penal, o bajo los efectos de estupefacientes, narcóticos y/o alucinógenos comprobados con el examen respectivo, o por negarse al mismo y que haya participado en un accidente de tránsito?",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 61,
+		"alternatives": {
+			"A": "Una multa",
+			"B": "La suspensión de la licencia de conducir.",
+			"C": "Multa y suspensión de la licencia de conducir por 3 años.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "¿Cuál es la sanción si en un operativo de alcoholemia usted es intervenido y se comprueba que ha consumido alcohol por encima del límite legal, o está conduciendo bajo los efectos de estupefacientes, narcóticos y/o alucinógenos comprobada con el examen respectivo?",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 62,
+		"alternatives": {
+			"A": "Cada medio año.",
+			"B": "Cada año.",
+			"C": "Cada dos años.",
+			"D": "Cada tres años."
+		},
+		"question": "La frecuencia de la inspección técnica de un vehículo particular es:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 63,
+		"alternatives": {
+			"A": "A partir del segundo año contado desde el año siguiente de su fabricación.",
+			"B": "A partir del cuarto año contado desde el año siguiente de su fabricación.",
+			"C": "A partir del quinto año contado desde el año siguiente de su fabricación.",
+			"D": "No está sujeto a inspección técnica."
+		},
+		"question": "¿A partir de qué año de antigüedad debe realizarse la inspección técnica de un vehículo particular para transporte de personas de hasta 9 asientos incluido el conductor de la categoría M1?",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 64,
+		"alternatives": {
+			"A": "1 año.",
+			"B": "6 meses.",
+			"C": "4 años.",
+			"D": "2 años."
+		},
+		"question": "¿Cuál es el plazo de vigencia del SOAT?",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 65,
+		"alternatives": {
+			"A": "Dar aviso a los bomberos.",
+			"B": "Dar aviso solo a la compañía de seguros.",
+			"C": "Dar aviso a la compañía de seguros y dejar constancia en la delegación de la Policía Nacional del\nPerú más cercana.",
+			"D": "Dar aviso únicamente a la Policía Nacional del Perú."
+		},
+		"question": "Si ocurre un accidente de tránsito, ¿qué obligación tiene el conductor, el propietario del vehículo o el prestador del servicio de transporte?",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 66,
+		"alternatives": {
+			"A": "Dicha restricción es meramente informativa.",
+			"B": "Es una obligación cumplir con la restricción.",
+			"C": "Incumplir la restricción no genera un riesgo para la seguridad vial.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Si una licencia de conducir consiga alguna restricción, es correcto afirmar que:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 67,
+		"alternatives": {
+			"A": "Señal de curva sinuosa.",
+			"B": "Señal de proximidad a un badén.",
+			"C": "Señal de proximidad de un reductor de velocidad tipo resalto.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La señal preventiva P-33A, significa:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img67.jpg"
+	},
+	{
+		"id": 68,
+		"alternatives": {
+			"A": "Activar las luces intermitentes de emergencia.",
+			"B": "Parar en su posición actual.",
+			"C": "Salir del vehículo rápidamente.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Si su vehículo deja de funcionar o comienza a tener problemas y usted trata de moverlo al costado de la autopista, debe:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 69,
+		"alternatives": {
+			"A": "Sí, siempre y cuando el sonido no sea estridente.",
+			"B": "Si, salvo prohibición expresa mediante la correspondiente señal.",
+			"C": "No, está prohibido.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "¿Está permitido usar la bocina de su vehículo para advertir al conductor del vehículo que circula delante, que será adelantado?",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 70,
+		"alternatives": {
+			"A": "No estamos obligados a darle preferencia de paso.",
+			"B": "Estamos obligados a darle prioridad de paso por ser una ambulancia.",
+			"C": "Está informando que está en servicio de urgencia.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Si observa que se aproxima una ambulancia sin las luces especiales encendidas y sin sirena, es correcto afirmar que:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 71,
+		"alternatives": {
+			"A": "No iniciar la marcha hasta que el vehículo o las personas terminen de cruzar.",
+			"B": "Tocar el claxon para que se apuren en pasar.",
+			"C": "Bajar del vehículo y reclamar la falta al infractor.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Si se encuentra en una intersección y se enciende la luz verde del semáforo y observa que en la calle transversal hay vehículos o personas despejando la intersección, ¿qué debe hacer?",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 72,
+		"alternatives": {
+			"A": "Amarillo - blanco.",
+			"B": "Blanco - Amarillo.",
+			"C": "Azul - rojo.",
+			"D": "Rojo - Amarillo."
+		},
+		"question": "En señalética vial, el color ________ en el pavimento es utilizado para carriles de tráfico en sentido opuesto y el color ________ en el pavimento es utilizado como separador de carriles de tráfico en el mismo sentido.",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 73,
+		"alternatives": {
+			"A": "Advertir con el claxon.",
+			"B": "Advertir a viva voz.",
+			"C": "Parar y ceder el paso.",
+			"D": "Continuar la marcha lentamente."
+		},
+		"question": "Si una fila de escolares cruza la calzada fuera del crucero peatonal,\n¿qué acción se debe tomar?",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 74,
+		"alternatives": {
+			"A": "No tiene ninguna\nobligación si no hay\nseñalización.",
+			"B": "Disminuir la velocidad a 40 Km/h.",
+			"C": "Disminuir la velocidad a 30 Km/h.",
+			"D": "Disminuir la velocidad a 35 km/h."
+		},
+		"question": "Si se aproxima a una zona escolar, ¿qué acción debe realizar?",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 75,
+		"alternatives": {
+			"A": "Señales reguladoras o de reglamentación.",
+			"B": "Señales preventivas.",
+			"C": "Señales informativas.",
+			"D": "Señales horizontales."
+		},
+		"question": "Tienen el objetivo de notificar a los usuarios las limitaciones, prohibiciones o restricciones en el uso de la vía.",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 76,
+		"alternatives": {
+			"A": "Señales reguladoras o de reglamentación.",
+			"B": "Señales preventivas.",
+			"C": "Señales informativas.",
+			"D": "Señales horizontales."
+		},
+		"question": "Tienen el propósito de advertir a los usuarios sobre la existencia y naturaleza de un peligro en la vía.",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 77,
+		"alternatives": {
+			"A": "No detenerse totalmente en una señal de PARE.",
+			"B": "Arrojar, depositar o abandonar objetos o sustancias en la vía pública que dificulten la circulación.",
+			"C": "Utilizar la bocina para llamar la atención en forma innecesaria.",
+			"D": "Todas las alternativas son correctas."
+		},
+		"question": "Es una infracción de tránsito:",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 78,
+		"alternatives": {
+			"A": "Ceder el paso a los vehículos de emergencia.",
+			"B": "Mantener la velocidad y avanzar con cuidado.",
+			"C": "Disminuir la velocidad, parar si es necesario y ceder el paso a los peatones o vehículos que circulan por la vía transversal.",
+			"D": "Parar totalmente y luego avanzar con cuidado."
+		},
+		"question": "¿Qué debería hacer el conductor al acercarse a una señal de CEDA EL PASO en una intersección?",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 79,
+		"alternatives": {
+			"A": "Si no se cuenta con el SOAT.",
+			"B": "En retroceso, salvo las excepciones que establece la norma.",
+			"C": "Si no se tiene la licencia para el tipo de vehículo que se quiere conducir.",
+			"D": "Todas son correctas."
+		},
+		"question": "No se debe conducir un vehículo:",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 80,
+		"alternatives": {
+			"A": "Disminuir la velocidad y pasar con cuidado.",
+			"B": "Detener el vehículo y ceder el paso al peatón.",
+			"C": "Continuar porque usted tiene la prioridad.",
+			"D": "Incrementar la velocidad para adelantar el cruce el peatón."
+		},
+		"question": "¿Qué debe hacer si se aproxima a una intersección sin semáforo y sin presencia de la Policía de Tránsito, y observa que un peatón está cruzando por el paso peatonal?",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 81,
+		"alternatives": {
+			"A": "El uso del cinturón de seguridad es obligatorio para las personas que ocupen los asientos delanteros.",
+			"B": "En los asientos posteriores el uso del cinturón de seguridad es obligatorio en todos los vehículos cuando los tengan incorporados de fábrica y en los casos en que, de acuerdo a las normas se encuentren obligados a tenerlos.",
+			"C": "El uso del cinturón de seguridad no solo es obligatorio para el conductor.",
+			"D": "Todas las alternativas son correctas."
+		},
+		"question": "Sobre el uso del cinturón de seguridad en los vehículos que se encuentran en circulación, es correcto afirmar que:",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 82,
+		"alternatives": {
+			"A": "Izquierda / Derecha.",
+			"B": "Derecha / Derecha.",
+			"C": "Derecha / Izquierda.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Si en una vía de dos carriles con tránsito en un mismo sentido usted se desplaza lentamente en su vehículo, debe circular por el carril de la ________ y los vehículos que circulen a mayor velocidad deben hacerlo por el carril de la ________ ",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 83,
+		"alternatives": {
+			"A": "El conductor debe tratar de no utilizar la bocina para llamar la atención en forma innecesaria.",
+			"B": "El uso de la bocina para llamar la atención en forma innecesaria no es una infracción al tránsito.",
+			"C": "El conductor únicamente debe utilizar la bocina para evitar situaciones peligrosas.",
+			"D": "a y b son correctas."
+		},
+		"question": "Sobre el uso de la bocina del vehículo, es correcto afirmar que:",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 84,
+		"alternatives": {
+			"A": "Que se puede adelantar, debido a que la línea no es amarilla continua.",
+			"B": "Que está prohibido cruzar la línea y no hay excepciones.",
+			"C": "Que está prohibido pasar al otro lado de la línea con algunas excepciones.",
+			"D": "Que es zona de peatones."
+		},
+		"question": "Una línea blanca continua en el sentido longitudinal de una vía, que se coloca en el pavimento, le indica al conductor:",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 85,
+		"alternatives": {
+			"A": "Es igual al número de asientos señalados en la tarjeta de identificación vehicular, con la excepción de niños en brazos en los asientos posteriores.",
+			"B": "No existe prohibición sobre un número máximo de personas que se puede transportar.",
+			"C": "La restricción sobre un número máximo de personas que se puede transportar se aplica para los asientos delanteros, para los asientos posteriores no hay restricción.",
+			"D": "Se puede transportar a todas las personas que entren en el vehículo, sin restricción, siempre y cuando no obstaculicen la visibilidad del conductor y todos sean de la misma familia."
+		},
+		"question": "¿Cuál es el número máximo de personas que puede transportar un vehículo particular?",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 86,
+		"alternatives": {
+			"A": "Asegurarse de que todos los pasajeros permanezcan a bordo del vehículo.",
+			"B": "Abstenerse de fumar tanto el conductor como sus acompañantes.",
+			"C": "Mantener encendido el motor del vehículo.",
+			"D": "Todas las alternativas son correctas."
+		},
+		"question": "La acción correcta al abastecer de combustible su vehículo, es:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 87,
+		"alternatives": {
+			"A": "Sí, siempre y cuando el conductor de la bicicleta se sujete a la parte posterior del auto, pero nunca a la\nparte lateral de éste.",
+			"B": "Sí, siempre y cuando se prevean todas las medidas de seguridad respectivas.",
+			"C": "Sí, siempre y cuando esta acción sea realizada a una velocidad no mayor a",
+			"D": "No, es una acción prohibida y quien la cometa puede ser sancionado con una multa."
+		},
+		"question": "Mientras usted está conduciendo su vehículo automotor, ¿puede llevar sujeto a su auto al conductor de una bicicleta mientras éste la conduce?",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 88,
+		"alternatives": {
+			"A": "Las vías aledañas del parque del distrito en el cual reside, en el horario de 11:00 pm. a 5:00 am.",
+			"B": "Un circuito de carrera, autódromo o pista de aceleración autorizado por la autoridad competente.",
+			"C": "Las vías aledañas del parque del distrito en el cual reside, siempre y cuando tenga el permiso municipal correspondiente.",
+			"D": "Todas las alternativas son correctas."
+		},
+		"question": "Si usted desea realizar una competencia de carreras entre su vehículo y otro vehículo motorizado; para ello puede utilizar:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 89,
+		"alternatives": {
+			"A": "Tener la puerta, capot o maletera del vehículo abierta, cuando el vehículo está en marcha.",
+			"B": "Conducir un vehículo lentamente por el carril de la izquierda causando congestión.",
+			"C": "Conducir un vehículo con el motor en punto neutro o apagado.",
+			"D": "Todas las alternativas son correctas."
+		},
+		"question": "Señale cuáles de las siguientes conductas constituye una infracción al tránsito:",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 90,
+		"alternatives": {
+			"A": "Reemplazar a la señalización vertical cuando ésta no se encuentra en la vía, por tal motivo son colocadas donde no existe\nseñales verticales.",
+			"B": "Guiar a los usuarios únicamente en las vías que presentan peligros.",
+			"C": "Reglamentar la circulación, así como advertir y guiar a los usuarios de la vía.",
+			"D": "Todas las alternativas son correctas."
+		},
+		"question": "La marcas en el pavimento constituyen un elemento indispensable para la operación vehicular, pues su función es:",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 91,
+		"alternatives": {
+			"A": "Blanco.",
+			"B": "Azul.",
+			"C": "Rojo.",
+			"D": "Gris."
+		},
+		"question": "Las marcas en el pavimento de color ________ complementan las señales informativas, como por ejemplo las zonas de estacionamiento para personas con movilidad reducida.",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 92,
+		"alternatives": {
+			"A": "No está permitido cruzar al otro carril.",
+			"B": "Está permitido cruzar al otro carril para el adelantamiento.",
+			"C": "Se trata de una vía de\ndoble sentido de circulación, que permite\ncruzar al otro carril.",
+			"D": "Separa corrientes de tráfico en el mismo sentido."
+		},
+		"question": "La línea central de color amarillo en el pavimento es continua cuando:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 93,
+		"alternatives": {
+			"A": "Continuar la circulación por el carril en que se encuentra.",
+			"B": "Adelantar al vehículo que se encuentra delante de él y que circula por el carril izquierdo.",
+			"C": "No adelantar al vehículo que tiene adelante y que circula por el carril izquierdo y continuar por su carril.",
+			"D": "Cambiarse al carril izquierdo con precaución."
+		},
+		"question": "Si un conductor que circula por el carril derecho de una vía se encuentra con las flechas inclinadas que se muestran en la figura, su conducta correcta es:",
+		"correctAnswer": "D",
+		"image": "/images/A-I/img93.jpg"
+	},
+	{
+		"id": 94,
+		"alternatives": {
+			"A": "Someterse a la prueba de alcoholemia, ya que está obligado a ello ante la solicitud del efectivo de la Policía de Tránsito.",
+			"B": "Someterse o negarse a la prueba de alcoholemia, ya que no constituye una obligación del conductor realizarse dicha prueba.",
+			"C": "Negarse a la prueba de alcoholemia, ya que únicamente es exigible si ha participado en un accidente de tránsito.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Si durante la conducción vehicular, un efectivo de la Policía de Tránsito le solicita al conductor someterse a una prueba de alcoholemia; la acción correcta del conductor es:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 95,
+		"alternatives": {
+			"A": "Llevar las placas de rodaje en el lugar que no corresponde.",
+			"B": "Seguir a los vehículos de emergencia y vehículos oficiales para avanzar más rápidamente.",
+			"C": "Arrojar objetos en la vía pública que dificulten la circulación.",
+			"D": "Detenerse totalmente en\nuna señal de PARE cuando no hay peatones y/o vehículos circulando por la\nvía transversal."
+		},
+		"question": "¿Cuál de las siguientes conductas no es una infracción de tránsito?",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 96,
+		"alternatives": {
+			"A": "Dar preferencia de paso solo a los vehículos que circulan por la vía, pero no a los peatones.",
+			"B": "Dar preferencia de paso a los vehículos que circulan por la vía y a los peatones que circulan por la acera.",
+			"C": "Tocar el claxon para advertir a los peatones que circulen por la acera, que se detengan.",
+			"D": "Salir rápidamente, a fin de evitar accidentes."
+		},
+		"question": "Si un conductor sale de su propiedad y tiene que cruzar la acera e ingresar a una vía, la conducta correcta es:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 97,
+		"alternatives": {
+			"A": "Un carril para motocicletas.",
+			"B": "Una línea que divide el área peatonal y el área de vehículos.",
+			"C": "Una línea que puede cruzarse para rebasar en caso de congestión.",
+			"D": "Que no se debe conducir atravesándola, al menos que haya una situación de emergencia."
+		},
+		"question": "¿Qué significa una línea continua blanca pintada entre el carril de la derecha y la berma de una carretera?",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 98,
+		"alternatives": {
+			"A": "Las luces bajas junto con las rompenieblas.",
+			"B": "Solo las luces altas.",
+			"C": "Solo las luces bajas.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Si maneja de noche, hubiera neblina y tuviera luces rompenieblas, debe utilizar:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 99,
+		"alternatives": {
+			"A": "Puede hacerlo si no viene un vehículo en el sentido contrario.",
+			"B": "Puede hacerlo solo si, el vehículo en sentido contrario está lejos y alcanza hacer la maniobra con seguridad.",
+			"C": "No puede hacerlo.",
+			"D": "Puede hacerlo por la izquierda."
+		},
+		"question": "En el caso representado en el siguiente gráfico ¿el vehículo rojo puede rebasar al azul?",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img99.jpg"
+	},
+	{
+		"id": 100,
+		"alternatives": {
+			"A": "Prohibido estacionar.",
+			"B": "Prohibida la circulación de vehículos automotores.",
+			"C": "Prohibida la circulación de autos particulares.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (R-17), significa:",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img100.jpg"
+	},
+	{
+		"id": 101,
+		"alternatives": {
+			"A": "Que la calle está clausurada.",
+			"B": "Que está por ingresar a una vía de sentido contrario y no debe entrar.",
+			"C": "Que debe parar totalmente antes de poder ingresar.",
+			"D": "Ninguna de las alternativas es correcta"
+		},
+		"question": "Si usted se encuentra conduciendo su vehículo por una vía y antes de cruzar la intersección se encuentra con la señal R-4, esta le indica:",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img101.jpg"
+	},
+	{
+		"id": 102,
+		"alternatives": {
+			"A": "Proximidad de un túnel.",
+			"B": "Superficie deslizante.",
+			"C": "Prender las luces bajas.",
+			"D": "Mantener la distancia entre vehículos por seguridad."
+		},
+		"question": "La siguiente señal (P-36), significa:",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img102.jpg"
+	},
+	{
+		"id": 103,
+		"alternatives": {
+			"A": "Circular por el carril de la derecha.",
+			"B": "Circular por el carril central.",
+			"C": "Circular solo en el sentido indicado por la flecha.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (R-14), significa:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img103.jpg"
+	},
+	{
+		"id": 104,
+		"alternatives": {
+			"A": "Que es una vía de tres carriles de un solo sentido.",
+			"B": "Que es una vía de tres carriles y usted puede utilizar solo uno de ellos.",
+			"C": "Que es una vía de tres carriles y usted puede utilizar los dos de la derecha.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Si usted circula por una vía y se encuentra con la señal (R-11a) , ésta le indica:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img104.jpg"
+	},
+	{
+		"id": 105,
+		"alternatives": {
+			"A": "Que la velocidad máxima de la vía es de 50 km/h.",
+			"B": "Que la velocidad mínima de la vía es de 50 km/h.",
+			"C": "Que al salir de la vía por donde está circulando, la velocidad máxima es 50 km/h.",
+			"D": "Que al salir de la vía por donde está circulando, la velocidad mínima es 50 km/h."
+		},
+		"question": "La siguiente señal (R-30c) , significa:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img105.jpg"
+	},
+	{
+		"id": 106,
+		"alternatives": {
+			"A": "Que la vía no continúa y los conductores deben girar a la izquierda.",
+			"B": "Que la intersección contempla giros tangentes a la izquierda en ambos sentidos.",
+			"C": "Que la intersección está en mantenimiento y que por el momento solo se puede girar a la izquierda.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (R-5-4), significa:",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img106.jpg"
+	},
+	{
+		"id": 107,
+		"alternatives": {
+			"A": "Que no está permitido girar en U.",
+			"B": "Que está permitido el giro en U.",
+			"C": "Que si desea puede girar a la izquierda.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (R-9), significa:",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img107.jpg"
+	},
+	{
+		"id": 108,
+		"alternatives": {
+			"A": "Que la vía solo permite girar a la izquierda.",
+			"B": "Prevención por bifurcación de la vía.",
+			"C": "Que el carril por donde circula permite girar a la izquierda o seguir de frente.",
+			"D": "No es una señal válida en el Perú."
+		},
+		"question": "La siguiente señal (R-5-2), significa:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img108.jpg"
+	},
+	{
+		"id": 109,
+		"alternatives": {
+			"A": "Que el peatón antes de cruzar debe mirar si se acercan autos por la derecha.",
+			"B": "Que el conductor que viene por la derecha debe tener cuidado con los peatones.",
+			"C": "Que los peatones deben circular por la izquierda.",
+			"D": "Que los peatones deben circular por la derecha."
+		},
+		"question": "La siguiente señal (R-20), significa:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img109.jpg"
+	},
+	{
+		"id": 110,
+		"alternatives": {
+			"A": "Crucero tipo cebra.",
+			"B": "Control policial.",
+			"C": "Pavimento deslizante.",
+			"D": "Circular con luces bajas."
+		},
+		"question": "La siguiente señal (R-40), significa:",
+		"correctAnswer": "D",
+		"image": "/images/A-I/img110.jpg"
+	},
+	{
+		"id": 111,
+		"alternatives": {
+			"A": "Los peatones deben circular por la derecha y los camiones por la izquierda",
+			"B": "Los peatones deben tener cuidado con los camiones.",
+			"C": "Zona de carga y descarga.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (R-48), significa:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img111.jpg"
+	},
+	{
+		"id": 112,
+		"alternatives": {
+			"A": "Está permitido cambiar de carril por la izquierda y por la derecha.",
+			"B": "Se debe mantener la distancia de seguridad entre vehículos.",
+			"C": "Está permitido cambiar de carril por la izquierda para adelantar.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (R-49), significa:",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img112.jpg"
+	},
+	{
+		"id": 113,
+		"alternatives": {
+			"A": "Que si solo hay un carril tiene preferencia de paso el conductor que llegó primero.",
+			"B": "Que si solo hay un carril tiene preferencia el conductor que está mirando la señal.",
+			"C": "Que si solo hay un carril no tiene preferencia el que está mirando la señal y debe darle paso al del sentido contrario.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (R-50), significa:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img113.jpg"
+	},
+	{
+		"id": 114,
+		"alternatives": {
+			"A": "Una señal informativa.",
+			"B": "Una señal preventiva.",
+			"C": "Una señal de obligación.",
+			"D": "No es una señal válida en el Perú."
+		},
+		"question": "La señal (R-5-1), es:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img114.jpg"
+	},
+	{
+		"id": 115,
+		"alternatives": {
+			"A": "Hay una curva y contra- curva a la izquierda.",
+			"B": "Hay una curva y contra- curva a la derecha.",
+			"C": "Hay una curva y contra- curva pronunciada a la derecha.",
+			"D": "Hay una curva y contra- curva pronunciada a la izquierda."
+		},
+		"question": "La señal (P-3a) , le indica al conductor que:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img115.jpg"
+	},
+	{
+		"id": 116,
+		"alternatives": {
+			"A": "Se aproxima a una curva y contra-curva a la izquierda.",
+			"B": "Se aproxima a una curva y contra-curva a la derecha.",
+			"C": "Se aproxima a un camino sinuoso a la derecha.",
+			"D": "Se aproxima a un camino sinuoso a la izquierda."
+		},
+		"question": "La siguiente señal (P-5-1a) , le advierte al conductor que:",
+		"correctAnswer": "D",
+		"image": "/images/A-I/img116.jpg"
+	},
+	{
+		"id": 117,
+		"alternatives": {
+			"A": "El sentido del tránsito es el que indica la flecha.",
+			"B": "Se aproxima a una reducción de la vía en ambos sentidos.",
+			"C": "Está circulando por una curva horizontal.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (P-61), le advierte al conductor que:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img117.jpg"
+	},
+	{
+		"id": 118,
+		"alternatives": {
+			"A": "La vía está en mal estado y tiene baches.",
+			"B": "Se aproxima a un resalto.",
+			"C": "Se aproxima a un rompe muelles.",
+			"D": "Se aproxima a un badén."
+		},
+		"question": "La siguiente señal (P-34), le advierte al conductor que:",
+		"correctAnswer": "D",
+		"image": "/images/A-I/img118.jpg"
+	},
+	{
+		"id": 119,
+		"alternatives": {
+			"A": "Una señal turística.",
+			"B": "Una señal informativa.",
+			"C": "Una señal preventiva.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (P-60), es:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img119.jpg"
+	},
+	{
+		"id": 120,
+		"alternatives": {
+			"A": "Existencia de una ciclovía.",
+			"B": "Autorización para el cruce de ciclistas.",
+			"C": "Ciclistas en la vía.",
+			"D": "Cercanía de una ciclovía."
+		},
+		"question": "La siguiente señal (P-46), indica:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img120.jpg"
+	},
+	{
+		"id": 121,
+		"alternatives": {
+			"A": "Que los ciclistas deben usar la ciclovía.",
+			"B": "Que nos aproximamos a un cruce de ciclovía.",
+			"C": "Que la ciclovía es solo para los ciclistas.",
+			"D": "Todas las alternativas son correctas."
+		},
+		"question": "La siguiente señal (P-46-a) , indica:",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img121.jpg"
+	},
+	{
+		"id": 122,
+		"alternatives": {
+			"A": "Que los ciclistas deben detenerse en ese punto.",
+			"B": "Que nos aproximamos a un cruce de ciclovía.",
+			"C": "Que la ciclovía es solo para los ciclistas.",
+			"D": "La ubicación de un cruce de ciclistas."
+		},
+		"question": "La siguiente señal (P-46b) , indica:",
+		"correctAnswer": "D",
+		"image": "/images/A-I/img122.jpg"
+	},
+	{
+		"id": 123,
+		"alternatives": {
+			"A": "Vía es de uso exclusivo de los peatones.",
+			"B": "Zona con presencia de peatones.",
+			"C": "Ubicación de un cruce escolar.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (P-48), indica:",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img123.jpg"
+	},
+	{
+		"id": 124,
+		"alternatives": {
+			"A": "Vía es de uso exclusivo de peatones.",
+			"B": "Proximidad a un cruce peatonal.",
+			"C": "Ubicación de un cruce escolar.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (P-48a) , indica:",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img124.jpg"
+	},
+	{
+		"id": 125,
+		"alternatives": {
+			"A": "Ubicación de un cruce escolar.",
+			"B": "Proximidad a una calzada.",
+			"C": "Ubicación de un cruce peatonal.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (P-48-b) , indica:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img125.jpg"
+	},
+	{
+		"id": 126,
+		"alternatives": {
+			"A": "Zona escolar.",
+			"B": "Proximidad a un cruce peatonal.",
+			"C": "Zona transitada.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (P-49), indica:",
+		"correctAnswer": "A",
+		"image": "/images/A-I/img126.jpg"
+	},
+	{
+		"id": 127,
+		"alternatives": {
+			"A": "Zona escolar.",
+			"B": "Proximidad a un cruce escolar.",
+			"C": "Ubicación de un cruce escolar.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (P-49a) , indica:",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img127.jpg"
+	},
+	{
+		"id": 128,
+		"alternatives": {
+			"A": "Zona transitada.",
+			"B": "Proximidad a un cruce peatonal.",
+			"C": "Ubicación de un cruce escolar",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (P-49b) , indica:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img128.jpg"
+	},
+	{
+		"id": 129,
+		"alternatives": {
+			"A": "Zona de deportes.",
+			"B": "Proximidad a campo deportivo.",
+			"C": "Proximidad a zona urbana.",
+			"D": "Niños jugando."
+		},
+		"question": "La siguiente señal (P-50), indica:",
+		"correctAnswer": "D",
+		"image": "/images/A-I/img129.jpg"
+	},
+	{
+		"id": 130,
+		"alternatives": {
+			"A": "Zona de parqueo de vehículos pesados.",
+			"B": "Proximidad a zona rural.",
+			"C": "Maquinaria agrícola en la vía.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (P-51), indica:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img130.jpg"
+	},
+	{
+		"id": 131,
+		"alternatives": {
+			"A": "Proximidad a un establo.",
+			"B": "Proximidad a zona agrícola.",
+			"C": "Animales en la vía.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (P-53), indica:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img131.jpg"
+	},
+	{
+		"id": 132,
+		"alternatives": {
+			"A": "Semáforo malogrado.",
+			"B": "Proximidad a un semáforo.",
+			"C": "Semáforos en ola verde.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (P-55), indica:",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img132.jpg"
+	},
+	{
+		"id": 133,
+		"alternatives": {
+			"A": "Que usted se aproxima a una señal de PARE.",
+			"B": "Que usted debe parar donde está la señal P-58.",
+			"C": "Que se trata de un PARE, pero puede seguir adelante.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (P-58), le indica:",
+		"correctAnswer": "A",
+		"image": "/images/A-I/img133.jpg"
+	},
+	{
+		"id": 134,
+		"alternatives": {
+			"A": "Que usted se aproxima a una señal de CEDA EL PASO.",
+			"B": "Que usted debe ceder el paso donde está la señal P- 59.",
+			"C": "Que se trata de un PARE, pero puede seguir adelante.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (P-59), le indica:",
+		"correctAnswer": "A",
+		"image": "/images/A-I/img134.jpg"
+	},
+	{
+		"id": 135,
+		"alternatives": {
+			"A": "Que usted se aproxima a una zona de camiones.",
+			"B": "Que usted debe encender sus luces pues se aproxima a una zona con poca visibilidad.",
+			"C": "Que usted se aproxima a un túnel.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (P-41), le indica:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img135.jpg"
+	},
+	{
+		"id": 136,
+		"alternatives": {
+			"A": "Proximidad a un aeropuerto.",
+			"B": "Proximidad a una pista de aviones.",
+			"C": "Vuelo de aviones a baja altura.",
+			"D": "Aviones que generan ruido."
+		},
+		"question": "La siguiente señal (P-45), indica:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img136.jpg"
+	},
+	{
+		"id": 137,
+		"alternatives": {
+			"A": "Que usted debe dar prioridad de paso a las ambulancias.",
+			"B": "Que usted debe dar prioridad de paso a los bomberos.",
+			"C": "Que se aproxima a una salida de vehículos de bomberos.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (P-52), le indica:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img137.jpg"
+	},
+	{
+		"id": 138,
+		"alternatives": {
+			"A": "Que se aproxima un desierto.",
+			"B": "Que se aproxima una zona donde hay ráfagas de viento lateral.",
+			"C": "Que se acerca a una zona de arenamiento en la vía.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (P-66), le indica:",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img138.jpg"
+	},
+	{
+		"id": 139,
+		"alternatives": {
+			"A": "Que se aproxima una tormenta.",
+			"B": "Que está pasando por una zona donde hay ráfagas de viento lateral.",
+			"C": "Que se acerca a una zona de arenamiento en la vía.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (P-66a) , le indica:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img139.jpg"
+	},
+	{
+		"id": 140,
+		"alternatives": {
+			"A": "La vía está interrumpida y debe tomar el camino alternativo que muestra la señal.",
+			"B": "En la siguiente intersección está prohibido girar a la izquierda y por lo tanto, si desea seguir esa ruta debe tomar el camino alternativo que muestra la señal.",
+			"C": "En la siguiente intersección está prohibido girar a la derecha y por lo tanto, si desea seguir esa ruta debe tomar el camino alternativo que muestra la señal.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Si al conducir su vehículo se encuentra con la señal vertical que se\nmuestra, usted debe entender que:",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img140.jpg"
+	},
+	{
+		"id": 141,
+		"alternatives": {
+			"A": "Si quiere girar a la izquierda debe pasar la intersección y dar la vuelta a la manzana.",
+			"B": "En la siguiente intersección está prohibido girar a la izquierda y por lo tanto, si desea seguir esa ruta debe hacerlo una cuadra antes.",
+			"C": "En esa dirección hay una zona de parqueo.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Si al conducir su vehículo se encuentra con la señal vertical que se muestra, usted debe entender que:",
+		"correctAnswer": "A",
+		"image": "/images/A-I/img141.jpg"
+	},
+	{
+		"id": 142,
+		"alternatives": {
+			"A": "Señal de hostal.",
+			"B": "Señal de hospedaje.",
+			"C": "Señal de hospital.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (I-14), significa:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img142.jpg"
+	},
+	{
+		"id": 143,
+		"alternatives": {
+			"A": "Proximidad de una bahía de taxis.",
+			"B": "Proximidad a un estacionamiento permitido.",
+			"C": "Proximidad de una zona de parqueo para vecinos.",
+			"D": "Proximidad de un estacionamiento para emergencias."
+		},
+		"question": "La siguiente señal (I-31), significa:",
+		"correctAnswer": "D",
+		"image": "/images/A-I/img143.jpg"
+	},
+	{
+		"id": 144,
+		"alternatives": {
+			"A": "Zona de control policial.",
+			"B": "Zona de control de aduanas.",
+			"C": "Zona militar.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (I-9), significa:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img144.jpg"
+	},
+	{
+		"id": 145,
+		"alternatives": {
+			"A": "Cercanía a una ferretería.",
+			"B": "Cercanía a un servicio mecánico.",
+			"C": "Cercanía a un grifo.",
+			"D": "Ninguna de las alternativas es correcta"
+		},
+		"question": "La siguiente señal (I-18), se utiliza para indicar:",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img145.jpg"
+	},
+	{
+		"id": 146,
+		"alternatives": {
+			"A": "Cercanía a un servicio mecánico.",
+			"B": "Cercanía a una tienda.",
+			"C": "Cercanía a un grifo.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (I-19), se utiliza para indicar:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img146.jpg"
+	},
+	{
+		"id": 147,
+		"alternatives": {
+			"A": "Cercanía a un servicio mecánico.",
+			"B": "Cercanía a una zona donde debe circular con cadenas en las llantas.",
+			"C": "Cercanía a un grifo.",
+			"D": "Cercanía a una llantería."
+		},
+		"question": "La siguiente señal (I-20), se utiliza para indicar:",
+		"correctAnswer": "D",
+		"image": "/images/A-I/img147.jpg"
+	},
+	{
+		"id": 148,
+		"alternatives": {
+			"A": "Fin de la restricción de circulación de automotores.",
+			"B": "Fin de la restricción de prohibido adelantar.",
+			"C": "Fin de la restricción de circulación en doble sentido.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (R-16a) , se utiliza para indicar:",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img148.jpg"
+	},
+	{
+		"id": 149,
+		"alternatives": {
+			"A": "Valor por la vida.",
+			"B": "Respeto por la integridad física del resto de los usuarios.",
+			"C": "Respeto a la autoridad encargada de la vigilancia y disciplina de tráfico.",
+			"D": "Todas las alternativas son correctas."
+		},
+		"question": "El comportamiento del conductor como usuario de la vía, debe estar orientado a:",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 150,
+		"alternatives": {
+			"A": "Peatones, niños, adultos mayores, personas con movilidad reducida, ciclistas.",
+			"B": "Únicamente los peatones y ciclistas.",
+			"C": "Únicamente los peatones y niños.",
+			"D": "Todas las alternativas son correctas, con excepción de los ciclistas."
+		},
+		"question": "Son considerados usuarios vulnerables de la vía y por tanto merecen especial protección:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 151,
+		"alternatives": {
+			"A": "Flechas retroreflectivas que indican peligro.",
+			"B": "Delineadores de curva, que guían al conductor.",
+			"C": "Advertencia al conductor sobre la proximidad de un puente.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (P-61), muestra:",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img151.jpg"
+	},
+	{
+		"id": 152,
+		"alternatives": {
+			"A": "Camión, tipo volquete.",
+			"B": "Ómnibus, tipo panorámico.",
+			"C": "Mototaxi.",
+			"D": "Automóvil, tipo sedan."
+		},
+		"question": "Si usted es titular de una licencia particular A-I, está autorizado a conducir el siguiente vehículo:",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 153,
+		"alternatives": {
+			"A": "Compartir su asiento con un niño, siempre y cuando éste sea menor de un año de edad.",
+			"B": "Que otra persona tome el control de la dirección del vehículo, siempre y",
+			"C": "Conducir con una mano sobre el volante de dirección, cuando es necesario accionar algún comando del vehículo, como realizar los cambios de velocidad.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Mientras la persona conduce, le está permitido:",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 154,
+		"alternatives": {
+			"A": "En su derecho - negarse.",
+			"B": "Facultado - Rechazar.",
+			"C": "Obligado - someterse.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "El conductor está ________ a ________ a las pruebas que le solicite el Efectivo de la Policía Nacional del Perú, asignado al control del tránsito, para determinar su estado de intoxicación por alcohol, drogas, estupefacientes u otros tóxicos",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 155,
+		"alternatives": {
+			"A": "Que la Policía de Tránsito intervenga a dicho conductor y que la autoridad que expidió la licencia de conducir ordene su reexaminación.",
+			"B": "Que la autoridad competente expida un permiso excepcional para dicho conductor.",
+			"C": "Que la Policía de Tránsito expida un permiso excepcional para dicho conductor.",
+			"D": "Que la Policía de Tránsito otorgue a dicho conductor un plazo prudencial para que continúe conduciendo."
+		},
+		"question": "Ante un conductor con evidente discapacidad física, la cual no figura en el rubro de restricciones de su licencia de conducir, procede:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 156,
+		"alternatives": {
+			"A": "Sí, siempre y cuando dicha discapacidad pueda ser superada con algún corrector que establezca alguna de las restricciones que prevé la norma vigente.",
+			"B": "No, está terminantemente prohibido.",
+			"C": "Depende del criterio del centro de emisión de la licencia de conducir.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "¿Una persona con discapacidad física puede obtener una licencia de conducir particular?",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 157,
+		"alternatives": {
+			"A": "Nunca.",
+			"B": "Sí, siempre y cuando vaya acompañada de una personas mayor de edad y titular de una licencia de conducir.",
+			"C": "No, salvo que conduzca un vehículo de dimensión reducida.",
+			"D": "Sí, siempre y cuando sea mayor de 16 años y cuente con licencia de conducir o permiso provisional, conforme a lo dispuesto en el Reglamento Nacional del Sistema de Emisión de Licencias de Conducir."
+		},
+		"question": "¿Puede una persona menor de edad conducir un vehículo?",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 158,
+		"alternatives": {
+			"A": "Peatones - los letreros instalados en las vías públicas.",
+			"B": "Los usuarios de la vía pública - los dispositivos de control de tránsito.",
+			"C": "Vehículos - los medios de comunicación.",
+			"D": "Menores de edad - los adultos mayores."
+		},
+		"question": "Es una obligación general de tránsito que, los ________ circulen respetando los mensajes de ________ , las instrucciones de los Efectivos de la Policía de Tránsito y el mandato de las normas legales y reglamentarias correspondientes.",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 159,
+		"alternatives": {
+			"A": "Está prohibido arrojar, depositar o abandonar objetos en la vía pública, o cualquier otro obstáculo que pueda dificultar la\ncirculación.",
+			"B": "El conductor debe mantener el vehículo que conduce con el combustible necesario para evitar detenciones en la vía.",
+			"C": "Los vehículos deben circular en vías urbanas con las luces bajas las 24 horas del día.",
+			"D": "En caso de haber agua en la calzada, el conductor de un vehículo debe tomar las precauciones, para evitar que ésta pueda mojar la\nacera y los peatones."
+		},
+		"question": "Marque la afirmación incorrecta:",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 160,
+		"alternatives": {
+			"A": "Debe obedecer la señal de velocidad instalada en la vía.",
+			"B": "Puede ir a una velocidad máxima de 60 km/h.",
+			"C": "Debe ir a una velocidad máxima de 60 km/h.",
+			"D": "Debe ir a una velocidad entre 50 y 60 km/h."
+		},
+		"question": "¿Si al conducir por una avenida se encuentra con una señal en la vía que indica un límite máximo de 50 km/h, sin embargo, conforme a lo dispuesto en la norma el límite máximo de velocidad en dicha vía es de 60 km/h; usted:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 161,
+		"alternatives": {
+			"A": "Está prohibida, salvo en casos estrictamente\njustificados.",
+			"B": "Nunca debe realizarse.",
+			"C": "Está permitida",
+			"D": "Está permitida, salvo en carreteras."
+		},
+		"question": "Sobre la conducción en retroceso, marque la opción correcta:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 162,
+		"alternatives": {
+			"A": "Baja - carreteras - alta.",
+			"B": "Alta - vías urbanas - baja.",
+			"C": "Rompenieblas - carreteras - baja.",
+			"D": "Alta - carretereras - baja."
+		},
+		"question": "El uso de la luz ________ es obligatorio en ________ , debiendo cambiar por luz ________ momentos previos al cruce con otro vehículo que circule en sentido contrario.",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 163,
+		"alternatives": {
+			"A": "El estacionamiento de un vehículo a la salida de salas de espectáculos en\nfuncionamiento.",
+			"B": "El estacionamiento de un vehículo de emergencia en un lugar no permitido, si\nello fuera imprescindible.",
+			"C": "El estacionamiento de un vehículo después de 1 metro de un paso peatonal.",
+			"D": "El estacionamiento de un vehículo sobre las aceras."
+		},
+		"question": "Indique la conducta permitida:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 164,
+		"alternatives": {
+			"A": "El vehículo está estacionado en un lugar permitido en la vía pública, pero sin conductor por un tiempo mayor de 72 horas.",
+			"B": "El vehículo está estacionado en un lugar permitido en la vía pública, pero sin conductor por un tiempo mayor de 96 horas.",
+			"C": "El vehículo está estacionado en un lugar permitido en la vía pública, pero sin conductor y por un tiempo mayor de 48 horas.",
+			"D": "La norma de tránsito no establece nada sobre el abandono del vehículo."
+		},
+		"question": "Se considera el abandono de un vehículo cuando:",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 165,
+		"alternatives": {
+			"A": "Asegurarse, en caso la carga sobresalga lateralmente de la\ncarrocería, esté bien sujeta.",
+			"B": "Evitar todo riesgo de caída de la carga que sobresale lateralmente de\nla carrocería.",
+			"C": "Tratar que la carga no sea arrastrada.",
+			"D": "Asegurarse que la carga no sobrepase las dimensiones de la\ncarrocería."
+		},
+		"question": "Al transportar carga en su vehículo, usted debe:",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 166,
+		"alternatives": {
+			"A": "Está permitida.",
+			"B": "Está prohibida, en un índice superior al límite máximo que permite la norma.",
+			"C": "Está prohibida en el ámbito urbano.",
+			"D": "La norma no regula sobre ello."
+		},
+		"question": "Sobre la emisión vehicular de sustancias contaminantes, marque la opción correcta:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 167,
+		"alternatives": {
+			"A": "Cuando la situación lo justifique - la circulación o estacionamiento de vehículos.",
+			"B": "Aun cuando la situación lo justifique no - circulación o estacionamiento de vehículos.",
+			"C": "No se encuentra facultada ni - circulación de vehículos",
+			"D": "Únicamente con el consentimiento del conductor - circulación de vehículos."
+		},
+		"question": "La autoridad competente, ________ puede prohibir o restringir ________ en determinadas vías públicas.",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 168,
+		"alternatives": {
+			"A": "Cambiar de luces bajas a luces altas",
+			"B": "Encender las luces de emergencia.",
+			"C": "Cambiar de luces altas a luces bajas.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Si al conducir en una carretera de noche se aproxima un vehículo en sentido contrario; usted debe:",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 169,
+		"alternatives": {
+			"A": "En el sentido contrario a la circulación y en el carril izquierdo de la vía.",
+			"B": "En el sentido de la circulación y en el carril derecho de la vía, utilizando las luces altas.",
+			"C": "En el sentido de la circulación y en el carril izquierdo de la vía, utilizando las luces\nintermitentes.",
+			"D": "En el sentido de la circulación y en el carril derecho de la vía, utilizando las luces intermitentes."
+		},
+		"question": "La detención de un vehículo debe efectuarse:",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 170,
+		"alternatives": {
+			"A": "Acudir a la estación de bomberos.",
+			"B": "Llamar a un familiar.",
+			"C": "Solicitar la intervención de la autoridad policial.",
+			"D": "Abandonar el lugar donde ocurrió el accidente."
+		},
+		"question": "En caso de un accidente de tránsito con daños personales y/o materiales los participantes deben:",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 171,
+		"alternatives": {
+			"A": "Portar la tarjeta de identificación vehicular del vehículo que conduce.",
+			"B": "Portar y exhibir la Placa Única de Rodaje.",
+			"C": "Constatar que el vehículo tiene SOAT vigente.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "El conductor antes de iniciar la conducción de un vehículo no está obligado a:",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 172,
+		"alternatives": {
+			"A": "Tarjeta de identificación vehicular.",
+			"B": "Municipalidad provincial.",
+			"C": "La Superintendencia Nacional de Aduanas y de Administración Tributaria - SUNAT.",
+			"D": "Placa Única Nacional de Rodaje."
+		},
+		"question": "La ________ faculta y autoriza la circulación del vehículo por la vía pública, identifica el bien, y, por ende, al titular responsable de las acciones que deriven de su propiedad.",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 173,
+		"alternatives": {
+			"A": "Que realice pruebas de coordinación y equilibrio.",
+			"B": "Uso del alcoholímetro.",
+			"C": "Prueba de alcoholemia.",
+			"D": "Todas las alternativas son correctas."
+		},
+		"question": "A fin de determinar la presencia de alcohol o sustancias estupefacientes en el conductor, el efectivo de la Policía de Tránsito puede exigirle al momento de la intervención:",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 174,
+		"alternatives": {
+			"A": "No, el conductor puede cometer la misma infracción varias veces y la sanción será la misma.",
+			"B": "Si, cuando el conductor comete la misma infracción dentro de los 12 meses será sancionado con el doble de\nla multa.",
+			"C": "Solo en los casos en que se cometan infracciones gravísimas.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "¿El Reglamento Nacional de Tránsito considera la reincidencia en las infracciones de tránsito?",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 175,
+		"alternatives": {
+			"A": "06 meses.",
+			"B": "12 meses.",
+			"C": "24 meses.",
+			"D": "35 meses."
+		},
+		"question": "¿Después de qué tiempo de haber cometido la misma infracción se llama reincidencia y es sancionada con el doble de la multa establecida?",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 176,
+		"alternatives": {
+			"A": "Tramitar el duplicado de su licencia de conducir.",
+			"B": "Tramitar la revalidación de su licencia de conducir.",
+			"C": "Tramitar la recategorización de su\nlicencia de conducir.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Si a un conductor infractor le suspendieron su licencia de conducir, éste se encuentra facultado para:",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 177,
+		"alternatives": {
+			"A": "Señales de localización.",
+			"B": "Señales de salida inmediata.",
+			"C": "Señales de servicios generales.",
+			"D": "Señales ordinarias"
+		},
+		"question": "Las ________ tienen por función informar a los usuarios sobre los servicios generales existentes próximos a la vía, tales como teléfono, hospedaje, restaurante, primeros auxilios,\nestación de combustibles, talleres, y otros.",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 178,
+		"alternatives": {
+			"A": "No constituye una infracción.",
+			"B": "Solo cuando la licencia de conducir ha sido retenida por la comisión de una infracción muy grave.",
+			"C": "Si, constituye una infracción.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "¿Constituye una infracción tramitar el duplicado de una licencia de conducir que se encuentra retenida?",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 179,
+		"alternatives": {
+			"A": "Horizontal - reglamentar.",
+			"B": "Vertical - reglamentar.",
+			"C": "Más importante - mejorar.",
+			"D": "Menos importante - adornar."
+		},
+		"question": "Las marcas en el pavimento constituyen la señalización ________ y se emplean para ________ la circulación.",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 180,
+		"alternatives": {
+			"A": "Conductor - acera.",
+			"B": "Conductor - calzada.",
+			"C": "Conductor - berma.",
+			"D": "Peatón - autopista."
+		},
+		"question": "Ciclista es a ciclovía como:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 181,
+		"alternatives": {
+			"A": "La proximidad a una vía de tres carriles.",
+			"B": "La proximidad a un huracán.",
+			"C": "La proximidad a un camino sinuoso.",
+			"D": "La proximidad de una intersección rotatoria (óvalo o rotonda)."
+		},
+		"question": "La siguiente señal (P-15), se utiliza para advertir al conductor:",
+		"correctAnswer": "D",
+		"image": "/images/A-I/img181.jpg"
+	},
+	{
+		"id": 182,
+		"alternatives": {
+			"A": "La proximidad del final de la vía.",
+			"B": "La proximidad de una vía asfaltada.",
+			"C": "La proximidad de una pendiente leve.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "La siguiente señal (P-31a) , indica:",
+		"correctAnswer": "A",
+		"image": "/images/A-I/img182.jpg"
+	},
+	{
+		"id": 183,
+		"alternatives": {
+			"A": "Línea de carril.",
+			"B": "Línea de borde de calzada.",
+			"C": "Línea de pare.",
+			"D": "Todas las alternativas son correctas."
+		},
+		"question": "Es una línea transversal a la calzada, que indica al conductor que debe detener completamente el vehículo, no debiendo sobrepasar el inicio de la indicada línea:",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 184,
+		"alternatives": {
+			"A": "Dispositivos de control del tránsito que tienen por finalidad regular y controlar el tránsito vehicular, motorizado y no motorizado, y el peatonal, a través de las indicaciones de las luces respectivas.",
+			"B": "Dispositivos de control del tránsito que tienen por finalidad regular y controlar únicamente el tránsito vehicular motorizado y peatonal, a través de las indicaciones de luces.",
+			"C": "Señales de color rojo, verde y amarillo, que tienen como único fin regular la corriente vehicular.",
+			"D": "Artefactos que emiten luces de colores y cuyo único fin es regular la corriente de vehículos motorizados y peatones."
+		},
+		"question": "Los semáforos son:",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 185,
+		"alternatives": {
+			"A": "Preocupaciones.",
+			"B": "Uso del teléfono celular.",
+			"C": "Manipulación de la radio mientras se conduce.",
+			"D": "Todas las alternativas son correctas."
+		},
+		"question": "La conducción requiere un alto nivel de atención, pues existen distracciones que pueden ocasionar accidentes de tránsito, como por ejemplo:",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 186,
+		"alternatives": {
+			"A": "Si, pues el conductor tomará decisiones lentas que lo inducirán a cometer errores.",
+			"B": "Si, ya que el conductor está de mal genio.",
+			"C": "No, siempre que la conducción sea realizada lentamente.",
+			"D": "No, siempre y cuando la conducción sea realizada con un acompañante."
+		},
+		"question": "¿Influye la somnolencia en la capacidad de conducir?",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 187,
+		"alternatives": {
+			"A": "Girar rápidamente a la derecha antes que el peatón cruce la calzada.",
+			"B": "Dar preferencia de paso al peatón para que cruce la calzada.",
+			"C": "Girar lentamente a la derecha antes que el peatón cruce la calzada.",
+			"D": "Tocar el claxon para que el peatón no cruce la calzada"
+		},
+		"question": "¿Cuál es la acción correcta del conductor, según las normas de tránsito, en la situación que plantea el siguiente gráfico?",
+		"correctAnswer": "B",
+		"image": "/images/A-I/img187.jpg"
+	},
+	{
+		"id": 188,
+		"alternatives": {
+			"A": "Pavimento seco, somnolencia, frenos desgastados.",
+			"B": "Pavimento húmedo, neumáticos desgastados, cansancio.",
+			"C": "Reductores de velocidad, falta de atención, uso del teléfono celular.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "¿En cuál de las siguientes opciones, los factores mencionados contribuyen a una colisión vehicular?",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 189,
+		"alternatives": {
+			"A": "Berma.",
+			"B": "Autopista.",
+			"C": "Acera.",
+			"D": "Demarcación."
+		},
+		"question": "La ________ es la parte de una carretera o camino contigua a la calzada, no habilitada para la circulación de vehículos y destinada eventualmente a la detención de vehículos en emergencia y circulación de peatones.",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 190,
+		"alternatives": {
+			"A": "La calzada.",
+			"B": "La acera.",
+			"C": "La berma.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "Es una parte de la vía destinada a la circulación de vehículos y eventualmente al cruce de peatones y animales.",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 191,
+		"alternatives": {
+			"A": "La acera.",
+			"B": "La calzada.",
+			"C": "La berma.",
+			"D": "La autopista."
+		},
+		"question": "Es una parte de la vía destinada al uso de peatones",
+		"correctAnswer": "A",
+		"image": null
+	},
+	{
+		"id": 192,
+		"alternatives": {
+			"A": "Las bocinas y las marcas en la calzada o señales horizontales.",
+			"B": "Las bocinas y las señales verticales.",
+			"C": "Las señales verticales, las marcas en la calzada o señales horizontales y las bocinas.",
+			"D": "Las señales verticales y las marcas en la calzada o señales horizontales."
+		},
+		"question": "Son señales que regulan el tránsito:",
+		"correctAnswer": "D",
+		"image": null
+	},
+	{
+		"id": 193,
+		"alternatives": {
+			"A": "Puertas y capot cerrados, permitiéndose la maletera entreabierta para casos especiales.",
+			"B": "Puertas, capot y maletera cerrados.",
+			"C": "Puertas, capot y maletera cerrados, salvo autorización especial.",
+			"D": "Capot y maletera cerrados, permitiéndose dos puertas entreabiertas para casos especiales."
+		},
+		"question": "Los vehículos deben ser conducidos con:",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 194,
+		"alternatives": {
+			"A": "2 segundos antes de realizar la maniobra.",
+			"B": "1 metro antes de realizar la maniobra.",
+			"C": "20 metros antes de realizar la maniobra.",
+			"D": "3 metros antes de realizar la maniobra."
+		},
+		"question": "El conductor que en una vía urbana va a girar a la izquierda, a la derecha o en ¿U¿ debe hacer la señal respectiva con la luz direccional, por lo menos:",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 195,
+		"alternatives": {
+			"A": "2 segundos antes de realizar la maniobra.",
+			"B": "2 metros antes de realizar la maniobra.",
+			"C": "30 metros antes de realizar la maniobra.",
+			"D": "1 metro antes de realizar la maniobra."
+		},
+		"question": "Si usted está conduciendo por una carretera y va girar a la izquierda, debe realizar la señal respectiva con la luz direccional por lo menos:",
+		"correctAnswer": "C",
+		"image": null
+	},
+	{
+		"id": 196,
+		"alternatives": {
+			"A": "Si.",
+			"B": "No",
+			"C": "Únicamente en el ámbito urbano.",
+			"D": "Únicamente en carreteras."
+		},
+		"question": "La licencia particular de la Clase y Categoría A-I, permite conducir motos?",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 197,
+		"alternatives": {
+			"A": "Señalización de tránsito vertical y horizontal en una zona escolar.",
+			"B": "Únicamente señalización de tránsito vertical en una zona escolar.",
+			"C": "Únicamente señalización de tránsito horizontal en una zona escolar.",
+			"D": "Ninguna de las alternativas es correcta."
+		},
+		"question": "El siguiente gráfico muestra:",
+		"correctAnswer": "A",
+		"image": "/images/A-I/img197.jpg"
+	},
+	{
+		"id": 198,
+		"alternatives": {
+			"A": "Islas canalizadoras - vía.",
+			"B": "Líneas - intersección.",
+			"C": "Vías - intersección.",
+			"D": "Todas las alternativas son correctas."
+		},
+		"question": "Las ________ canalizadoras, tiene por función conformar las islas canalizadoras del tránsito automotor en una ________ .",
+		"correctAnswer": "B",
+		"image": null
+	},
+	{
+		"id": 199,
+		"alternatives": {
+			"A": "Que no puede detener el vehículo dentro del área de intersección.",
+			"B": "Que se están realizando trabajos de emergencia en el área demarcada.",
+			"C": "Que únicamente puede detener el vehículo dentro del área de intersección.",
+			"D": "Que es una isla de refugio peatonal."
+		},
+		"question": "Si al conducir en una intersección se encuentra con las siguientes marcas en el pavimento (malla ortogonal de color amarillo), significa:",
+		"correctAnswer": "A",
+		"image": "/images/A-I/img199.jpg"
+	},
+	{
+		"id": 200,
+		"alternatives": {
+			"A": "La zona que permite adelantar inicia con las líneas amarillas continuas.",
+			"B": "Los conductores pueden estacionarse al empezar las líneas continuas.",
+			"C": "La zona de no adelantar inicia con las líneas amarillas continuas.",
+			"D": "El conductor del camión puede estacionarse antes de empezar las líneas continuas"
+		},
+		"question": "De acuerdo al siguiente gráfico, es correcto afirmar que:",
+		"correctAnswer": "C",
+		"image": "/images/A-I/img200.jpg"
+	}
 ]
+

@@ -6,6 +6,7 @@
 	import confetti from 'canvas-confetti'
 	import { MAX_TRIES, STATE } from '$lib/constants'
 	import Results from '$lib/components/Results.svelte'
+	import { assets, base, resolveRoute } from '$app/paths'
 
 	/** @type {{ quiz: import('$lib/types').Quiz[] }} */
 	const { quiz } = $props()
@@ -86,7 +87,6 @@
 	/**
 	 * @param {number} id
 	 */
-	const getImageUrl = (id) => `https://sierdgtt.mtc.gob.pe/Content/img-data/img${id}.jpg`
 
 	/**
 	 * @param {Event} event
@@ -136,6 +136,8 @@
 			endApp()
 		}
 	})
+
+	console.log({ assets, base })
 </script>
 
 <svelte:window
@@ -171,6 +173,9 @@
 		}
 	}}
 />
+
+<img src={`/images/A-I/img101.jpg`} alt="pjpagj" />
+
 {#if stateApp === STATE.Progress}
 	<div class="absolute left-0 z-50 flex h-10 w-full justify-center">
 		<div class="relative h-[3px] w-full max-w-7xl bg-gray-400">
@@ -206,7 +211,7 @@
 				{#if currentQuestion.image}
 					<div class="mt-4">
 						<img
-							src={`https://sierdgtt.mtc.gob.pe${currentQuestion.image}`}
+							src={currentQuestion.image}
 							class="min-w-[320px] rounded-md"
 							width={320}
 							height={320}
