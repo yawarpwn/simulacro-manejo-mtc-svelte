@@ -1,38 +1,41 @@
+import fetch from 'node-fetch'
+import { HttpsProxyAgent } from 'https-proxy-agent'
 
-import fetch from "node-fetch";
-import { HttpsProxyAgent } from "https-proxy-agent";
+async function testProxy(proxyUrl) {
+	// 1. Primero obtenemos nuestra IP real SIN proxy
+	const realIpResponse = await fetch('https://api.ipify.org?format=json')
+	const realIpData = await realIpResponse.json()
+	const realIp = realIpData.ip
+	console.log(`IP Real: ${realIp}`)
+
+	// 2. Configuramos el agente del proxy correctamente
+	let agent
+	try {
+		agent = new HttpsProxyAgent(proxyUrl)
+	} catch (error) {
+		console.error('Error configurando agente proxy:', error)
+		return {
+			working: false,
+			error: 'Configuración de proxy inválida'
+		}
+	}
+
+	// 3. Realizamos la prueba con el proxy
+	const proxyIpResponse = await fetch('https://api.ipify.org?format=json', {
+		agent,
+		headers: {
+			'User-Agent':
+				'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
+		}
+	})
+	const proxyIpData = await proxyIpResponse.json()
+	const proxyIp = proxyIpData.ip
+	console.log(`IP Proxy: ${proxyIp}`)
+}
 
 async function main() {
-  const url = 'https://api-mtc.dhs.pe/exam/create'
+	const url = 'https://api-mtc.dhs.pe/exam/create'
 
-  const proxies = await fetch('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all').then(res => res.text())
-  const proxiesArray = proxies.split('\n').map(p => {
-      const [host, port] = p.split(':')
-      return {
-        host, 
-        port: Number(port),
-      }
-    } )
-
-  const randomProxy = proxiesArray[Math.floor(Math.random() * proxiesArray.length)]
-  console.log('use proxy: ', randomProxy)
-
-  const proxiedUrl = `http://${randomProxy.host}:${randomProxy.port}`
-
-  const options = {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)", // Evitar bloqueos por User-Agent
-    },
-    body: JSON.stringify({category: "A-IIB", exampleType: "practica"}),
-    agent: new HttpsProxyAgent(proxiedUrl)
-  }
-  const res = await fetch(url, options)
-
-  console.log(options.headers)
-  const data = await res.json()
-  console.log(data)
-
+	await testProxy('https://47.251.122.81:8888')
 }
-  main()
+main()
