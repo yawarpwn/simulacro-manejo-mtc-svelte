@@ -1,41 +1,62 @@
 import fetch from 'node-fetch'
 import { HttpsProxyAgent } from 'https-proxy-agent'
 
-async function testProxy(proxyUrl) {
-	// 1. Primero obtenemos nuestra IP real SIN proxy
-	const realIpResponse = await fetch('https://api.ipify.org?format=json')
-	const realIpData = await realIpResponse.json()
-	const realIp = realIpData.ip
-	console.log(`IP Real: ${realIp}`)
+// For this example you need the node-fetch npm packages: `npm i node-fetch`
 
-	// 2. Configuramos el agente del proxy correctamente
-	let agent
-	try {
-		agent = new HttpsProxyAgent(proxyUrl)
-	} catch (error) {
-		console.error('Error configurando agente proxy:', error)
-		return {
-			working: false,
-			error: 'Configuración de proxy inválida'
-		}
+const API_KEY = '487173f84387fde4914ac4d6a0c933e1'
+const url = 'https://api-mtc.dhs.pe/exam/create'
+
+fetch({
+	url: `https://api.scraperapi.com/?api_key=${API_KEY}&url=${url}`,
+	method: 'POST',
+	body: JSON.stringify({ category: 'A-IIA', exampleType: 'practica' }),
+	headers: {
+		'Content-Type': 'application/json'
 	}
-
-	// 3. Realizamos la prueba con el proxy
-	const proxyIpResponse = await fetch('https://api.ipify.org?format=json', {
-		agent,
-		headers: {
-			'User-Agent':
-				'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
-		}
+})
+	.then((response) => {
+		return response.json()
 	})
-	const proxyIpData = await proxyIpResponse.json()
-	const proxyIp = proxyIpData.ip
-	console.log(`IP Proxy: ${proxyIp}`)
-}
+	.then((res) => console.log(res))
+	.catch((error) => {
+		console.log(error)
+	})
 
-async function main() {
-	const url = 'https://api-mtc.dhs.pe/exam/create'
-
-	await testProxy('https://47.251.122.81:8888')
-}
-main()
+// async function testProxy(proxyUrl) {
+// 	// 1. Primero obtenemos nuestra IP real SIN proxy
+// 	const realIpResponse = await fetch('https://api.ipify.org?format=json')
+// 	const realIpData = await realIpResponse.json()
+// 	const realIp = realIpData.ip
+// 	console.log(`IP Real: ${realIp}`)
+//
+// 	// 2. Configuramos el agente del proxy correctamente
+// 	let agent
+// 	try {
+// 		agent = new HttpsProxyAgent(proxyUrl)
+// 	} catch (error) {
+// 		console.error('Error configurando agente proxy:', error)
+// 		return {
+// 			working: false,
+// 			error: 'Configuración de proxy inválida'
+// 		}
+// 	}
+//
+// 	// 3. Realizamos la prueba con el proxy
+// 	const proxyIpResponse = await fetch('https://api.ipify.org?format=json', {
+// 		agent,
+// 		headers: {
+// 			'User-Agent':
+// 				'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
+// 		}
+// 	})
+// 	const proxyIpData = await proxyIpResponse.json()
+// 	const proxyIp = proxyIpData.ip
+// 	console.log(`IP Proxy: ${proxyIp}`)
+// }
+//
+// async function main() {
+// 	const url = 'https://api-mtc.dhs.pe/exam/create'
+//
+// 	await testProxy('https://47.251.122.81:8888')
+// }
+// main()
