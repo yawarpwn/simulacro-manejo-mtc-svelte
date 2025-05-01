@@ -1,3 +1,4 @@
+import fs from 'fs/promises'
 import { HttpsProxyAgent } from 'https-proxy-agent'
 import { SocksProxyAgent } from 'socks-proxy-agent'
 
@@ -148,7 +149,7 @@ function getRandomUserAgent() {
 
 async function getQuestions({ category }) {
 	//selecionar proxy alteatorio
-	const proxyUrl = 'http://37.156.46.209:8080'
+	const proxyUrl = 'http://138.68.60.8:80'
 
 	const agent = new HttpsProxyAgent(proxyUrl)
 
@@ -185,13 +186,6 @@ async function getQuestions({ category }) {
 
 const CATEGORY = 'A-IIIA'
 async function main() {
-	try {
-		const data = await getQuestions({ category: CATEGORY })
-		console.log(data)
-	} catch (error) {
-		console.log('Error en proceso principal: ', error)
-	}
-	/*
 	let dataJson
 
 	try {
@@ -219,10 +213,5 @@ async function main() {
 	fs.writeFile(`./${CATEGORY}.json`, JSON.stringify(dataToSaved, null, 2))
 		.then((res) => console.log('success'))
 		.catch((err) => console.log(err))
-  */
 }
 main()
-
-// console.log(await testProxy(await getRandomProxy()))
-// main()
-// console.log(await testProxy('http://37.156.46.209:8080'))
