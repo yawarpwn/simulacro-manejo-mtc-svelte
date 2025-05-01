@@ -1,14 +1,14 @@
-    export type Quiz = {
-  id: number,
-  question: string,
-  alternatives: {
-    'A': string,
-    'B': string,
-    'C': string,
-    'D': string
-  }
-  correctAnswer: keyof Quiz['alternatives']
-  image: string | null
+type Answer = string | { url: string; type: 'imagen' }
+export type Quiz = {
+	id: number
+	question: string
+	alternatives: {
+		A: Answer
+		B: Answer
+		C: Answer
+		D: Answer
+	}
+	correctAnswer: keyof Quiz['alternatives']
+	image: string | null
+	questionType: 'SPECIFIC' | 'GENERAL'
 }
-
-

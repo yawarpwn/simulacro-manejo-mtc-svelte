@@ -9,8 +9,9 @@
 	import { assets, base, resolveRoute } from '$app/paths'
 
 	/** @type {{ quiz: import('$lib/types').Quiz[] }} */
-	const { quiz } = $props()
+	let { quiz } = $props()
 
+	// quiz = quiz.filter((q) => q.questionType === 'SPECIFIC')
 	const TOTAL_QUESTIONS = quiz.length
 
 	// Estados
@@ -174,8 +175,6 @@
 	}}
 />
 
-<img src={`/images/A-I/img101.jpg`} alt="pjpagj" />
-
 {#if stateApp === STATE.Progress}
 	<div class="absolute left-0 z-50 flex h-10 w-full justify-center">
 		<div class="relative h-[3px] w-full max-w-7xl bg-gray-400">
@@ -211,7 +210,7 @@
 				{#if currentQuestion.image}
 					<div class="mt-4">
 						<img
-							src={currentQuestion.image}
+							src={`https://mtc.dhs.pe${currentQuestion.image}`}
 							class="min-w-[320px] rounded-md"
 							width={320}
 							height={320}
@@ -241,15 +240,20 @@
 									{letter.toUpperCase()}</span
 								>
 
-								<input
-									type="radio"
-									aria-hidden="true"
-									checked={letter === selectAlternative}
-									{value}
-									tabindex="-1"
-									class="absolute h-14 w-8 -translate-x-full opacity-0"
-								/>
-								<span class="p-4">{value}</span>
+								{#if typeof value === 'string'}
+									<input
+										type="radio"
+										aria-hidden="true"
+										checked={letter === selectAlternative}
+										{value}
+										tabindex="-1"
+										class="absolute h-14 w-8 -translate-x-full opacity-0"
+									/>
+									<span class="p-4">{value}</span>
+								{/if}
+								{#if typeof value === 'object'}
+									<img src={`https://mtc.dhs.pe${value.url}`} alt="imagen de pruebirta" />
+								{/if}
 							</button>
 						{/each}
 					</div>

@@ -1,13 +1,16 @@
 import fetch from 'node-fetch'
+
+import dotenv from 'dotenv'
+dotenv.config()
 import { HttpsProxyAgent } from 'https-proxy-agent'
 
 // For this example you need the node-fetch npm packages: `npm i node-fetch`
 
-const API_KEY = '487173f84387fde4914ac4d6a0c933e1'
-const url = 'https://api-mtc.dhs.pe/exam/create'
+const API_KEY = process.env.API_KEY
+const API_URL = process.env.API_URL
 
 fetch({
-	url: `https://api.scraperapi.com/?api_key=${API_KEY}&url=${url}`,
+	url: `https://api.scraperapi.com/?api_key=${API_KEY}&url=${API_URL}`,
 	method: 'POST',
 	body: JSON.stringify({ category: 'A-IIA', exampleType: 'practica' }),
 	headers: {
@@ -17,7 +20,7 @@ fetch({
 	.then((response) => {
 		return response.json()
 	})
-	.then((res) => console.log(res))
+	.then((res) => console.log(JSON.stringify(res, null, 2)))
 	.catch((error) => {
 		console.log(error)
 	})

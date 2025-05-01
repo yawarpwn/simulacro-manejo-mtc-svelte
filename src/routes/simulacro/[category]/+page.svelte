@@ -1,8 +1,7 @@
 <script>
-	import Quiz from "$lib/components/Quiz.svelte"
+	import Quiz from '$lib/components/Quiz.svelte'
 
 	const { data } = $props()
-
 </script>
 
 {#await data.quiz}
