@@ -33,6 +33,7 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
+		"@libsql/client": "^0.15.4",
 		"canvas-confetti": "^1.9.3",
 		"dotenv": "^16.5.0",
 		"https-proxy-agent": "^7.0.6",

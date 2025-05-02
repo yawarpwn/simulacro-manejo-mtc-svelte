@@ -4,6 +4,13 @@ export const STATE = {
 	End: 3
 }
 
+export const ANSWERS = {
+	1: 'A',
+	2: 'B',
+	3: 'C',
+	4: 'D'
+}
+
 export const CATEGORIES = [
 	{
 		category: 'A-I',

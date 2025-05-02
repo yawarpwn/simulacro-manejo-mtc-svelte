@@ -1,3 +1,4 @@
+import { getQuestions } from '$lib/db'
 import fs from 'fs/promises'
 import path from 'path'
 /**
@@ -20,22 +21,9 @@ export async function getQuiz({ category }) {
 		path.join(process.cwd(), 'src', 'lib', 'data', `${category}.json`),
 		'utf-8'
 	)
-	const data = JSON.parse(json)
-	const mappedData = data.map((raw) => {
-		const map = new Map(raw.alternatives.map((alt, index) => [ANSWERS[index + 1], alt]))
-		const alternatives = Object.fromEntries(map)
-		return {
-			id: raw.id,
-			image: raw.image,
-			question: raw.statement,
-			correctAnswer: ANSWERS[raw.correctAnswer],
-			alternatives,
-			questionType: raw.questionType
-		}
-	})
 
-	console.log(mappedData)
-	return mappedData
+	const rawData = await getQuestions({ category })
+	return rawData
 }
 
 // "id": "8de24d5a0a23f7cfa95394b94f0469afac22f34e4590fb6dd4f90010717dd866",

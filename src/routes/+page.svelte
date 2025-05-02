@@ -1,11 +1,9 @@
 <script>
 	import { CATEGORIES } from '$lib/constants'
 
-	import photo from '$lib/assets/img100.jpg'
 	let selectedCategory = $state('A-I')
 </script>
 
-<img alt="logo" class="w-64 h-64" src={photo} />
 <form class="flex h-full flex-1 items-center p-6">
 	<!-- Wrapper -->
 	<div class="">

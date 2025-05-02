@@ -204,7 +204,7 @@
 			<aside class="flex h-full flex-col flex-wrap items-center justify-center">
 				<div class="flex flex-col items-start justify-start">
 					<p class="spacing text-balance text-xl leading-6 tracking-wide text-white">
-						<span>{currentQuestion.question}</span>
+						<span>{currentQuestion.statement}</span>
 					</p>
 				</div>
 				{#if currentQuestion.image}
@@ -214,7 +214,7 @@
 							class="min-w-[320px] rounded-md"
 							width={320}
 							height={320}
-							alt={currentQuestion.question}
+							alt={currentQuestion.statement}
 						/>
 					</div>
 				{/if}

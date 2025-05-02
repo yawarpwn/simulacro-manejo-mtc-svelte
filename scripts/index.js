@@ -93,6 +93,7 @@ async function main(category) {
 	for (const question of data.exam.questions) {
 		const savedQuestion = savedData.get(question.id)
 		if (!savedQuestion) {
+			console.log({ question })
 			savedData.set(question.id, question)
 		}
 	}
