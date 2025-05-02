@@ -48,7 +48,6 @@
 					<span>Categoria {selectedCategory}</span>
 					<div>
 						<a
-							type="submit"
 							href={`/simulacro/${selectedCategory}`}
 							class="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-white"
 							>Empezar Prueba

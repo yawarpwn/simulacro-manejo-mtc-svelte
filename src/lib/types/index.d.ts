@@ -1,6 +1,6 @@
 type Answer = string | { url: string; type: 'imagen' }
 export type Quiz = {
-	id: number
+	id: string
 	statement: string
 	alternatives: {
 		A: Answer

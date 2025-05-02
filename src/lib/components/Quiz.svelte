@@ -6,7 +6,6 @@
 	import confetti from 'canvas-confetti'
 	import { MAX_TRIES, STATE } from '$lib/constants'
 	import Results from '$lib/components/Results.svelte'
-	import { assets, base, resolveRoute } from '$app/paths'
 
 	/** @type {{ quiz: import('$lib/types').Quiz[] }} */
 	let { quiz } = $props()
@@ -22,8 +21,9 @@
 	let showResult = $state(false)
 	let stateApp = $state(STATE.Progress)
 	let progress = $state(1)
-	/** @type {Array<{question: number, userAnswer: string, correctAnswer: string}>} */
-	let answers = $state([])
+
+	/** @type {Array<{id: string, userAnswer: string, correctAnswer: string}>}*/
+	let userAnswers = $state([])
 
 	// Estados computados
 	const currentQuestion = $derived(quiz[currentIndex])
@@ -38,7 +38,7 @@
 		stateApp = STATE.Progress
 		progress = 1
 		currentIndex = getRandomIndex(TOTAL_QUESTIONS)
-		answers = []
+		userAnswers = []
 	}
 
 	/**
@@ -57,21 +57,19 @@
 		}
 
 		// Guardar respuesta
-		answers = [
-			...answers,
-			{
-				question: currentQuestion.id,
-				userAnswer: selectAlternative,
-				correctAnswer: currentQuestion.correctAnswer
-			}
-		]
+		userAnswers.push({
+			id: currentQuestion.id,
+			userAnswer: selectAlternative,
+			correctAnswer: currentQuestion.correctAnswer
+		})
 
 		//Obtener pregunta alteratoria
 		const randomIndex = getRandomIndex(TOTAL_QUESTIONS)
 
-		const respondedQuestions = answers.map((a) => a.question)
-		const isAlreadyResponded = respondedQuestions.includes(randomIndex)
-		if (isAlreadyResponded) {
+		// Si la pregunta ya ha sido respondida, busca otra pregunta
+		const question = quiz[randomIndex]
+		const isAlreadyAnswered = userAnswers.some((q) => q.id === question.id)
+		if (isAlreadyAnswered) {
 			getRandomQuestion()
 		}
 
@@ -84,10 +82,6 @@
 		// Actualizar pregunta siguiente
 		currentIndex = randomIndex
 	}
-
-	/**
-	 * @param {number} id
-	 */
 
 	/**
 	 * @param {Event} event
@@ -137,8 +131,6 @@
 			endApp()
 		}
 	})
-
-	console.log({ assets, base })
 </script>
 
 <svelte:window
@@ -300,7 +292,7 @@
 		{/if}
 	</div>
 {:else}
-	<Results reset={resetApp} {answers} />
+	<Results reset={resetApp} answers={userAnswers} />
 {/if}
 
 <style>
