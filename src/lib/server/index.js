@@ -1,41 +1,43 @@
-import { getQuestions } from '$lib/db'
-import fs from 'fs/promises'
-import path from 'path'
-/**
- * @typedef {import('../types').Quiz} Quiz
- */
-
-const ANSWERS = {
-	1: 'A',
-	2: 'B',
-	3: 'C',
-	4: 'D'
-}
+import { db } from './client.js'
+/** @typedef {import('$lib/types').Quiz} Quiz */
 
 /**
- * @param {{category: string}} options - Opciones para obtener el quiz
  * @returns {Promise<Quiz[]>}
+ * @param {{category: string}} opt
  */
-export async function getQuiz({ category }) {
-	const json = await fs.readFile(
-		path.join(process.cwd(), 'src', 'lib', 'data', `${category}.json`),
-		'utf-8'
-	)
+export async function getQuestions({ category }) {
+	console.log({ category })
+	if (!category) throw new Error('category is required')
 
-	const rawData = await getQuestions({ category })
-	return rawData
+	const { rows } = await db.execute({
+		sql: `SELECT
+      q.id,
+      q.image,
+      q.statement,
+      q.explanation,
+      q.alternatives,
+      q.question_type,
+      c.name AS category,
+      q.correct_answer
+    FROM
+      questions q
+    LEFT JOIN
+      categories c ON q.category_id = c.id
+    WHERE c.name = ?
+`,
+		args: [category]
+	})
+
+	return rows.map((row) => {
+		return {
+			id: row.id,
+			image: row.image,
+			statement: row.statement,
+			explanation: row.explanation,
+			alternatives: JSON.parse(row.alternatives),
+			questionType: row.question_type,
+			category: row.category,
+			correctAnswer: row.correct_answer
+		}
+	})
 }
-
-// "id": "8de24d5a0a23f7cfa95394b94f0469afac22f34e4590fb6dd4f90010717dd866",
-// "slug": null,
-// "image": null,
-// "statement": "Está permitido en la vía:",
-// "explanation": null,
-// "alternatives": [
-//   "Recoger o dejar pasajeros o carga en cualquier lugar",
-//   "Dejar animales sueltos o situarlos de forma tal que obstaculicen solo un poco el tránsito",
-//   "Recoger o dejar pasajeros en lugares autorizados",
-//   "Ejercer el comercio ambulatorio o estacionario"
-// ],
-// "questionType": "GENERAL",
-// "correctAnswer": 3
