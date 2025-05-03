@@ -170,9 +170,7 @@
 {#if stateApp === STATE.Progress}
 	<div class="absolute left-0 z-50 flex h-10 w-full justify-center">
 		<div class="relative h-[3px] w-full max-w-7xl bg-gray-400">
-			<span
-				class="absolute left-1/2 top-0 -translate-x-1/2 rounded-md bg-white px-2 text-sm text-black"
-			>
+			<span class="absolute left-1/2 top-0 -translate-x-1/2 rounded-md px-2 text-sm text-black">
 				{progress}/{MAX_TRIES}
 			</span>
 			<div
@@ -195,7 +193,7 @@
 			<!-- Sidebar -->
 			<aside class="flex h-full flex-col flex-wrap items-center justify-center">
 				<div class="flex flex-col items-start justify-start">
-					<p class="spacing text-balance text-xl leading-6 tracking-wide text-white">
+					<p class="spacing text-balance text-xl leading-6 tracking-wide">
 						<span>{currentQuestion.statement}</span>
 					</p>
 				</div>
