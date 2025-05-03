@@ -21,7 +21,7 @@
 					<p>Selecciona la categoría a la que postula:</p>
 
 					<!-- Categorias de Licencias -->
-					<div class="flex flex-col border-l border-neutral-500">
+					<div class="flex flex-col border-l">
 						{#each CATEGORIES as { category, description }}
 							<label
 								data-state={category === selectedCategory ? 'checked' : 'unchecked'}
@@ -49,7 +49,7 @@
 					<div>
 						<a
 							href={`/simulacro/${selectedCategory}`}
-							class="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-white"
+							class="inline-flex items-center gap-2 rounded-md bg-primary text-primary-foreground px-4 py-2"
 							>Empezar Prueba
 							<svg
 								width="1em"
@@ -70,8 +70,8 @@
 			</div>
 			<!-- Right -->
 			<div class="flex items-center justify-center">
-				<div class="w-full max-w-xl rounded-lg border border-white/20 bg-black/10 px-6 py-4">
-					<p class="mb-4 text-white">Ten en cuenta que:</p>
+				<div class="w-full max-w-xl rounded-lg border bg-background/10 px-6 py-4">
+					<p class="mb-4 text-foreground">Ten en cuenta que:</p>
 					<ul
 						class={`flex flex-col gap-4 [&_li]:relative [&_li]:pl-5 [&_li]:before:absolute [&_li]:before:left-0 [&_li]:before:top-1/2 [&_li]:before:h-1.5 [&_li]:before:w-1.5 [&_li]:before:rounded-full [&_li]:before:bg-primary [&_li]:before:content-[""] `}
 					>

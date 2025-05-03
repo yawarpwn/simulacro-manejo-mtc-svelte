@@ -169,8 +169,10 @@
 
 {#if stateApp === STATE.Progress}
 	<div class="absolute left-0 z-50 flex h-10 w-full justify-center">
-		<div class="relative h-[3px] w-full max-w-7xl bg-gray-400">
-			<span class="absolute left-1/2 top-0 -translate-x-1/2 rounded-md px-2 text-sm text-black">
+		<div class="relative h-[3px] w-full max-w-7xl bg-muted">
+			<span
+				class="absolute left-1/2 top-0 -translate-x-1/2 rounded-md px-2 text-sm text-background"
+			>
 				{progress}/{MAX_TRIES}
 			</span>
 			<div
@@ -193,7 +195,7 @@
 			<!-- Sidebar -->
 			<aside class="flex h-full flex-col flex-wrap items-center justify-center">
 				<div class="flex flex-col items-start justify-start">
-					<p class="spacing text-balance text-xl leading-6 tracking-wide">
+					<p class="spacing text-balance text-xl leading-6 tracking-wide text-center">
 						<span>{currentQuestion.statement}</span>
 					</p>
 				</div>
@@ -216,7 +218,7 @@
 						{#each alternatives as [letter, value]}
 							<button
 								class:show-result={showResult}
-								class="relative flex cursor-pointer items-center overflow-hidden rounded-lg border border-neutral-500 bg-black pl-8 leading-6 data-[selected=true]:border-white data-[selected=false]:opacity-60 data-[selected=true]:opacity-100"
+								class="relative flex cursor-pointer items-center overflow-hidden rounded-lg border border-muted bg-background pl-8 leading-6 data-[selected=true]:border-foreground data-[selected=false]:opacity-60 data-[selected=true]:opacity-100"
 								data-is-correct={currentQuestion.correctAnswer === letter}
 								data-selected={selectAlternative === letter}
 								onclick={() => onSelectAlternative(letter)}
@@ -224,7 +226,7 @@
 								data-letter={letter}
 							>
 								<span
-									class="absolute bottom-0 left-0 top-0 flex w-8 min-w-8 items-center justify-center bg-[#222] text-[#fff]"
+									class="absolute bottom-0 left-0 top-0 flex w-8 min-w-8 items-center justify-center bg-foreground/20 text-foreground"
 									data-state={letter === selectAlternative}
 								>
 									{letter.toUpperCase()}</span
@@ -257,7 +259,7 @@
 					class="mx-auto flex h-full max-w-3xl items-center justify-end rounded-tl-lg rounded-tr-lg bg-[#1e2229] p-4"
 				>
 					<button
-						class="flex h-full cursor-pointer items-center gap-2 rounded-md bg-primary px-4 py-2 text-black disabled:pointer-events-none"
+						class="flex h-full cursor-pointer items-center gap-2 rounded-md bg-primary px-4 py-2 text-primary-foreground disabled:pointer-events-none"
 						>Siguiente <svg
 							width="1em"
 							height="1em"
@@ -275,10 +277,10 @@
 		{:else}
 			<form onsubmit={handleSubmit} class="fixed bottom-0 left-0 right-0 h-[76px]">
 				<div
-					class="mx-auto flex h-full max-w-3xl items-center justify-end rounded-tl-lg rounded-tr-lg bg-[#1e2229] p-4"
+					class="mx-auto flex h-full max-w-3xl items-center justify-end rounded-tl-lg rounded-tr-lg bg-muted p-4"
 				>
 					<button
-						class="h-full w-full cursor-pointer rounded-md bg-primary px-4 py-2 text-black disabled:pointer-events-none disabled:opacity-20"
+						class="h-full w-full cursor-pointer rounded-md bg-primary text-primary-foreground px-4 py-2 disabled:pointer-events-none disabled:opacity-20"
 						aria-disabled={!selectAlternative}
 						type="submit"
 						disabled={!selectAlternative}
@@ -306,10 +308,10 @@
 	}
 
 	.show-result[data-is-correct='true'] {
-		border-color: hsl(var(--primary));
+		border-color: var(--color-primary);
 	}
 
 	.show-result[data-is-correct='false'] {
-		border-color: hsl(var(--destructive));
+		border-color: red;
 	}
 </style>
