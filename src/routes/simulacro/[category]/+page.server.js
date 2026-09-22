@@ -4,7 +4,7 @@ import { fail } from '@sveltejs/kit'
 export async function load({ params }) {
 	const { category } = params
 
-	const quiz = getQuestions({ category })
+	const quiz = await getQuestions({ category })
 
 	return { quiz }
 }

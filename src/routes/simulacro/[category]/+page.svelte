@@ -2,12 +2,7 @@
 	import Quiz from '$lib/components/Quiz.svelte'
 
 	const { data } = $props()
+	const { quiz } = data
 </script>
 
-{#await data.quiz}
-	<div>loadingg</div>
-{:then quiz}
-	<Quiz {quiz} />
-{:catch error}
-	<div>error</div>
-{/await}
+<Quiz {quiz} />
